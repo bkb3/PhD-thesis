@@ -1,0 +1,673 @@
+
+
+\section{Supplementary notes}
+\label{section:appendix_solubility_supp_notes}
+The B-factor or temperature factor of the atom in a crystalline structure is the measure of mean squared displacement $u = \langle (x-x_0)^{2} \rangle$, where $x$ is the displacement of atom from its mean position $x_0$. The B-factor thus reflects the \textit{orderedness} of the crystal lattice and subsequent uncertainty in X-ray scattering structure determination \cite{Schlessinger2005-ps, Carugo2018-ka, Bramer2018-dh}. It has unit of $\AA^2$.
+
+\begin{equation*}
+    B = 8\pi^2 u
+\end{equation*}
+
+Since the distribution of B-factors varies with protein crystal structures, experimentally determined B-factors (for example from the Protein Data Bank) are not generalisable without appropriate normalisation. To address this issue, the B-factors of $C_\alpha$ atoms were extracted from a number of high-resolution protein crystal structures and normalised \cite{Schlessinger2005-ps, Smith2003-gb, Karplus1985-ea, Vihinen1987-jo}. The normalisation is often done by Z-scoring, for example, for a residue $i$, $B_{norm}^i = (B^i - \langle B \rangle)\sigma$, where $\sigma$ is the standard deviation and $\langle B\rangle$ is the mean of B-factors within the polypeptide chain. 
+
+The profile of normalised B-factors along a protein sequence can be calculated using a sliding window approach [e.g., 9 amino acid residues as implemented in Biopython \cite{Vihinen1987-jo, Cock2009-jl}]. The profile plot can be used to visualise and infer the local flexibility and dynamics of the protein structure \cite{Karplus1985-ea, Vihinen1987-jo}. Previous studies that formulated flexibility also compared their computed values with the B-factors of previously solved protein structures using correlation tests \cite{Vihinen1987-jo, vihinen1994accuracy}.
+
+To calculate global structural flexibility, we reasoned that Vihinen \textit{et al.}’s \cite{vihinen1994accuracy} sliding window method can be approximated by a more straightforward arithmetic mean. This sliding window method computes the local flexibility $f_i$ of a given amino acid residue $i$ as:
+\begin{align*} 
+    f_i = \frac{1}{5.25}[B_i + 0.8125(B_{i-1} + B_{i+1}) + 0.625(B_{i-2} + B_{i+2})\\
+    + 0.4375(B_{i-3} + B_{i+3}) + 0.25(B_{i-4} + B_{i+4})]
+\end{align*}
+where, $B_i$ is the normalised B-factor of the $i^{th} \; C_\alpha$ atom and so on. The arithmetic mean of these $f_i$ can be approximately written as:
+
+\begin{align*} 
+    F = \langle f_i\rangle &\approx \frac{1}{5.25(n-9)} (1 + 2\times (0.8125+0.625 + 0.4375 + 0.25))\sum_{i=5}^{n-4}B_i\\
+    &= \frac{1}{n-9}\sum_{i=5}^{n-4}B_i
+\end{align*}
+where, $n$ is the number of residues in the protein. For sequence composition scoring, the arithmetic mean of $B_i$ of a given full-length sequence is written as:
+\begin{equation*}
+F' = \langle B \rangle = \frac{1}{n}(\sum_{i=1}^{n} B_i)
+\end{equation*}
+Approximating that the sums run at equal intervals, we can write:
+\begin{equation*}
+\frac{F}{F'} = \frac{\langle f_i\rangle}{\langle B\rangle} \approx \frac{n}{n-9}
+\end{equation*}
+$n/(n-9)$ is monotonically decreasing for $n \geq 10$ and quickly approaches $1$ with an increasing $n$. Thus, $\langle f_i\rangle$ is nearly equal to $\langle B \rangle$ and they are strongly correlated.
+
+\section{Supplementary figures}
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=0.65\textwidth]{appendix/Solubility/Figs/S1.png}
+\caption[Solubility of the PSI:Biology targets grouped by source. ]{\textbf{Solubility of the PSI:Biology targets grouped by source. } A total of 12,216 PSI:Biology targets from over 196 species were analysed in this study (8,238 soluble and 3,978 insoluble proteins). Genera with at least 20 target genes are shown and the remaining as ‘Others’. Red obelisk indicates \textit{E. coli}.
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S1}
+\end{figure}
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S2.png}
+\caption[ Prediction accuracy of 9,920 miscellaneous protein sequence properties.]{\textbf{ Prediction accuracy of 9,920 miscellaneous protein sequence properties.} Density distribution of AUC scores shows that relatively few features have high prediction accuracy (PSI:Biology dataset, N = 12,216). (B) Top-ranked features by AUC scores, which include the (amphiphilic) pseudo-amino acid compositions for cysteine residues (Pc1.C and Xc.1.C). (C) Density distribution of Spearman’s rho shows that relatively few features have strong correlation coefficients with E. coli protein solubility (eSOL dataset, N = 3,198). (D) Top-ranked features by Spearman’s correlation coefficients, which include the (amphiphilic) pseudo-amino acid compositions for aromatic amino acid residues (Xc1.W, Pc1.W, Xc1.F, and Pc1.F). The complete list of AUC scores and Spearman’s correlation coefficients are available in Supplementary Table \ref{tab:appendix_sodope_S2}. AUC, Area Under the ROC Curve; Pc1, amphiphilic pseudo-amino acid composition; polarity.Group1, one of the three groups of amino acid residues based on polarity (L, I, F, W, C, M, V, Y); polarity.Group3, one of the three groups of amino acid residues based on polarity (H, Q, R, K, N, E, D); prop$\{1-7\}$.G$\{1,2,3\}$.residue$\{0,25,50,100\%\}$, position percent for one of the three groups of amino acid residues by one of the seven properties listed in Table 1 of the protr vignettes, \href{https://cran.r-project.org/web/packages/protr/vignettes/protr.html}{https://cran.r-project.org/web/packages/protr/vignettes/protr.html}; PSI:Biology, Protein Structure Initiative:Biology; ROC, Grantham.Xr, Quasi-sequence-order based on Grantham’s chemical distance matrix; Receiver Operating Characteristic; Xc1, pseudo-amino acid composition.
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S2}
+\end{figure}
+
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=0.5\textwidth]{appendix/Solubility/Figs/S3.png}
+\caption[ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors. ]{\textbf{ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors.}The PSI:Biology dataset (N = 12,216) was used for solubility prediction. AUC scores (perfect = 1.00, random = 0.50) are shown in parentheses. Dashed lines denote the performance of random classifiers. PSI:Biology, Protein Structure Initiative:Biology; ROC, Receiver Operating Characteristic.
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S3}
+\end{figure}
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S4.png}
+\caption[Relationship between protein solubility and sequence similarity.]{\textbf{Relationship between protein solubility and sequence similarity, related to Fig \ref{fig:solubility_02}} USEARCH was used to cluster the PSI:Biology targets (N = 12,216) at different percent similarity cutoffs (using the parameter -id 0.1 to 0.9; see \href{https://drive5.com/usearch/manual/uclust_algo.html}{https://drive5.com/usearch/manual/uclust\_algo.html}). \textbf{(A)} High numbers of clusters across different similarity cutoffs and \textbf{(B)} low numbers of sequences per cluster indicate that the PSI:Biology targets are highly diverse (Fig \ref{fig:appendix_solubility_S1}). (C) Over about 12\% of clusters contain a mix of soluble and insoluble proteins across different similarity cutoffs. CI, Confidence Intervals.
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S4}
+\end{figure}
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S5.png}
+\caption[AUC scores and weights of amino acid residues obtained from individual bootstrap samples]{\textbf{AUC scores and weights of amino acid residues obtained from individual bootstrap samples, related to Fig \ref{fig:solubility_02}.} For each cross-validation step, 1,000 soluble and 1,000 insoluble proteins were resampled 1,000 times. For each bootstrap resampling, the weights of amino acid residues were optimised by maximising AUC using the Nelder-Mead algorithm. The optimised weights, i.e., the arithmetic means of the weights of individual amino acid residues in each cross-validation step, were used for sequence composition scoring. The training and test AUC scores were subsequently calculated (Fig 2B, 4A and Supplementary Table S3). AUC, Area Under the ROC Curve; ROC, Receiver Operating Characteristic.
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S5}
+\end{figure}
+
+
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S6.png}
+\caption[Relationship between protein solubility and surface amino acid residues. ]{\textbf{Relationship between protein solubility and surface amino acid residues. }The analyses were done using eSOL and the surface ‘stickiness’ of \textit{E. coli} proteins (N = 348). \textbf{(A)} Protein solubility has a low correlation with surface ‘stickiness’. \textbf{(B)} A low correlation was obtained after maximising the correlation between solubility and the surface residue composition scores using the Nelder-Mead algorithm. Smith et al.’s normalised B-factors were used as initial weights. \textbf{(C)} In contrast, protein solubility has a stronger correlation with SWI. Rs, Spearman’s rho; SWI, Solubility-Weighted Index.
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S6}
+\end{figure}
+
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S7.png}
+\caption[Properties of soluble and insoluble proteins.]{\textbf{Properties of soluble and insoluble proteins. (A)}Enrichment of amino acid residues in the PSI:Biology targets relative to the eSOL sequences (N = 12,216 and 3,198, respectively). \textbf{(B)} Distribution of the SWI for soluble and insoluble proteins, and random sequences. The eSOL sequences were grouped into soluble and insoluble proteins, i.e, <30\% and >70\% solubility cutoffs, respectively (Supplementary Table S1B). Random sequences were generated from a length of 50 to 6,000 amino acid residues, with an increment of 50 residues. A total of 12,000 random sequences were generated, 100 sequences for each length. PSI:Biology, Protein Structure Initiative:Biology; SWI, Solubility-Weighted Index.
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S7}
+\end{figure}
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S8.png}
+\caption[Solubility analysis of three commercial monoclonal antibodies.]{\textbf{Solubility analysis of three commercial monoclonal antibodies.} The variable domains of immunoglobulin light chains (VL) have \textbf{(A)} lower probabilities of solubility, \textbf{(B)} lower structural flexibilities (log scale), and \textbf{(C)} higher GRAVY than the constant domains (CL). The sequences of Avastin (216974-75-3), Humira (331731-18-1), and Raptiva (214745-43-4) were retrieved from the Common Chemistry database. CAS registry numbers are shown in parentheses. GRAVY, Grand Average of Hydropathy.
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S8}
+\end{figure}
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{appendix/Solubility/Figs/S9.png}
+\caption[Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. ]{\textbf{Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. } The viral proteomes were retrieved from NCBI RefSeq on 23 March 2020 (NC\_004718.3 and NC\_045512.2). The polypeptides/domains were annotated by the HMMER web server using the Pfam database. No domains were annotated for ORF10. \textbf{(A)} The ORF2, 4, 5, and 8b proteins/domains have low probabilities of solubility, whereas the ORF9 protein have a high probability of solubility, which are consistent with previous protein expression studies (Wu \textit{et al.}, 2004; Kam \textit{et al.}, 2007; Neuman \textit{et al.}, 2011; Shi \textit{et al.}, 2019) \cite{Wu2004-rj, Kam2007-pw, Neuman2011-ry, Shi2019-qv} . \textbf{(C)} The flexibility plot of each domain, shown in log scale. \textbf{(A)} GRAVY of each domain. GRAVY, Grand Average of Hydropathy; SARS-CoV, severe acute respiratory syndrome coronavirus; SARS-CoV-2, severe acute respiratory syndrome coronavirus 2.
+
+
+}%the List of Figures because of the *}
+\label{fig:appendix_solubility_S9}
+\end{figure}
+
+
+\section{Supplementary tables}
+
+\begin{table}[h]
+\centering
+\caption[Numbers of soluble and insoluble proteins examined in this study.]{Numbers of soluble and insoluble proteins examined in this study.}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|}
+\hline
+\multicolumn{4}{|c|}{\textbf{PSI:Biology dataset}}                                                         \\ \hline
+                                              & \textbf{pET21\_NSEG} & \textbf{pET15\_NSEG} & \textbf{Total} \\ \hline
+\textbf{Soluble}                              & 6,342               & 1,896               & 8,238          \\ \hline
+\textbf{Insoluble}                            & 2,438               & 1,540               & 3,978          \\ \hline
+\textbf{Total}                                & 8,780               & 3,436               & 12,216         \\ \hline
+% \multicolumn{4}{|c|}{\textbf{eSOL dataset}}                                                               \\ \hline
+% \textbf{Highly soluble (> 70\% solubility)}    & 1,029               &                     &                \\ \hline
+% \textbf{Partially soluble}                    & 905                 &                     &                \\ \hline
+% \textbf{Aggregation prone (< 30\% solubility)} & 1,264               &                     &                \\ \hline
+% \textbf{Total}                                & 3,198               &                     &                \\ \hline
+% \end{tabular}
+\multicolumn{4}{|c|}{\textbf{eSOL dataset} }                                                                                 \\ 
+\hline
+\textbf{Highly soluble (\textgreater{} 70\% solubility)}  & \multicolumn{3}{l|}{1,029}                                       \\ 
+\hline
+\textbf{Partially soluble}                                & \multicolumn{3}{l|}{905}                                         \\ 
+\hline
+\textbf{Aggregation prone (\textless{} 30\% solubility)}  & \multicolumn{3}{l|}{1,264}                                       \\ 
+\hline
+\textbf{Total}                                            & \multicolumn{3}{l|}{3,198}                                       \\
+\hline
+\end{tabular}
+}}
+
+\label{tab:appendix_sodope_S1}
+\end{table}
+
+% \begin{table}[]
+% \caption{Analysis of 9,920 miscellaneous protein sequence properties.}
+% \begin{tabular}{l|l|l|}
+% \hline
+% \multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}AUC scores for predicting the solubility of \\ the PSI:Biology targets, related to Fig \ref{fig:appendix_solubility_S2}.\end{tabular}}} &
+%   \multicolumn{2}{l|}{} \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Features}}              & \multicolumn{2}{l|}{\textbf{AUC}}            \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Pc1.C}}                 & \multicolumn{2}{l|}{0.651}                   \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Xc1.C}}                 & \multicolumn{2}{l|}{0.643}                   \\ \hline
+% \multicolumn{1}{|l|}{\textbf{polarity.Group1}}       & \multicolumn{2}{l|}{0.638}                   \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Pc1.H}}                 & \multicolumn{2}{l|}{0.637}                   \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Grantham.Xr.E}}         & \multicolumn{2}{l|}{0.635}                   \\ \hline
+% \multicolumn{1}{|l|}{\textbf{prop6.G2.residue100}}   & \multicolumn{2}{l|}{0.630}                   \\ \hline
+% \multicolumn{1}{|l|}{\textbf{prop3.G1.residue100}}   & \multicolumn{2}{l|}{0.626}                   \\ \hline
+% \multicolumn{1}{|l|}{...}                            & \multicolumn{2}{l|}{...}                     \\ \hline
+% \multicolumn{3}{|l|}{Full table can be viewed at https://dx.doi.org/10.1093/bioinformatics/btaa578} \\ \hline
+% \multicolumn{3}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Spearman's correlation between 9,913 \\ miscellaneous protein sequence features \\ and E. coli protein solubility (eSOL dataset), \\ related to Fig S2.\end{tabular}}} \\ \hline
+% \textbf{Features}                                    & \textbf{Spearman's Rho}  & \textbf{P-value}  \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Xc1.W}}                 & -0.401                   & 3.55E-124         \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Pc1.W}}                 & -0.397                   & 2.47E-121         \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Xc1.F}}                 & -0.391                   & 1.62E-117         \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Pc1.F}}                 & -0.389                   & 5.77E-116         \\ \hline
+% \multicolumn{1}{|l|}{...}                            & ...                      & ...               \\ \hline
+% \multicolumn{3}{|l|}{Full table can be viewed at https://dx.doi.org/10.1093/bioinformatics/btaa578} \\ \hline
+% \end{tabular}
+
+% \label{tab:appendix_sodope_S2}
+% \end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[h]
+\centering
+\caption[Analysis of miscellaneous protein sequence properties.]{Analysis of miscellaneous protein sequence properties.}
+\label{tab:appendix_sodope_S2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{3}{|c|}{\textbf{AUC scores for predicting the solubility of the PSI:Biology targets, related to Fig \ref{fig:appendix_solubility_S2}}} \\ \hline
+\textbf{Features}               & \multicolumn{2}{l|}{\textbf{AUC}}                                 \\ \hline
+Pc1.C                           & \multicolumn{2}{l|}{0.651}                                        \\ \hline
+Xc1.C                           & \multicolumn{2}{l|}{0.643}                                        \\ \hline
+polarity.Group1                 & \multicolumn{2}{l|}{0.638}                                        \\ \hline
+Pc1.H                           & \multicolumn{2}{l|}{0.637}                                        \\ \hline
+Grantham.Xr.E                   & \multicolumn{2}{l|}{0.635}                                        \\ \hline
+prop6.G2.residue100             & \multicolumn{2}{l|}{0.629}                                        \\ \hline
+...                             & \multicolumn{2}{l|}{...}                                          \\ \hline
+\multicolumn{3}{|c|}{Full table can be viewed at https://dx.doi.org/10.1093/bioinformatics/btaa578} \\ \hline
+\multicolumn{3}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Spearman's correlation between 9,913 miscellaneous \\ protein sequence features and E. coli protein solubility \\ (eSOL dataset), related to Fig S2.\end{tabular}}} \\ \hline
+\textbf{Features}               & \textbf{Spearman's rho}             & \textbf{P-value}            \\ \hline
+Xc1.W                           & -0.401                              & 3.55E-124                   \\ \hline
+Pc1.W                           & -0.397                              & 2.47E-121                   \\ \hline
+Xc1.F                           & -0.391                              & 1.62E-117                   \\ \hline
+Pc1.F                           & -0.389                              & 5.77E-116                   \\ \hline
+...                             & ...                                 & ...                         \\ \hline
+\multicolumn{3}{|c|}{Full table can be viewed at https://dx.doi.org/10.1093/bioinformatics/btaa578} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption[Training and test AUC scores in a 10-fold cross-validation.]{Training and test AUC scores in a 10-fold cross-validation, related to Fig \ref{fig:solubility_02}A and B.}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Cross-validation step} & \textbf{AUC (train)} & \textbf{AUC (test)} \\ \hline
+\textbf{1}                     & 0.721529             & 0.689413            \\ \hline
+\textbf{2}                     & 0.718002             & 0.719417            \\ \hline
+\textbf{3}                     & 0.71958              & 0.707645            \\ \hline
+\textbf{4}                     & 0.717626             & 0.720168            \\ \hline
+\textbf{5}                     & 0.719628             & 0.705219            \\ \hline
+\textbf{6}                     & 0.716786             & 0.728537            \\ \hline
+\textbf{7}                     & 0.715986             & 0.737957            \\ \hline
+\textbf{8}                     & 0.718487             & 0.714374            \\ \hline
+\textbf{9}                     & 0.719457             & 0.703184            \\ \hline
+\textbf{10}                    & 0.719797             & 0.703105            \\ \hline
+\end{tabular}
+
+\label{tab:appendix_sodope_S3}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\caption[Weights of amino acid residues for solubility scoring.]{Weights of amino acid residues for solubility scoring, related to Fig \ref{fig:solubility_02}C.}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Amino acid residues} & \textbf{Initial weights [normalised B-factors (Smith et al (2003)]} & \textbf{Final weights} \\ \hline
+\textbf{A} & 0.717 & 0.835647 \\ \hline
+\textbf{C} & 0.668 & 0.520809 \\ \hline
+\textbf{E} & 0.963 & 0.987699 \\ \hline
+\textbf{D} & 0.921 & 0.907904 \\ \hline
+\textbf{G} & 0.843 & 0.799717 \\ \hline
+\textbf{F} & 0.599 & 0.584979 \\ \hline
+\textbf{I} & 0.632 & 0.678412 \\ \hline
+\textbf{H} & 0.754 & 0.894791 \\ \hline
+\textbf{K} & 0.912 & 0.92671  \\ \hline
+\textbf{M} & 0.685 & 0.629662 \\ \hline
+\textbf{L} & 0.681 & 0.655422 \\ \hline
+\textbf{N} & 0.851 & 0.859743 \\ \hline
+\textbf{Q} & 0.849 & 0.789435 \\ \hline
+\textbf{P} & 0.85  & 0.823533 \\ \hline
+\textbf{S} & 0.84  & 0.744091 \\ \hline
+\textbf{R} & 0.814 & 0.771247 \\ \hline
+\textbf{T} & 0.758 & 0.809692 \\ \hline
+\textbf{W} & 0.626 & 0.637468 \\ \hline
+\textbf{V} & 0.619 & 0.735784 \\ \hline
+\textbf{Y} & 0.615 & 0.61128  \\ \hline
+\end{tabular}}}
+
+\label{tab:appendix_sodope_S4}
+\end{table}
+
+
+\begin{table}[h]
+\caption[Correlation test results.]{Correlation test results, related to Fig \ref{fig:solubility_03}A.}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{12}{|c|}{Spearman's correlation for the PSI:Biology dataset.}                                                                                     \\ \hline
+\textbf{} &
+  \textbf{Sheet} &
+  \textbf{Isoelectric point} &
+  \textbf{Turn} &
+  \textbf{Instability index} &
+  \textbf{Aromaticity} &
+  \textbf{Helix} &
+  \textbf{Molecular weight} &
+  \textbf{GRAVY} &
+  \textbf{Flexibility} &
+  \textbf{SWI} &
+  \textbf{Soluble or insoluble} \\ \hline
+\textbf{Sheet}             & 1         & -0.22206  & -0.375104 & 0.220627  & -0.328068 & -0.097355 & 0.070636  & 0.232137  & -0.041549 & 0.143317  & 0.040284  \\ \hline
+\textbf{Isoelectric point} & -0.22206  & 1         & -0.010108 & 0.072233  & 0.009231  & -0.082686 & -0.124552 & -0.171168 & -0.083467 & -0.158965 & -0.065772 \\ \hline
+\textbf{Turn}              & -0.375104 & -0.010108 & 1         & -0.07305  & 0.010417  & -0.089198 & 0.210953  & 0.182721  & 0.024328  & -0.211602 & -0.080815 \\ \hline
+\textbf{Instability index} & 0.220627  & 0.072233  & -0.07305  & 1         & -0.072715 & -0.159392 & 0.04537   & -0.143305 & -0.07666  & -0.172905 & -0.090254 \\ \hline
+\textbf{Aromaticity}       & -0.328068 & 0.009231  & 0.010417  & -0.072715 & 1         & 0.476667  & 0.222074  & -0.090969 & -0.259083 & -0.455687 & -0.154726 \\ \hline
+\textbf{Helix}             & -0.097355 & -0.082686 & -0.089198 & -0.159392 & 0.476667  & 1         & 0.226637  & 0.470759  & -0.409018 & -0.460267 & -0.154866 \\ \hline
+\textbf{Molecular weight}  & 0.070636  & -0.124552 & 0.210953  & 0.04537   & 0.222074  & 0.226637  & 1         & 0.249705  & -0.037168 & -0.276888 & -0.162451 \\ \hline
+\textbf{GRAVY}             & 0.232137  & -0.171168 & 0.182721  & -0.143305 & -0.090969 & 0.470759  & 0.249705  & 1         & -0.600141 & -0.477966 & -0.170855 \\ \hline
+\textbf{Flexibility}       & -0.041549 & -0.083467 & 0.024328  & -0.07666  & -0.259083 & -0.409018 & -0.037168 & -0.600141 & 1         & 0.773422  & 0.280697  \\ \hline
+\textbf{SWI}               & 0.145739  & -0.160047 & -0.212443 & -0.172425 & -0.454848 & -0.457766 & -0.273635 & -0.475792 & 0.774244  & 1         & 0.354619  \\ \hline
+\textbf{Solubility}        & 0.040284  & -0.065772 & -0.080815 & -0.090254 & -0.154726 & -0.154866 & -0.162451 & -0.170855 & 0.280697  & 0.354597  & 1         \\ \hline
+\multicolumn{12}{|c|}{Bonferroni corrected P-values for the correlation test.}                                                                                 \\ \hline
+\textbf{} &
+  \textbf{Sheet} &
+  \textbf{Isoelectric point} &
+  \textbf{Turn} &
+  \textbf{Instability index} &
+  \textbf{Aromaticity} &
+  \textbf{Helix} &
+  \textbf{Molecular weight} &
+  \textbf{GRAVY} &
+  \textbf{Flexibility} &
+  \textbf{SWI} &
+  \textbf{Solubile or Insoluble} \\ \hline
+\textbf{Sheet}             & 0.00E+00  & 1.36E-134 & 0.00E+00  & 8.06E-133 & 1.16E-302 & 2.23E-25  & 3.00E-13  & 2.07E-147 & 2.39E-04  & 3.12E-57  & 4.64E-04  \\ \hline
+\textbf{Isoelectric point} & 1.36E-134 & 0.00E+00  & 1.45E+01  & 7.23E-14  & 1.69E+01  & 3.02E-18  & 1.08E-41  & 3.14E-79  & 1.35E-18  & 3.72E-69  & 1.88E-11  \\ \hline
+\textbf{Turn}              & 0.00E+00  & 1.45E+01  & 0.00E+00  & 3.45E-14  & 1.37E+01  & 2.87E-21  & 3.47E-121 & 1.88E-90  & 3.94E-01  & 6.09E-123 & 2.03E-17  \\ \hline
+\textbf{Instability index} & 8.06E-133 & 7.23E-14  & 3.45E-14  & 0.00E+00  & 4.68E-14  & 1.39E-68  & 2.89E-05  & 2.55E-55  & 1.19E-15  & 2.06E-80  & 8.84E-22  \\ \hline
+\textbf{Aromaticity}       & 1.16E-302 & 1.69E+01  & 1.37E+01  & 4.68E-14  & 0.00E+00  & 0.00E+00  & 1.31E-134 & 3.95E-22  & 7.94E-185 & 0.00E+00  & 1.38E-64  \\ \hline
+\textbf{Helix}             & 2.23E-25  & 3.02E-18  & 2.87E-21  & 1.39E-68  & 0.00E+00  & 0.00E+00  & 2.45E-140 & 0.00E+00  & 0.00E+00  & 0.00E+00  & 1.05E-64  \\ \hline
+\textbf{Molecular weight}  & 3.00E-13  & 1.08E-41  & 3.47E-121 & 2.89E-05  & 1.31E-134 & 2.45E-140 & 0.00E+00  & 2.80E-171 & 2.18E-03  & 5.55E-207 & 2.84E-71  \\ \hline
+\textbf{GRAVY}             & 2.07E-147 & 3.14E-79  & 1.88E-90  & 2.55E-55  & 3.95E-22  & 0.00E+00  & 2.80E-171 & 0.00E+00  & 0.00E+00  & 0.00E+00  & 6.17E-79  \\ \hline
+\textbf{Flexibility}       & 2.39E-04  & 1.35E-18  & 3.94E-01  & 1.19E-15  & 7.94E-185 & 0.00E+00  & 2.18E-03  & 0.00E+00  & 0.00E+00  & 0.00E+00  & 3.07E-218 \\ \hline
+\textbf{SWI}               & 3.12E-57  & 3.72E-69  & 6.09E-123 & 2.06E-80  & 0.00E+00  & 0.00E+00  & 5.55E-207 & 0.00E+00  & 0.00E+00  & 0.00E+00  & 0.00E+00  \\ \hline
+\textbf{Solubility}        & 4.64E-04  & 1.88E-11  & 2.03E-17  & 8.84E-22  & 1.38E-64  & 1.05E-64  & 2.84E-71  & 6.17E-79  & 3.07E-218 & 0.00E+00  & 0.00E+00  \\ \hline
+\end{tabular}}}
+
+\label{tab:appendix_sodope_S5}
+\end{table}
+
+
+\begin{table}[h]
+\caption[Correlation test results.]{Correlation test results, related to Fig \ref{fig:solubility_03}B.}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{12}{|c|}{Spearman's correlation for the eSOL dataset.} \\ \hline
+\textbf{} &
+  \textbf{Sheet} &
+  \textbf{Instability index} &
+  \textbf{Turn} &
+  \textbf{Isoelectric point} &
+  \textbf{GRAVY} &
+  \textbf{Aromaticity} &
+  \textbf{Helix} &
+  \textbf{Molecular weight} &
+  \textbf{Flexibility} &
+  \textbf{SWI} &
+  \textbf{Solubility(\%)} \\ \hline
+\textbf{Sheet} &
+  1 &
+  0.146456 &
+  -0.403058 &
+  -0.156209 &
+  0.309439 &
+  -0.326514 &
+  0.02755 &
+  0.059391 &
+  -0.112851 &
+  0.083016 &
+  0.027396 \\ \hline
+\textbf{Instability index} &
+  0.146456 &
+  1 &
+  -0.134142 &
+  0.015775 &
+  -0.16924 &
+  0.015088 &
+  0.0546 &
+  0.069486 &
+  -0.057118 &
+  -0.158018 &
+  -0.099881 \\ \hline
+\textbf{Turn} &
+  -0.403058 &
+  -0.134142 &
+  1 &
+  -0.018457 &
+  0.096262 &
+  0.047374 &
+  -0.103803 &
+  0.158678 &
+  0.126597 &
+  -0.134466 &
+  -0.122414 \\ \hline
+\textbf{Isoelectric point} &
+  -0.156209 &
+  0.015775 &
+  -0.018457 &
+  1 &
+  -0.013594 &
+  0.005004 &
+  0.028062 &
+  -0.353713 &
+  -0.207243 &
+  -0.264909 &
+  -0.192862 \\ \hline
+\textbf{GRAVY} &
+  0.309439 &
+  -0.16924 &
+  0.096262 &
+  -0.013594 &
+  1 &
+  -0.107626 &
+  0.487898 &
+  0.118364 &
+  -0.612059 &
+  -0.453011 &
+  -0.208084 \\ \hline
+\textbf{Aromaticity} &
+  -0.326514 &
+  0.015088 &
+  0.047374 &
+  0.005004 &
+  -0.107626 &
+  1 &
+  0.468139 &
+  0.179587 &
+  -0.27243 &
+  -0.464074 &
+  -0.328931 \\ \hline
+\textbf{Helix} &
+  0.02755 &
+  0.0546 &
+  -0.103803 &
+  0.028062 &
+  0.487898 &
+  0.468139 &
+  1 &
+  0.260863 &
+  -0.557496 &
+  -0.602545 &
+  -0.364232 \\ \hline
+\textbf{Molecular weight} &
+  0.059391 &
+  0.069486 &
+  0.158678 &
+  -0.353713 &
+  0.118364 &
+  0.179587 &
+  0.260863 &
+  1 &
+  0.117507 &
+  -0.040323 &
+  -0.357656 \\ \hline
+\textbf{Flexibility} &
+  -0.112851 &
+  -0.057118 &
+  0.126597 &
+  -0.207243 &
+  -0.612059 &
+  -0.27243 &
+  -0.557496 &
+  0.117507 &
+  1 &
+  0.780143 &
+  0.372535 \\ \hline
+\textbf{SWI} &
+  0.083016 &
+  -0.158018 &
+  -0.134466 &
+  -0.264909 &
+  -0.453011 &
+  -0.464074 &
+  -0.602545 &
+  -0.040323 &
+  0.780143 &
+  1 &
+  0.503647 \\ \hline
+\textbf{Solubility(\%)} &
+  0.027396 &
+  -0.099881 &
+  -0.122414 &
+  -0.192862 &
+  -0.208084 &
+  -0.328931 &
+  -0.364232 &
+  -0.357656 &
+  0.372535 &
+  0.503647 &
+  1 \\ \hline
+\multicolumn{12}{|c|}{Bonferroni corrected P-values for the correlation test.} \\ \hline
+\textbf{} &
+  \textbf{Sheet} &
+  \textbf{Instability index} &
+  \textbf{Turn} &
+  \textbf{Isoelectric point} &
+  \textbf{GRAVY} &
+  \textbf{Aromaticity} &
+  \textbf{Helix} &
+  \textbf{Molecular weight} &
+  \textbf{Flexibility} &
+  \textbf{SWI} &
+  \textbf{Solubility(\%)} \\ \hline
+\textbf{Sheet} &
+  0.00E+00 &
+  4.68E-15 &
+  1.78E-123 &
+  3.52E-17 &
+  3.51E-70 &
+  1.37E-78 &
+  6.56E+00 &
+  4.28E-02 &
+  8.56E-09 &
+  1.42E-04 &
+  6.68E+00 \\ \hline
+\textbf{Instability index} &
+  4.68E-15 &
+  0.00E+00 &
+  1.42E-12 &
+  2.05E+01 &
+  3.08E-20 &
+  2.17E+01 &
+  1.11E-01 &
+  4.62E-03 &
+  6.77E-02 &
+  1.37E-17 &
+  8.31E-07 \\ \hline
+\textbf{Turn} &
+  1.78E-123 &
+  1.42E-12 &
+  0.00E+00 &
+  1.63E+01 &
+  2.71E-06 &
+  4.06E-01 &
+  2.21E-07 &
+  9.69E-18 &
+  3.69E-11 &
+  1.23E-12 &
+  2.07E-10 \\ \hline
+\textbf{Isoelectric point} &
+  3.52E-17 &
+  2.05E+01 &
+  1.63E+01 &
+  0.00E+00 &
+  2.43E+01 &
+  4.27E+01 &
+  6.19E+00 &
+  3.80E-93 &
+  1.27E-30 &
+  9.31E-51 &
+  1.97E-26 \\ \hline
+\textbf{GRAVY} &
+  3.51E-70 &
+  3.08E-20 &
+  2.71E-06 &
+  2.43E+01 &
+  0.00E+00 &
+  5.77E-08 &
+  3.35E-189 &
+  1.04E-09 &
+  0.00E+00 &
+  6.75E-160 &
+  7.07E-31 \\ \hline
+\textbf{Aromaticity} &
+  1.37E-78 &
+  2.17E+01 &
+  4.06E-01 &
+  4.27E+01 &
+  5.77E-08 &
+  0.00E+00 &
+  3.46E-172 &
+  7.59E-23 &
+  8.59E-54 &
+  7.98E-169 &
+  7.99E-80 \\ \hline
+\textbf{Helix} &
+  6.56E+00 &
+  1.11E-01 &
+  2.21E-07 &
+  6.19E+00 &
+  3.35E-189 &
+  3.46E-172 &
+  0.00E+00 &
+  3.64E-49 &
+  6.57E-259 &
+  0.00E+00 &
+  3.55E-99 \\ \hline
+\textbf{Molecular weight} &
+  4.28E-02 &
+  4.62E-03 &
+  9.69E-18 &
+  3.80E-93 &
+  1.04E-09 &
+  7.59E-23 &
+  3.64E-49 &
+  0.00E+00 &
+  1.45E-09 &
+  1.24E+00 &
+  2.22E-95 \\ \hline
+\textbf{Flexibility} &
+  8.56E-09 &
+  6.77E-02 &
+  3.69E-11 &
+  1.27E-30 &
+  0.00E+00 &
+  8.59E-54 &
+  6.57E-259 &
+  1.45E-09 &
+  0.00E+00 &
+  0.00E+00 &
+  4.25E-104 \\ \hline
+\textbf{SWI} &
+  1.42E-04 &
+  1.37E-17 &
+  1.23E-12 &
+  9.31E-51 &
+  6.75E-160 &
+  7.98E-169 &
+  0.00E+00 &
+  1.24E+00 &
+  0.00E+00 &
+  0.00E+00 &
+  1.38E-203 \\ \hline
+\textbf{Solubility(\%)} &
+  6.68E+00 &
+  8.31E-07 &
+  2.07E-10 &
+  1.97E-26 &
+  7.07E-31 &
+  7.99E-80 &
+  3.55E-99 &
+  2.22E-95 &
+  4.25E-104 &
+  1.38E-203 &
+  0.00E+00 \\ \hline
+\end{tabular}}}
+
+\label{tab:appendix_sodope_S6}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\caption[Runtime of protein solubility prediction tools per sequence.]{Runtime of protein solubility prediction tools per sequence, related to Fig \ref{fig:solubility_04}B}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{Accession} & \textbf{Length} & \textbf{Run} & \textbf{Wall time (hh:mm:ss)} & \textbf{Wall time (s)} & \textbf{Tool} \\ \hline
+JW0031 & 1095 & 0   & 00:25:51 & 1551.001 & DeepSol1 \\ \hline
+JW0031 & 1095 & 1   & 00:22:28 & 1348.001 & DeepSol1 \\ \hline
+JW0031 & 1095 & 2   & 00:22:28 & 1348.001 & DeepSol1 \\ \hline
+JW0560 & 249  & 0   & 00:14:22 & 862.001  & DeepSol1 \\ \hline
+JW0560 & 249  & 1   & 00:15:23 & 923.001  & DeepSol1 \\ \hline
+...    & ...  & ... & ...      & ...      & ...      \\ \hline
+\multicolumn{6}{|c|}{Full table can be viewed at https://dx.doi.org/10.1093/bioinformatics/btaa578}                          \\ \hline
+\end{tabular}}}
+
+\label{tab:appendix_sodope_S7}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\caption[Probability of solubility at selected SWI thresholds.]{Probability of solubility at selected SWI thresholds, related to Equation \ref{eq:03}}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{SWI threshold} & \textbf{True positive rate} & \textbf{False positive rate} & \textbf{Probability of solubility} \\ \hline
+1.85 & 0    & 0    & 1    \\ \hline
+0.8  & 0.11 & 0.01 & 0.9  \\ \hline
+0.79 & 0.33 & 0.08 & 0.8  \\ \hline
+0.78 & 0.57 & 0.24 & 0.7  \\ \hline
+0.78 & 0.77 & 0.48 & 0.6  \\ \hline
+0.77 & 0.9  & 0.75 & 0.5  \\ \hline
+0.77 & 0.96 & 0.91 & 0.4  \\ \hline
+0.76 & 0.99 & 0.97 & 0.3  \\ \hline
+0.76 & 1    & 0.99 & 0.2  \\ \hline
+0.75 & 1    & 1    & 0.09 \\ \hline
+0.72 & 1    & 1    & 0.01 \\ \hline
+\end{tabular}}
+
+\label{tab:appendix_sodope_S8}
+\end{table}
