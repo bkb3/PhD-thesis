@@ -85,12 +85,24 @@
 \BOOKMARK [1][-]{section.6.3}{Detection of signal peptides using Razor}{chapter.6}% 85
 \BOOKMARK [1][-]{section.6.4}{Reception of tools by the community}{chapter.6}% 86
 \BOOKMARK [1][-]{section.6.5}{Outlook}{chapter.6}% 87
-\BOOKMARK [0][-]{appendix.A}{Solubility-Weighted Index: fast and accurate prediction of protein solubility}{}% 88
+\BOOKMARK [0][-]{appendix.A}{Protein yield is tunable by synonymous codon changes of translation initiation sites}{}% 88
 \BOOKMARK [1][-]{section.A.1}{Supplementary notes}{appendix.A}% 89
-\BOOKMARK [1][-]{section.A.2}{Supplementary figures}{appendix.A}% 90
-\BOOKMARK [1][-]{section.A.3}{Supplementary tables}{appendix.A}% 91
-\BOOKMARK [0][-]{appendix.B}{Razor: annotation of signal peptides from toxins}{}% 92
-\BOOKMARK [1][-]{section.B.1}{Supplementary figures}{appendix.B}% 93
-\BOOKMARK [1][-]{section.B.2}{Supplementary tables}{appendix.B}% 94
-\BOOKMARK [0][-]{appendix.C}{TISIGNER.com: interactive web services for improving recombinant protein production}{}% 95
-\BOOKMARK [1][-]{section.C.1}{Supplementary tables}{appendix.C}% 96
+\BOOKMARK [2][-]{subsection.A.1.1}{Cloning of TIsigner variants of GFP and Luciferase}{section.A.1}% 90
+\BOOKMARK [3][-]{section*.45}{N-terminal region of GFP \(GFPN\)}{subsection.A.1.1}% 91
+\BOOKMARK [3][-]{section*.45}{C-terminal region of GFP \(GFPC\)}{subsection.A.1.1}% 92
+\BOOKMARK [3][-]{section*.45}{N-terminal region of luciferase \(RLucN\)}{subsection.A.1.1}% 93
+\BOOKMARK [3][-]{section*.45}{C-terminal region of luciferase \(RLucC\)}{subsection.A.1.1}% 94
+\BOOKMARK [3][-]{section*.45}{MIDAS Level-1 cloning of parts}{subsection.A.1.1}% 95
+\BOOKMARK [3][-]{section*.45}{MIDAS Level-2 assembly of devices}{subsection.A.1.1}% 96
+\BOOKMARK [3][-]{section*.45}{MIDAS Level-3 assembly \(construction of the expression plasmids\)}{subsection.A.1.1}% 97
+\BOOKMARK [1][-]{section.A.2}{Supplementary figures}{appendix.A}% 98
+\BOOKMARK [1][-]{section.A.3}{Supplementary tables}{appendix.A}% 99
+\BOOKMARK [0][-]{appendix.B}{Solubility-Weighted Index: fast and accurate prediction of protein solubility}{}% 100
+\BOOKMARK [1][-]{section.B.1}{Supplementary notes}{appendix.B}% 101
+\BOOKMARK [1][-]{section.B.2}{Supplementary figures}{appendix.B}% 102
+\BOOKMARK [1][-]{section.B.3}{Supplementary tables}{appendix.B}% 103
+\BOOKMARK [0][-]{appendix.C}{Razor: annotation of signal peptides from toxins}{}% 104
+\BOOKMARK [1][-]{section.C.1}{Supplementary figures}{appendix.C}% 105
+\BOOKMARK [1][-]{section.C.2}{Supplementary tables}{appendix.C}% 106
+\BOOKMARK [0][-]{appendix.D}{TISIGNER.com: interactive web services for improving recombinant protein production}{}% 107
+\BOOKMARK [1][-]{section.D.1}{Supplementary tables}{appendix.D}% 108

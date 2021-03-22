@@ -142,13 +142,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Discussion}{72}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Methods}{75}{section.4.5}
+\contentsline {section}{\numberline {4.5}Methods}{74}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Datasets}{75}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Datasets}{74}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Bit score}{75}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Protein sequence properties}{76}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}Protein sequence properties}{75}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.4}SP classifiers}{76}{subsection.4.5.4}
 \defcounter {refsection}{0}\relax 
@@ -192,20 +192,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.5}Outlook}{94}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{98}{appendix.A}
+\contentsline {chapter}{\numberline {A}Protein yield is tunable by synonymous codon changes of translation initiation sites}{98}{appendix.A}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Supplementary notes}{98}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Supplementary figures}{100}{section.A.2}
+\contentsline {subsection}{\numberline {A.1.1}Cloning of TIsigner variants of GFP and Luciferase}{98}{subsection.A.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Supplementary tables}{106}{section.A.3}
+\contentsline {subsubsection}{N-terminal region of GFP (GFPN)}{99}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Razor: annotation of signal peptides from toxins}{109}{appendix.B}
+\contentsline {subsubsection}{C-terminal region of GFP (GFPC)}{99}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Supplementary figures}{109}{section.B.1}
+\contentsline {subsubsection}{N-terminal region of luciferase (RLucN)}{99}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Supplementary tables}{115}{section.B.2}
+\contentsline {subsubsection}{C-terminal region of luciferase (RLucC)}{99}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}TISIGNER.com: interactive web services for improving recombinant protein production}{118}{appendix.C}
+\contentsline {subsubsection}{MIDAS Level-1 cloning of parts}{100}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Supplementary tables}{118}{section.C.1}
+\contentsline {subsubsection}{MIDAS Level-2 assembly of devices}{100}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{MIDAS Level-3 assembly (construction of the expression plasmids)}{101}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Supplementary figures}{103}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Supplementary tables}{112}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{119}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Supplementary notes}{119}{section.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Supplementary figures}{121}{section.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}Supplementary tables}{127}{section.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{130}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.1}Supplementary figures}{130}{section.C.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}Supplementary tables}{136}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{139}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Supplementary tables}{139}{section.D.1}
