@@ -155,30 +155,33 @@ For luciferase expression, the intermediate plasmid containing the lacI device (
 
 
 % Please add the following required packages to your document preamble:
+% \usepackage{lscape}
 % \usepackage{longtable}
 % Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
-\begin{longtable}{|l|l|}
-	\caption{MIDAS parts used in this work. The sequence of each part is shown, with BsmBI recognition sites used for cloning into the MIDAS pML1 vector underlined. MIDAS prefix and suffix nucleotides are highlighted by the bold blue and red text, respectively. The T7lac promoter and T7 Tφ transcription terminator (both sequences taken from pET-15b) were ordered as double-stranded DNA gBlocks from IDT. The lacI genetic element (with lacI promoter in green and lacI coding sequence in blue) was from GeneArt. Other parts were amplified by polymerase chain reaction. For the mScarlet-I part, the coding sequence is highlighted by the blue shading. Sequences of all parts were confirmed following cloning into the MIDAS pML1 vector.
-	}
-	\label{tab:appendix_TIsigner_T2}\\
-	\hline
-	\textbf{Part} &
-	\textbf{Sequence} \\ \hline
-	\endhead
-	%
-	T7lac promoter &
-	\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGGAGCGATCCCGCGAAATTAATACGACT\\ CACTATAGGGGAATTGTGAGCGGATAACAATTCCCCTCTAGAA\\ ATAATTTTGTTTAACTTTAAGAAGGAGATATACCATtgAGACag\\ agacgaaaggtc\end{tabular} \\ \hline
-	nptII promoter &
-	\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGGAGctcgcacgctgccgcaagcactcagggcg\\ caagggctgctaaaggaagcggaacacgtagaaagccagtccgcagaaacgg\\ tgctgaccccggatgaatgtcagctactgggctatctggacaagggaaaacgca\\ agcgcaaagagaaagcaggtagcttgcagtgggcttacatggcgatagctaga\\ ctgggcggtcttatggacagcaagcgaaccggaattgccagctggggcgccct\\ ctggtaaggttgggaagccctgcaaagtaaactggatggctttcttgccgccaag\\ gatctgatggcgcaggggatcaagatctgatcaagagacaggatactagtggag\\ gaagaaaaAATGtgAGACagagacgaaaggtc\end{tabular} \\ \hline
-	lacI genetic element &
-	\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGGAGCGTCGAGATCCCGGACACCATCG\\ AATGGCGCAAAACCTTTCGCGGTATGGCATGATAGCGCCCGG\\ AAGAGAGTCAATTCAGGGTGGTGAATGTGAAACCAGTAACGT\\ TATACGATGTCGCAGAGTATGCCGGTGTCTCTTATCAGACCGT\\ TTCCCGCGTGGTGAACCAGGCCAGCCACGTTTCTGCGAAAA\\ CGCGGGAAAAAGTGGAAGCGGCGATGGCGGAGCTGAATTAC\\ ATTCCCAACCGCGTGGCACAACAACTGGCGGGCAAACAGTC\\ GTTGCTGATTGGCGTTGCCACCTCCAGTCTGGCCCTGCACG\\ CGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGAT\\ CAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAG\\ CGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCG\\ CGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATG\\ ACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTC\\ CGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACA\\ GTATTATTTTCTCCCATGAAGACGGTACGCGACTGGGCGTGG\\ AGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAG\\ CGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCT\\ GGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAG\\ CGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAA\\ CAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCG\\ ATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCG\\ CGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTC\\ GGTAGTGGGATACGACGATACCGAAGACAGCTCATGTTATATC\\ CCGCCGTTAACCACCATCAAACAGGATTTTCGCCTGCTGGGG\\ CAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCA\\ GGCGGTGAAGGGCAATCAGCTGTTGCCCGTGTCACTGGTGAA\\ AAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCC\\ CCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGT\\ TTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATG\\ TAAGTTAGCTCACTCATTAGGCACCGGGATCTCGACCGATGCC\\ CTTGAGAGCCTTCAACCCAGTCAGCTCCTTCCGGTGGGCGCG\\ GGGCATGACTACGCTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
-	mScarlet-I coding sequence (CDS) &
-	\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGAATGgtgagcaagggcgaggcagtgatcaaggag\\ ttcatgcggttcaaggtgcacatggagggctccatgaacggccacgagttcgagat\\ cgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctga\\ aggtgaccaagggtggccccctgcccttctcctgggacatcctgtcccctcagttca\\ tgtacggctccagggccttcatcaagcaccccgccgacatccccgactactataag\\ cagtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcg\\ gcgccgtgaccgtgacccaggacacctccctggaggacggcaccctgatctacaa\\ ggtgaagctccgcggcaccaacttccctcctgacggccccgtaatgcagaagaag\\ acaatgggctgggaagcgtccaccgagcggttgtaccccgaggacggcgtgctg\\ aagggcgacattaagatggccctgcgcctgaaggacggcggccgctacctggcg\\ gacttcaagaccacctacaaggccaagaagcccgtgcagatgcccggcgcctaca\\ acgtcgaccgcaagttggacatcacctcccacaacgaggactacaccgtggtgga\\ acagtacgaacgctccgagggccgccactccaccggcggcatggacgagctgta\\ caagtaaGCTTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
-	Phage T7 T$\phi$ transcription terminator &
-	\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGCTTCAAAGCCCGAAAGGAAGCTGAGTT\\ GGCTGCTGCCACCGCTGAGCAATAACTAGCATAACCCCTTGG\\ GGCCTCTAAACGGGTCTTGAGGGGTTTTTTGCTGAAAGGAGG\\ AACTATATCCGGATCGCTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
-	Lambda t0 transcription terminator &
-	\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGCTTggactcctgttgatagatccagtaatgacctc\\ agaactccatctggatttgttcagaacgctcggttgccgccgggcgttttttattggt\\ gagaatccaagctagcttggCGCTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
-\end{longtable}
+\begin{landscape}
+	\begin{longtable}{|l|l|}
+		\caption{MIDAS parts used in this work. The sequence of each part is shown, with BsmBI recognition sites used for cloning into the MIDAS pML1 vector underlined. MIDAS prefix and suffix nucleotides are highlighted by the bold blue and red text, respectively. The T7lac promoter and T7 T$\phi$ transcription terminator (both sequences taken from pET-15b) were ordered as double-stranded DNA gBlocks from IDT. The lacI genetic element (with lacI promoter in green and lacI coding sequence in blue) was from GeneArt. Other parts were amplified by polymerase chain reaction. For the mScarlet-I part, the coding sequence is highlighted by the blue shading. Sequences of all parts were confirmed following cloning into the MIDAS pML1 vector.
+		}
+		\label{tab:appendix_TIsigner_T2}\\
+		\hline
+		\textbf{Part} &
+		\textbf{Sequence} \\ \hline
+		\endhead
+		%
+		T7lac promoter &
+		\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGGAGCGATCCCGCGAAATTAATACGACT\\ CACTATAGGGGAATTGTGAGCGGATAACAATTCCCCTCTAGAA\\ ATAATTTTGTTTAACTTTAAGAAGGAGATATACCATtgAGACag\\ agacgaaaggtc\end{tabular} \\ \hline
+		nptII promoter &
+		\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGGAGctcgcacgctgccgcaagcactcagggcg\\ caagggctgctaaaggaagcggaacacgtagaaagccagtccgcagaaacgg\\ tgctgaccccggatgaatgtcagctactgggctatctggacaagggaaaacgca\\ agcgcaaagagaaagcaggtagcttgcagtgggcttacatggcgatagctaga\\ ctgggcggtcttatggacagcaagcgaaccggaattgccagctggggcgccct\\ ctggtaaggttgggaagccctgcaaagtaaactggatggctttcttgccgccaag\\ gatctgatggcgcaggggatcaagatctgatcaagagacaggatactagtggag\\ gaagaaaaAATGtgAGACagagacgaaaggtc\end{tabular} \\ \hline
+		lacI genetic element &
+		\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGGAGCGTCGAGATCCCGGACACCATCG\\ AATGGCGCAAAACCTTTCGCGGTATGGCATGATAGCGCCCGG\\ AAGAGAGTCAATTCAGGGTGGTGAATGTGAAACCAGTAACGT\\ TATACGATGTCGCAGAGTATGCCGGTGTCTCTTATCAGACCGT\\ TTCCCGCGTGGTGAACCAGGCCAGCCACGTTTCTGCGAAAA\\ CGCGGGAAAAAGTGGAAGCGGCGATGGCGGAGCTGAATTAC\\ ATTCCCAACCGCGTGGCACAACAACTGGCGGGCAAACAGTC\\ GTTGCTGATTGGCGTTGCCACCTCCAGTCTGGCCCTGCACG\\ CGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGAT\\ CAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAG\\ CGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCG\\ CGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATG\\ ACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTC\\ CGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACA\\ GTATTATTTTCTCCCATGAAGACGGTACGCGACTGGGCGTGG\\ AGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAG\\ CGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCT\\ GGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAG\\ CGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAA\\ CAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCG\\ ATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCG\\ CGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTC\\ GGTAGTGGGATACGACGATACCGAAGACAGCTCATGTTATATC\\ CCGCCGTTAACCACCATCAAACAGGATTTTCGCCTGCTGGGG\\ CAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCA\\ GGCGGTGAAGGGCAATCAGCTGTTGCCCGTGTCACTGGTGAA\\ AAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCC\\ CCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGT\\ TTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATG\\ TAAGTTAGCTCACTCATTAGGCACCGGGATCTCGACCGATGCC\\ CTTGAGAGCCTTCAACCCAGTCAGCTCCTTCCGGTGGGCGCG\\ GGGCATGACTACGCTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
+		mScarlet-I coding sequence (CDS) &
+		\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGAATGgtgagcaagggcgaggcagtgatcaaggag\\ ttcatgcggttcaaggtgcacatggagggctccatgaacggccacgagttcgagat\\ cgagggcgagggcgagggccgcccctacgagggcacccagaccgccaagctga\\ aggtgaccaagggtggccccctgcccttctcctgggacatcctgtcccctcagttca\\ tgtacggctccagggccttcatcaagcaccccgccgacatccccgactactataag\\ cagtccttccccgagggcttcaagtgggagcgcgtgatgaacttcgaggacggcg\\ gcgccgtgaccgtgacccaggacacctccctggaggacggcaccctgatctacaa\\ ggtgaagctccgcggcaccaacttccctcctgacggccccgtaatgcagaagaag\\ acaatgggctgggaagcgtccaccgagcggttgtaccccgaggacggcgtgctg\\ aagggcgacattaagatggccctgcgcctgaaggacggcggccgctacctggcg\\ gacttcaagaccacctacaaggccaagaagcccgtgcagatgcccggcgcctaca\\ acgtcgaccgcaagttggacatcacctcccacaacgaggactacaccgtggtgga\\ acagtacgaacgctccgagggccgccactccaccggcggcatggacgagctgta\\ caagtaaGCTTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
+		Phage T7 T$\phi$ transcription terminator &
+		\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGCTTCAAAGCCCGAAAGGAAGCTGAGTT\\ GGCTGCTGCCACCGCTGAGCAATAACTAGCATAACCCCTTGG\\ GGCCTCTAAACGGGTCTTGAGGGGTTTTTTGCTGAAAGGAGG\\ AACTATATCCGGATCGCTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
+		Lambda t0 transcription terminator &
+		\begin{tabular}[c]{@{}l@{}}cgatgtacgtctcaCTCGGCTTggactcctgttgatagatccagtaatgacctc\\ agaactccatctggatttgttcagaacgctcggttgccgccgggcgttttttattggt\\ gagaatccaagctagcttggCGCTtgAGACagagacgaaaggtc\end{tabular} \\ \hline
+	\end{longtable}
+\end{landscape}
 
 %% Please add the following required packages to your document preamble:
 %% \usepackage{longtable}
