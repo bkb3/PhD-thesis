@@ -49,3 +49,14 @@
 % Landscape
 \usepackage{lscape}
 \usepackage{longtable}
+
+
+% Highlight text
+\usepackage{xcolor}
+\usepackage{soul}
+
+\newcommand{\hlc}[2][yellow]{{%
+		\colorlet{foo}{#1}%
+		\sethlcolor{foo}\hl{#2}}%
+}
+
