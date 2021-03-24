@@ -1,0 +1,283 @@
+\textbf{Acknowledgements:} Dr Chun Shen Lim found flexibility as the best predictor of solubility in PSI:Biology targets. In addition, he also did the benchmarking of different tools  [Table~\ref{Tab:solubility_01} and Fig \ref{fig:solubility_04}], supplementary Fig \ref{fig:appendix_solubility_S1} and used ‘protr’ R package to compute miscellaneous protein features of Fig \ref{fig:appendix_solubility_S2}. I also would like to thank Harry Biggs for providing feedback on SoDoPE, our solubility prediction and optimisation web application.
+\\
+\textbf{Publication status:} This chapter is published in Bioinformatics \cite{Bhandari2020-pz}. The supplementary table can be viewed online at \href{https://dx.doi.org/10.1093/bioinformatics/btaa578}{https://dx.doi.org/10.1093/bioinformatic\\s/btaa578}.
+
+
+\section{Abstract}
+\textbf{Motivation:} Recombinant protein production is a widely used technique in the biotechnology and biomedical industries, yet only a quarter of target proteins are soluble and can therefore be purified.\\
+\textbf{Results:} We have discovered that global structural flexibility, which can be modeled by normalised B-factors, accurately predicts the solubility of 12,216 recombinant proteins expressed in \textit{Escherichia coli}. We have optimised these B-factors, and derived a new set of values for solubility scoring that further improves prediction accuracy. We call this new predictor the ‘Solubility-Weighted Index’ (SWI). Importantly, SWI outperforms many existing protein solubility prediction tools. Furthermore, we have developed ‘SoDoPE’ (Soluble Domain for Protein Expression), a web interface that allows users to choose a protein region of interest for predicting and maximising both protein expression and solubility.\\
+\textbf{Availability:} The SoDoPE web server and source code are freely available at\\ \href{https://tisigner.com/sodope}{https://tisigner.com/sodope} and \\ \href{https://github.com/Gardner-BinfLab/TISIGNER-ReactJS}{https://github.com/Gardner-BinfLab/TISIGNER-ReactJS}, respectively.
+The code and data for reproducing our analysis can be found at\\ \href{https://github.com/Gardner-BinfLab/SoDoPE\_paper\_2020}{https://github.com/Gardner-BinfLab/SoDoPE\_paper\_2020}.\\
+
+
+\section{Introduction}
+
+High levels of protein expression and solubility are two major requirements of successful recombinant protein production \citep{Esposito2006-tj}. However, recombinant protein production is a challenging process. Almost half of recombinant proteins fail to be expressed and half of the successfully expressed proteins are insoluble (\href{http://targetdb.rcsb.org/metrics/}{http://targetdb.rcsb.org\\/metrics/}). These failures hamper protein research, with particular implications for structural, functional and pharmaceutical studies that require soluble and concentrated protein solutions \citep{Kramer2012-wk, Hou2018-yd}. Therefore, solubility prediction and protein engineering for enhanced solubility is an active area of research. Notable protein engineering approaches include mutagenesis, truncation (i.e., expression of partial protein sequences), or fusion with a solubility-enhancing tag \citep{Waldo2003-ui, Esposito2006-tj, Trevino2007-on, Chan2010-mo, Kramer2012-wk, Costa2014-oe}.
+
+Protein solubility, in part, depends upon extrinsic factors such as ionic strength, temperature and pH, as well as intrinsic factors—the physicochemical properties of the protein sequence and structure, including molecular weight, amino acid composition, hydrophobicity, aromaticity, isoelectric point, structural propensities and the polarity of surface residues \citep{Wilkinson1991-zp, Chiti2003-zk, Tartaglia2004-wm, Diaz2010-md}. Many solubility prediction tools have been developed around these features using statistical models (e.g., linear and logistic regression) or other machine learning models (e.g., support vector machines and neural networks) \citep{Hirose2013-nq, Habibi2014-jq, Hebditch2017-bg, Sormanni2017-lo, Heckmann2018-wb, Wu2019-nz, Yang2019-kd}. 
+
+In this study, we investigated the experimental outcomes of 12,216 recombinant proteins expressed in \textit{Escherichia coli} from the ‘Protein Structure Initiative:Biology’ (PSI:Biology) \citep{Chen2004-cp, Acton2005-ng}. We showed that protein structural flexibility is more accurate than other protein sequence properties in solubility prediction \citep{vihinen1994accuracy, Craveur2015-wg}. Flexibility is a standard feature appears to have been overlooked in previous solubility prediction attempts. On this basis, we derived a set of 20 values for the standard amino acid residues and used them to predict solubility. We call this new predictor the ‘Solubility-Weighted Index’ (SWI). SWI is a powerful predictor of solubility, and a good proxy for global structural flexibility. In addition, SWI outperforms many existing \textit{de novo} protein solubility prediction tools.
+
+\section{Results}
+
+\subsection{Global structural flexibility performs well at predicting protein solubility}
+We sought to understand what makes a protein soluble, and develop a fast and accurate approach for solubility prediction. To determine which protein sequence properties can accurately predict protein solubility, we analysed 12,216 target proteins from over 196 species that were expressed in \textit{E. coli} \citep{Chen2004-cp,Acton2005-ng} (the PSI:Biology dataset; see Supplementary Fig \ref{fig:appendix_solubility_S1} and Table S1A). These proteins were expressed either with a C-terminal or N-terminal polyhistidine fusion tag (pET21\_NESG and pET15\_NESG expression vectors, N = $8,780$ and $3,436$, respectively). The protein entries were previously curated and classified as ‘Protein\_Soluble’ or ‘Tested \_Not\_Soluble’ \citep{Seiler2014-on}, based on the soluble analysis of cell lysate using SDS-PAGE \citep{Xiao2010-nb}. Both the expression system and solubility analysis method are routinely used in the labs \citep{Costa2014-oe}. This large collection of dataset captures a wide variety of protein solubility issues.
+
+We evaluated nine standard and 9,920 miscellaneous protein sequence properties using the Biopython’s ProtParam module and ‘protr’ R package, respectively \citep{Cock2009-jl,Xiao2015-uw}. For example, the standard properties include the Grand Average of Hydropathy (GRAVY), secondary structure propensities, protein structural flexibility, etc., whereas miscellaneous properties include amino acid composition, autocorrelation, etc. Strikingly, protein structural flexibility outperformed other features in solubility prediction [Area Under the ROC Curve (AUC) = $0.67$; Fig \ref{fig:solubility_01}, Supplementary Fig \ref{fig:appendix_solubility_S2} and Table S2].
+
+
+\begin{figure}[!hbtp]
+\centerline{\includegraphics[width=1\textwidth]{chapters/Solubility/Figures/fig1.eps}}
+\caption[Global structural flexibility outperforms other standard protein sequence properties in protein solubility prediction.]{{\bf Global structural flexibility outperforms other standard protein sequence properties in protein solubility prediction}. ROC analysis of the standard protein sequence features for predicting the solubility of 12,216 recombinant proteins expressed in {\it E. coli} (the PSI:Biology dataset). The ROC curves are shown in two separate panels for clarity. AUC scores (perfect = $1.00$, random = $0.50$) are shown in parentheses. Dashed lines denote the performance of random classifiers. See also Supplementary Fig \ref{fig:appendix_solubility_S2} and Table S2. AUC, Area Under the ROC Curve; GRAVY, Grand Average of Hydropathy; PSI:Biology, Protein Structure Initiative:Biology; ROC, Receiver Operating Characteristic.}\label{fig:solubility_01}
+\end{figure}
+
+\subsection{The Solubility-Weighted Index (SWI) is an improved predictor of solubility}
+Protein structural flexibility, in particular, the flexibility of local regions, is often associated with function \citep{Craveur2015-wg}. The local flexibility of an amino acid residue $i$ can be written as:
+\begin{equation}
+\begin{split}
+f_i = \frac{1}{5.25} \times [B_i + 0.8125(B_{i-1} + B_{i+1}) + \\ 0.625(B_{i-2} + B_{i+2}) + \\0.4375(B_{i-3} +B_{i+3}) +\\ 0.25(B_{i-4} + B_{i+4})]
+\end{split}
+\label{eqn:local_flexibility}\vspace*{-10pt}
+\end{equation}
+where $B_i$ denotes the normalised B-factor of amino acid residue $i$. These normalised B-factors were previously derived from the B-factors extracted from protein crystal structures \citep{Karplus1985-ea,Ragone1989-bx,vihinen1994accuracy,Smith2003-gb} (see also Supplementary Notes). These normalised B-factors can be applied to any protein sequences without crystallographic data for flexibility prediction, for example as implemented in Biopython.
+
+To predict global protein structural flexibility $F$ (as in Fig \ref{fig:solubility_01}), $F$ can be calculated as the sliding window average of normalised B-factors (i.e., the arithmetic mean of $f_i$) \citep{vihinen1994accuracy,Cock2009-jl}. 
+\begin{equation}
+    F = \langle f_i \rangle
+    \label{eqn:global_flex}\vspace*{-10pt}
+\end{equation}
+
+Therefore, we can simplify Equation \ref{eqn:local_flexibility} by setting $f'_i = B_i$ like a zeroth order Markov model. The simplified global flexibility $F'$ is then the arithmetic mean of normalised B-factors (see Supplementary Notes \ref{section:appendix_solubility_supp_notes} for mathematical proof ).
+\begin{equation}
+    F' = \langle f'_i \rangle = \langle B_i \rangle
+    \label{eqn:Markov_model}\vspace*{-5pt}
+\end{equation}
+
+We found a strong correlation between $F$ and $F'$ for the PSI:Biology dataset (Spearman’s rho = $0.98$, P-value below machine’s underflow level). Hence, the sliding window approach (Equation \ref{eqn:local_flexibility} and \ref{eqn:global_flex}) is not necessary for this purpose.
+
+
+
+% The calculation of flexibility is usually performed by assigning a set of 20 normalised B-factors to a protein sequence and averaging the values by a sliding window approach (the B-factor is a measure of vibration of the $C_\alpha$ atom, see Supplementary Notes) \citep{Karplus1985-ea,Ragone1989-bx,vihinen1994accuracy,Smith2003-gb}. We reasoned that such sliding window approach can be approximated by a more straightforward arithmetic mean for calculating global structural flexibility (see Supplementary Notes). We determined the correlation between flexibility (Vihinen {\it et~al.}’s sliding window approach as implemented in Biopython) and solubility scores calculated as follows:
+% %
+% \begin{equation}
+%     \frac{1}{L}\sum_{i=1}^L B_{i}
+%     \label{eq:01}
+% \end{equation}
+% %
+% where $B_i$ is the normalised B-factor of the amino acid residue at the position $i$, and $L$ is the sequence length. A strong correlation was obtained (Spearman’s rho = $0.98$, P-value below machine’s underflow level), suggesting that the sliding window approach is not necessary for our purpose.
+
+
+We applied this arithmetic mean approach (i.e., sequence composition scoring) to the PSI:Biology dataset using four sets of previously published, normalised B-factors \citep{Bhaskaran1988-bn,Ragone1989-bx,vihinen1994accuracy,Smith2003-gb}. Among these sets of B-factors, sequence composition scoring using the most recently published set of normalised B-factors produced the highest AUC score (AUC = $0.66$; Supplementary Fig \ref{fig:appendix_solubility_S3}).
+
+To improve the prediction accuracy of solubility, we iteratively refined the weights of amino acid residues using the Nelder-Mead optimisation algorithm \citep{Nelder1965-zb} (Fig \ref{fig:solubility_02}). Smith {\it et~al.}’s normalised B-factors were used as initial weights. To avoid testing and training on similar sequences, we generated 10 cross-validation sets with a maximised heterogeneity between these subsets (i.e. no similar sequences between subsets). We clustered all 12,216 PSI:Biology protein sequences by a $40\%$ similarity threshold using USEARCH to produce 5,050 clusters with remote between-cluster similarity (see Methods  and Supplementary Fig \ref{fig:appendix_solubility_S4}). The clusters were grouped into 10 cross-validation sets of approximately 1,200 sequences each. As about $12\%$ of clusters contain a mix of soluble and insoluble proteins, we avoided selecting a representative sequence for each cluster (Supplementary Fig \ref{fig:appendix_solubility_S4}C). Furthermore, to avoid overfitting due to sequence similarity and imbalanced classes, we performed 1,000 bootstrap resamplings for each cross-validation step (Fig \ref{fig:solubility_02}A) and Supplementary Fig \ref{fig:appendix_solubility_S5}). We calculated the solubility scores using the optimised weights and the AUC scores for each cross-validation step as shown Fig \ref{fig:solubility_02}A. Our training and test AUC scores were $0.72 \pm 0.00$ and $0.71 \pm 0.01$, respectively, showing a 7.5\% improvement over flexibility in solubility prediction (mean $\pm$ standard deviation; Fig \ref{fig:solubility_02}B and  Supplementary Table \ref{tab:appendix_sodope_S3}).
+
+\begin{figure}[!hbtp]
+\centerline{\includegraphics[width=1\textwidth]{chapters/Solubility/Figures/fig2.eps}}
+\caption[Derivation of the Solubility-Weighted Index (SWI).]{{\bf Derivation of the Solubility-Weighted Index (SWI).} {\bf (A)} Flow chart shows an iterative refinement of the weights of amino acid residues for solubility prediction. Each cross-validation step used separate sequence similarity clusters for training and testing. Furthermore, bootstrapping was used to resample each training set, avoiding training and testing on similar sequences. The solubility scores of protein sequences were calculated using a sequence composition scoring approach. These scores were used to compute the AUC scores for training and test datasets. {\bf (B)} Training and test performance of solubility prediction using optimised weights for 20 amino acid residues in a 10-fold cross-validation (mean AUC $\pm$ standard deviation). Related data and figures are available as Supplementary Table \ref{tab:appendix_sodope_S3} and Supplementary Fig \ref{fig:appendix_solubility_S4} and \ref{fig:appendix_solubility_S5} . {\bf (C)} Comparison between the 20 initial and final weights for amino acid residues. The final weights $W = \langle V_i \rangle,\ 1\leq i\leq 10 $, were used to calculate the solubility score of a protein sequence (SWI) in the subsequent analyses. Filled circles, which represent amino acid residues, are colored by hydrophobicity \citep{Kyte1982-qn}. Solid black circles denote aromatic residues phenylalanine (F), tyrosine (Y), tryptophan (W). Dotted diagonal line represents no change in weight. See also Supplementary Table \ref{tab:appendix_sodope_S4}. AUC, Area Under the ROC Curve; ROC, Receiver Operating Characteristic.}\label{fig:solubility_02}
+\end{figure}
+
+\begin{figure}[!hbtp]
+\centerline{\includegraphics[width=1\textwidth]{chapters/Solubility/Figures/fig3.eps}}
+\caption[SWI strongly correlates with protein solubility.]{{\bf SWI strongly correlates with protein solubility.} {\bf (A)} Correlation matrix plot of the solubility of recombinant proteins expressed in {\it E. coli} and their standard protein sequence properties and SWI. These recombinant proteins are the PSI:Biology targets (N = $12,216$) with a binary solubility status of 'Protein\_Soluble’ or 'Tested\_Not\_Soluble’. Related data is available as Supplementary Table \ref{tab:appendix_sodope_S5}. {\bf (B)} Correlation matrix plot of the solubility percentages of {\it E. coli} proteins and their standard protein sequence properties and SWI. The solubility percentages were previously determined using an {\it E. coli} cell-free system (eSOL, N = $3,198$). Related data is available as Supplementary Table \ref{tab:appendix_sodope_S6}. GRAVY, Grand Average of Hydropathy; PSI:Biology, Protein Structure Initiative:Biology; $R_s$, Spearman’s rho; SWI, Solubility-Weighted Index.
+}\label{fig:solubility_03}
+\end{figure}
+
+
+The final weights were derived from the arithmetic means of the weights for individual amino acid residues obtained from cross-validation (Fig \ref{fig:solubility_02} and Supplementary Table \ref{tab:appendix_sodope_S4}). We observed over a $20\%$ change on the weights for cysteine (C) and histidine (H) residues (Fig \ref{fig:solubility_02}C and Supplementary Table \ref{tab:appendix_sodope_S4}). These results are in agreement with the contributions of cysteine and histidine residues as shown in Supplementary Fig \ref{fig:appendix_solubility_S2}B . We call the solubility score of a protein sequence calculated using the final weights the Solubility-Weighted Index (SWI):
+\begin{equation}
+    SWI = \langle W_i \rangle
+    \label{eqn:swi}\vspace*{-10pt}
+\end{equation}
+where $W_i$ is the optimised weight of residue $i$.
+
+
+To validate the cross-validation results, we used a dataset independent of the PSI:Biolgy known as eSOL \citep{Niwa2009-ye} (Supplementary Table \ref{tab:appendix_sodope_S1}). This dataset consists of the solubility percentages of \textit{E. coli} proteins determined using an \textit{E. coli} cell-free system (N = $3,198$). Our solubility scoring using the final weights showed a significant improvement in correlation with \textit{E. coli} protein solubility over the initial weights (Smith {\it et~al.}’s normalised B-factors) [Spearman’s rho of $0.50$ (P = $2.51 \times 10^{-205}$) versus $0.40$ (P = $4.57 \times 10^{-120}$)]. We repeated the correlation analysis by removing extra amino acid residues including His-tags from the eSOL sequences (MRGSHHHHHHTDPALRA and GLCGR at the N- and C-termini, respectively). This artificial dataset was created based on the assumption that His-tags have little effect on solubility. We observed a slight decrease in correlation for this artificial dataset (Spearman’s rho = $0.47$, P = $3.67 \times 10^{-176}$), which may be due to the effects of His-tags in solubility and/or the limitation(s) of our approach that may overfit to His-tag fusion proteins.
+
+We performed Spearman’s correlation analysis for both the PSI:Biology and eSOL datasets. SWI shows the strongest correlation with solubility compared to the standard and 9,920 miscellaneous sequence properties (Fig \ref{fig:solubility_03} and Supplementary Fig \ref{fig:appendix_solubility_S2} , respectively; see also Supplementary Table \ref{tab:appendix_sodope_S2}, \ref{tab:appendix_sodope_S5}, \ref{tab:appendix_sodope_S6}). SWI strongly correlates with flexibility, suggesting that SWI is also a good proxy for global structural flexibility.
+
+
+We asked whether protein solubility can be predicted by surface amino acid residues. To address this question, we examined a previously published dataset for the protein surface 'stickiness’ of $397$ \textit{E. coli} proteins \citep{Levy2012-ct}. This dataset has the annotation for surface residues based on previously solved protein crystal structures. We observed little correlation between the protein surface 'stickiness' and the solubility data from eSOL (Spearman’s rho = $0.05$, P = $0.34$, N = $348$; Supplementary Fig \ref{fig:appendix_solubility_S6}A ). Next, we evaluated if amino acid composition scoring using surface residues is sufficient, in which optimising only the weights of surface residues should achieve similar or better results than SWI. As above, we iteratively refined the weights of surface residues using the Nelder-Mead optimisation algorithm. The method was initialised with Smith {\it et~al.}’s normalised B-factors and a maximised correlation coefficient was the target. However, a low correlation was obtained upon convergence (Spearman’s rho = $0.18$, P = $7.20 \times 10^{-4}$; Supplementary Fig \ref{fig:appendix_solubility_S6}B ). In contrast, the SWI of the full-length sequences has a much stronger correlation with solubility (Spearman’s rho = $0.46$, P = $2.97 \times 10^{-19}$; Supplementary Fig \ref{fig:appendix_solubility_S6}C ). These results show that the full-length of sequences contributes to protein solubility, not just surface residues, suggesting that solubility is modulated by cotranslational folding \citep{Davis1999-ha,Natan2018-hv}.
+
+To understand the properties of soluble and insoluble proteins, we determined the enrichment of amino acid residues in the PSI:Biology targets relative to the eSOL sequences (see Methods). We observed that the PSI:Biology targets are enriched in charged residues lysine (K), glutamate (E) and aspartate (D), and depleted in aromatic residues tryptophan (W), albeit to a lesser extend for insoluble proteins (Supplementary Fig \ref{fig:appendix_solubility_S7}A ). As expected, cysteine residues (C) are enriched in the PSI:Biology insoluble proteins, supporting previous findings that cysteine residues contribute to poor solubility in the \textit{E. coli} expression system \citep{Wilkinson1991-zp,Diaz2010-md}.
+
+In addition, we compared the distributions of the SWI scores of soluble and insoluble proteins in the PSI:Biology and eSOL datasets. We included an analysis of random sequences to confirm whether SWI can distinguish between biological and random sequences. In general, the SWI scores of soluble proteins are higher than those of insoluble proteins (Supplementary Fig \ref{fig:appendix_solubility_S7}B ), and the SWI scores of true biological sequences are higher than those of random sequences, addressing our concern about the potential flaw of this position independent, sequence composition scoring approach.
+
+
+\subsection{SWI outperforms many protein solubility prediction tools}
+To confirm the usefulness of SWI in solubility prediction, we compared SWI with the existing tools CamSol v2.1 \citep{Sormanni2015-yr,Sormanni2017-lo}, ccSOL omics \citep{Agostini2014-te}, DeepSol v0.3 \citep{Khurana2018-xl}, PaRSnIP \citep{Rawi2018-xo}, Protein-Sol \citep{Hebditch2017-bg}, and the Wilkinson-Harrison model \citep{Wilkinson1991-zp,Davis1999-ha,Harrison2000-wm}. We did not include the specialised tools that model protein structural information such as surface geometry, surface charges and solvent accessibility because these tools require prior knowledge of protein tertiary structure. For example, Aggrescan3D and SOLart accept only PDB files that can be either downloaded from the Protein Data Bank or produced using a homology modeling program \citep{hou2020solart,Kuriata2019-ku}.
+
+SWI outperforms other tools except for Protein-Sol in predicting \textit{E. coli} protein solubility (Fig \ref{fig:solubility_04} and Table~\ref{Tab:solubility_01}). The test AUC scores of SWI were also less variable than most other tools, suggesting that SWI is less prone to overfitting (Fig \ref{fig:solubility_02} and  \ref{fig:solubility_04}A). Our SWI C program is also the fastest solubility prediction algorithm (Fig \ref{fig:solubility_04}B, Table~\ref{Tab:solubility_01} and Supplementary Table \ref{tab:appendix_sodope_S6}).
+
+
+
+
+%%%TABLE HERE
+\begin{table*}%[]
+% \processtable{Comparison of protein solubility prediction methods and software.\label{Tab:solubility_01}}
+% {\resizebox{\textwidth}{!}{
+\caption{Comparison of protein solubility prediction methods and software.}
+\label{Tab:solubility_01}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{@{}llllll@{}}
+\toprule
+ &
+  Approaches &
+  Features &
+  Wall time (s per sequence)\textsuperscript{a} &
+  PSI:Biology (AUC)\textsuperscript{b} &
+  eSOL {[}R\textsubscript{s} (P-value){]} \\ \midrule
+SWI &
+  \begin{tabular}[c]{@{}l@{}}Arithmetic mean (this study).\\
+  Sequence composition scoring using a set of 20 values for amino \\ acid residues derived from Smith {\it et~al.}’s normalised B-factors. \\Trained and tested using the PSI:Biology dataset curated by\\ DNASU \citep{Seiler2014-on}. \\Available at \href{https://tisigner.com/sodope}{https://tisigner.com/sodope} and \\
+  \href{https://github.com/Gardner-BinfLab/SoDoPE\_paper\_2020}{https://github.com/Gardner-BinfLab/SoDoPE\_paper\_2020}\end{tabular} &
+  1 &
+  {\bf 0.00  $\pm$ 0.00 }&
+  {\bf 0.71  $\pm$ 0.01 } &
+  0.50 (2.51 $\times$ 10\textsuperscript{$-$205}) \\ \midrule
+Protein-Sol &
+  \begin{tabular}[c]{@{}l@{}}Linear model \citep{Hebditch2017-bg}.\\  Trained and tested using eSOL dataset \citep{Niwa2009-ye}.\\  Available at \href{https://protein-sol.manchester.ac.uk/}{https://protein-sol.manchester.ac.uk/}\end{tabular} &
+  10 &
+  1.16  $\pm$ 0.75 &
+  0.68 $\pm$ 0.02 &
+  {\bf 0.54 (2.37 $\times$ 10\textsuperscript{$-$240})} \\\midrule
+Flexibility &
+  \begin{tabular}[c]{@{}l@{}}A sliding window of 9 amino acid residues using Vihinen {\it et~al.}’s \\normalised B-factors. \\Available at \href{https://github.com/biopython/biopython}{https://github.com/biopython/biopython}\end{tabular} &
+  1 &
+  0.38  $\pm$ 0.04 &
+  0.67 $\pm$ 0.02 &
+  0.37 (7.73 $\times$ 10\textsuperscript{$-$106}) \\\midrule
+DeepSol S2 &
+  {\begin{tabular}[c]{@{}l@{}}Neural network models \citep{Khurana2018-xl}\textsuperscript{c}.\\Trained and tested using a PSI:Biology dataset curated by\\ ccSOL omics \citep{Agostini2014-te}.\\ Available at \href{https://github.com/sameerkhurana10/DSOL\_rv0.2}{https://github.com/sameerkhurana10/DSOL\_rv0.2}\end{tabular}} &
+  {57 (11 types)} &
+  2069.77  $\pm$ 1613.63 &
+  0.67 $\pm$ 0.02 &
+  0.23 (5.82 $\times$ 10\textsuperscript{$-$41}) \\
+DeepSol S3 &
+   &
+   &
+  2075.93  $\pm$ 1613.80 &
+  0.66 $\pm$ 0.02 &
+  0.35 (7.48 $\times$ 10\textsuperscript{$-$91}) \\
+DeepSol S1 &
+   &
+   &
+  2081.93  $\pm$ 1612.71 &
+  0.64 $\pm$ 0.03 &
+  0.39 (9.52 $\times$ 10\textsuperscript{$-$116}) \\\midrule
+CamSol intrinsic web server &
+  \begin{tabular}[c]{@{}l@{}}Linear and logistic regression models (Sormanni {\it et~al} 2015, 2017).\\Trained and tested using previously published datasets \\\citep{Familia2015-mo}.\\Available at\\ \href{http://www-vendruscolo.ch.cam.ac.uk/camsolmethod.html}{http://www-vendruscolo.ch.cam.ac.uk/camsolmethod.html}\end{tabular} &
+  4 &
+  NA &
+  0.66 $\pm$ 0.01 &
+  0.44 (4.53 $\times$ 10\textsuperscript{$-$148}) \\\midrule
+PaRSnIP &
+  \begin{tabular}[c]{@{}l@{}}Gradient boosting machine model \citep{Rawi2018-xo}.\\Trained and tested using a PSI:Biology dataset curated by\\ ccSOL omics \citep{Agostini2014-te}.\\Available at \href{https://github.com/RedaRawi/PaRSnIP}{https://github.com/RedaRawi/PaRSnIP}\end{tabular} &
+  8,477 (14 types) &
+  2055.50  $\pm$ 1621.11 &
+  0.61 $\pm$ 0.02 &
+  0.29 (3.57 $\times$ 10\textsuperscript{$-$65}) \\\midrule
+Wilkinson- Harrison model &
+  \begin{tabular}[c]{@{}l@{}}Linear model using charge average and turn-forming \\residue fraction\\ \citep{Wilkinson1991-zp, Davis1999-ha, Harrison2000-wm}.\\Available at\\ \href{https://github.com/brunoV/bio-tools-solubility-wilkinson}{https://github.com/brunoV/bio-tools-solubility-wilkinson}\end{tabular} &
+  2 &
+  0.09  $\pm$ 0.00 &
+  0.55 $\pm$ 0.03 &
+  $-$0.06 (1.16 $\times$ 10\textsuperscript{$-$4}) \\\midrule
+ccSOL omics web server &
+  \begin{tabular}[c]{@{}l@{}}Support vector machine model \citep{Agostini2014-te}.\\Trained and tested using a PSI:Biology dataset curated in-house.\\Available at\\ \href{http://s.tartaglialab.com/new\_submission/ccsol\_omics\_file}{http://s.tartaglialab.com/new\_submission/ccsol\_omics\_file}\end{tabular} &
+  5 &
+  NA &
+  0.51 $\pm$ 0.01 &
+  $-$0.02 (0.18) \\ %\botrule
+\end{tabular}}}{}
+\small Boldface values are the best results.\\
+\textsuperscript{a}The wall time was reported at the level of machine precision (mean seconds $\pm$ standard deviation). A total of 10 sequences were chosen from the PSI:Biology and eSOL datasets, related to Fig \ref{fig:solubility_04}B and Supplementary Table \ref{tab:appendix_sodope_S7} (see Methods).\\
+\textsuperscript{b}For SWI, mean AUC $\pm$ standard deviation was calculated from a 10-fold cross-validation (see Methods). For other tools, no cross-validations were done as the AUC scores were calculated directly from the individual subsets used for cross-validation.\\
+\textsuperscript{c}DeepSol reports solubility prediction as probability and binary classes. The probability of solubility was used to calculate AUC and Spearman’s correlation due to better results.\\
+AUC, Area Under the ROC Curve; NA, not applicable; PDB, Protein Data Bank; PSI:Biology, Protein Structure Initiative:Biology; ROC, Receiver Operating Characteristic; R\textsubscript{s}, Spearman’s rho; SWI, Solubility-Weighted Index; s, seconds.
+\end{table*}
+
+
+
+\section{Discussion}
+The profile of normalised B-factors along a protein sequence can be used to infer the flexibility and dynamics of the protein structure \citep{Karplus1985-ea,vihinen1994accuracy}. Protein structural flexibility has been associated with conformal variations, functions, thermal stability, ligand binding and disordered regions \citep{Vihinen1987-jo,Teague2003-vq,Radivojac2004-ff,Ma2005-cr,Schlessinger2005-ps,Yuan2005-gl,Yin2011-su}. However, the use of flexibility in solubility prediction has been overlooked although their relationship has previously been noted \citep{Tsumoto2003-qp}. In this study, we have shown that flexibility strongly correlates with solubility (Fig \ref{fig:solubility_03}). Based on the normalised B-factors used to compute flexibility, we have derived a new position and length independent weights to score the solubility of a given protein sequence  (i.e., sequence composition based score). We call this protein solubility score as SWI.
+
+
+
+Upon further inspection, we observe some interesting properties in SWI. SWI anti-correlates with helix propensity, GRAVY, aromaticity and isoelectric point (Fig \ref{fig:solubility_02} and \ref{fig:solubility_03}), suggesting that SWI incorporates the key propensities affecting solubility. Amino acid residues with a lower aromaticity or hydrophilic are known to improve protein solubility \citep{Wilkinson1991-zp,Trevino2007-on,Niwa2009-ye,Kramer2012-wk,Warwicker2014-nh,han2019improve}. Consistent with previous studies, the charged residues aspartate (D), glutamate (E) and lysine (K) are associated with high solubility, whereas the aromatic residues phenylalanine (F), tryptophan (W) and tyrosine (Y) are associated with low solubility (Fig \ref{fig:solubility_02}C and Supplementary Fig \ref{fig:appendix_solubility_S7} ). Cysteine residue (C) has the lowest weight, probably because disulfide bonds couldn’t be properly formed in the \textit{E. coli} expression hosts \citep{Stewart1998-dn,Aslund1999-jl,Rosano2014-oq,jia2016high}. The weights are likely different if the solubility analysis was done using the reductase-deficient, \textit{E. coli} Origami host strains, or eukaryotic hosts.
+
+Higher helix propensity has been reported to increase solubility \citep{Idicula-Thomas2005-qw,Huang2012-ft}. However, our analysis has shown that helical and turn propensities anti-correlate with solubility, whereas sheet propensity lacks correlation with solubility, suggesting that disordered regions may tend to be more soluble (Fig \ref{fig:solubility_03}). In accordance with these, SWI has stronger negative correlations with helix and turn propensities. Our findings also suggest that protein solubility can be largely explained by overall amino acid composition, not just the surface amino acid residues. This idea aligns with our understanding that protein solubility and folding are closely linked, and folding occurs cotranslationally, a complex process that is driven various intrinsic and extrinsic factors \citep{Wilkinson1991-zp,Davis1999-ha,Chiti2003-zk,Tartaglia2004-wm,Diaz2010-md,Natan2018-hv}. However, it is unclear why sheet propensity has little contribution to solubility as $\beta$-sheets have been shown to link closely with protein aggregation \citep{Idicula-Thomas2005-qw}.
+
+\begin{figure}[!hbtp]
+\centerline{\includegraphics[width=1\textwidth]{chapters/Solubility/Figures/fig4.eps}}
+\caption[SWI outperforms existing protein solubility prediction tools.]{{ \bf SWI outperforms existing protein solubility prediction tools. (A)} Prediction accuracy of solubility prediction tools using the above cross-validation sets (Fig \ref{fig:solubility_02}A). For SWI, the test AUC scores were calculated from a 10-fold cross-validation (i.e., a boxplot representation of Fig \ref{fig:solubility_02}B). For other tools, no cross-validations were done as the AUC scores were calculated directly from the individual subsets used for cross-validation. CamSol and ccSOL omics are only available as web servers (no fill colors). {\bf (B)} Wall time of protein solubility prediction tools per sequence (log scale). All command line tools were run three times using 10 sequences selected from the PSI:Biology and eSOL datasets. Related data is available as Supplementary Table \ref{tab:appendix_sodope_S7}. AUC, Area Under the ROC Curve; PSI:Biology, Protein Structure Initiative:Biology; ROC, Receiver Operating Characteristic; SWI, Solubility-Weighted Index; s, seconds.
+}\label{fig:solubility_04}\vspace*{-10pt}
+\end{figure}
+
+We conclude that SWI is a well-balanced index that is derived from a simple sequence composition scoring method. To demonstrate the usefulness of SWI, we developed a web server called SoDoPE (Soluble Domain for Protein Expression; \href{https://tisigner.com/sodope}{https://tisigner.com/sodope}). SoDoPE calculates the probability of solubility of a user-selected region based on SWI, which can either be a full-length or a partial sequence (see Methods and Supplementary Table \ref{tab:appendix_sodope_S8}). This implementation is based on our observation that some protein domains tend to be more soluble than the others, and these soluble domains may enhance protein solubility as a whole. To demonstrate this point, we used SoDoPE to analyse three commercial monoclonal antibodies and the proteomes of the severe acute respiratory syndrome coronaviruses (SARS-CoV and SARS-CoV-2) \citep{Marra2003-zt,Wang2009-vj,Wu2020-oo} (Supplementary Fig \ref{fig:appendix_solubility_S8}  and \ref{fig:appendix_solubility_S9} ). SoDoPE also provides options for solubility prediction at the presence of solubility-enhancing tags. Similarly, these fusion tags may act as soluble ‘protein domains’ that can outweigh the aggregation propensity of insoluble proteins. However, some soluble fusion proteins may become insoluble after proteolytic cleavage of solubility tags \citep{Lebendiker2014-di}. In addition, SoDoPE is integrated with TIsigner, a web service for optimising protein expression \citep{bhandari2019highly}. This pipeline provides a holistic approach to improve the outcome of recombinant protein expression. \vspace*{-10pt}
+
+
+% \begin{methods}
+\section{Methods}
+
+\subsection{Data}
+We retrieved 12,216 PSI:Biology entries from the DNASU database \citep{Chen2004-cp,Acton2005-ng,Seiler2014-on}. These proteins were previously expressed in {\it E. coli} using pET21\_NESG or pET15 \_NESG expression vectors (N = $8,780$ and $3,436$, respectively). For validation, we used the solubility data of {\it E. coli} proteins from eSOL (N = $3,198$; \href{http://www.tanpaku.org/tp-esol/index.php?lang=en}{http://www.tanpa\\ku.org/tp-esol/index.php?lang=en}) \citep{Niwa2009-ye}. See also Supplementary Fig \ref{fig:appendix_solubility_S1}  and Table S1A. 
+
+In addition, we downloaded the 'stickiness’ data of $397$ \textit{E. coli} proteins to examine the effects of surface amino acid residues (\href{http://www.weizmann.ac.il/Structural\_Biology/faculty\_pages/ELevy/intDef/interface\_def.html}{http://www.weizmann.ac.il/Structural\_Biolog\\y/faculty\_pages/ELevy/intDef/interface\_def.html}) \citep{Levy2012-ct}.
+
+\subsection{Protein sequence properties}
+The standard protein sequence properties were calculated using the Bio.SeqUtils. ProtParam module of Biopython v1.73 \citep{Cock2009-jl}. All miscellaneous protein sequence properties were computed using the R package protr v1.6-2 \citep{Xiao2015-uw}. 
+
+\subsection{Protein solubility prediction}
+We used the standard and miscellaneous protein sequence properties to predict the solubility of the PSI:Biology and eSOL targets. For method comparison, we chose the protein solubility prediction tools that are scalable (Table~\ref{Tab:solubility_01}). Default configurations were used for running the command line tools.
+
+To benchmark the wall time of solubility prediction tools, we selected 10 sequences that span a large range of lengths from the PSI:Biology and eSOL datasets (from 36 to 2,389 residues). All the tools were run and timed using a single process without using GPUs on a high performance computer [\verb|/usr/bin/time| \verb|-f| \verb|'%E'| \verb|<command>|]; CentOS Linux 7 (Core) operating system, 72 cores in 2 $\times$ Broadwell nodes (E5-2695v4, 2.1 GHz, dual socket 18 cores per socket), 528 GiB memory]. Single sequence fasta files were used as input files.
+
+
+\subsection{SWI}
+To improve protein solubility prediction, we optimised Smith {\it et~al.}’s normalised B-factors using the PSI:Biology dataset (Fig \ref{fig:solubility_02}). To avoid including homologous sequences in the test and training sets, we clustered the PSI:Biology targets using USEARCH v11.0.667, 32-bit \citep{Edgar2010-fc}. His-tag sequences were removed from all sequences before clustering to avoid false cluster inclusions. We obtained 5,050 clusters using the parameters: \verb|-cluster_fast| \verb|<input_file>| \verb|-id 0.4 -msaout| \verb|<output_file>| \verb|-threads 4|. These clusters were grouped into 10 subsets with approximately 1,200 sequences per subset manually. The subsequent steps were carried out using sequences with His-tags. 
+
+We iteratively refined the weights of amino acid residues for solubility scoring using a 10-fold cross-validation, in which a maximised AUC was the target (Fig \ref{fig:solubility_02}A). Since AUC is non-differentiable, we used the Nelder-Mead optimisation method (implemented in SciPy v1.2.0), which is a derivative-free, heuristic, simplex-based optimisation \citep{Nelder1965-zb,Oliphant2007-za,Millman2011-tt}. For each step in cross-validation, we used bootstrap resamplings containing 1,000 soluble and 1,000 insoluble proteins. Optimisation was carried out for each sample, giving 1,000 sets of weights. The arithmetic mean of these weights was used to determine the training and test AUC for the cross-validation step. 
+
+
+\subsection{Bit score}
+To examine the enrichment of amino acid residues in soluble and insoluble proteins, we compute the bit scores for each residue in the PSI:Biology soluble and insoluble groups (Supplementary Fig \ref{fig:appendix_solubility_S7}A). The count of each residue (x) in each group was normalised by the total number of residues in that group. We used the normalised count of amino acid residues using the eSOL \textit{E. coli} sequences as the background. The bit score of residue $x$ for soluble or insoluble group is then given by the following equation:
+%
+\begin{equation}
+    bit\ score (x_i) = log_2 \frac{f_i(x)}{f_{eSOL}(x)}, i =[soluble, insoluble]
+    \label{eq:03}
+\end{equation}
+%
+where $f_i(x)$ is the normalised count of residue $x$ in the PSI:Biology soluble or insoluble group and $f_{eSOL}(x)$  is the normalised count in the eSOL sequences.
+
+For a control, random protein sequences were generated with incremental lengths, starting from a length of 50 residues to 6,000 residues with a step size of 50 residues. A hundred random sequences were generated for each length, giving a total of 12,000 unique random sequences.
+
+\subsection{The SoDoPE web server}
+To estimate the probability of solubility using SWI, we fitted the following logistic regression to the PSI:Biology dataset:
+%
+\begin{equation}
+    probability\ of\ solubility = \frac{1}{1 + exp(-(ax + b))}
+    \label{eq:04}
+\end{equation}
+%
+where, $x$ is the SWI of a given protein sequence, $a = 81.05812$ and  $b = -62.7775$. The P-value of log-likelihood ratio test was below machine’s underflow level. Equation \ref{eq:04} can be used to predict the solubility of a protein sequence given that the protein is successfully expressed in \textit{E. coli} (Supplementary Table \ref{tab:appendix_sodope_S8}).
+
+On this basis, we developed a solubility prediction web service called SoDoPE (Soluble Domain for Protein Expression). Our web server accepts either a nucleotide or amino acid sequence. Upon sequence submission, a query is sent to the HMMER web server to annotate protein domains (\href{https://www.ebi.ac.uk/Tools/hmmer/}{https://www.ebi.ac.uk/Tools/hmmer/}) \citep{Potter2018-ox}. Once the protein domains are identified, users can choose a domain or any custom region (including full-length sequence) to examine the probability of solubility, flexibility and GRAVY. This functionality enables protein biochemists to plan their experiments and opt for the domains or regions with high probability of solubility. Furthermore, we implemented a simulated annealing algorithm that maximised the probability of solubility for a given region by generating a list of regions with extended boundaries. Users can also predict the improvement in solubility by selecting a commonly used solubility tag or a custom tag.
+
+We linked SoDoPE with TIsigner, which is our existing web server for optimising the accessibility of translation initiation site \citep{bhandari2019highly}. This pipeline allows users to predict and optimise both protein expression and solubility for a gene of interest. The SoDoPE web server is freely available at \href{https://tisigner.com/sodope}{https://tisigner.com/sodope}.
+
+\subsection{Statistical analysis}
+Data analysis was done using Pandas v0.25.3 \citep{McKinney2010-rg}, scikit-learn v0.20.2 \citep{Pedregosa2011-cd}, numpy v1.16.2 \citep{Van_der_Walt2011-hv} and statsmodel v0.10.1 \citep{Seabold2010-qk}. Plots were generated using Matplotlib v3.0.2 \citep{Caswell2018-pc} and Seaborn v0.9.0 \citep{Waskom2014-ar}. 
+
+
+\subsection{Code and data availability}
+Jupyter notebook of our analysis can be found at \href{https://github.com/Gardner-BinfLab/SoDoPE\_paper\_2020}{https://github.com/Gardner-BinfLab/SoDoPE\_paper\_2020}. The source code for our solubility prediction server (SoDoPE) can be found at \href{https://github.com/Gardner-BinfLab/TISIGNER-ReactJS}{https://github.com/Gardner-BinfLab/TISIGNER-ReactJS}.
+
+% \end{methods}
+
+
+% \section{Acknowledgements}
+% We thank New Zealand eScience Infrastructure for providing a high performance computing platform. We are grateful to Harry Biggs for proofreading our manuscript and providing feedback for the web server. \vspace*{-12pt}
+
+
+% \section{Funding}
+% This work was supported by the Ministry of Business, Innovation and Employment, New Zealand (MBIE grant: UOOX1709).\vspace*{-12pt}

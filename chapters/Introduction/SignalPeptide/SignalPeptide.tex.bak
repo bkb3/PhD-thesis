@@ -1,0 +1,24 @@
+\section{Signal Peptide}
+Secretory proteins such as hormones and toxins are some of the commercially important use cases of recombinant protein expression. These secretory proteins are often enriched with a short hydrophobic peptide at the N-terminal (Figure \ref{fig:signal_peptides}). This is called signal peptide (SP). Signal peptides are recognised by a protein complex called the signal recognition particle (SRP). SRP carries the signal peptide to the endoplasmic reticulum (ER) lumen, where post translation modification happens and the newly synthesised protein is secreted out.  Despite having no consensus, SP have a tripartite structure as N-region, H-region and C-region (Figure \ref{fig:signal_peptide_structure}). 
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=1\textwidth]{chapters/Introduction/SignalPeptide/Figures/signal_peptide.png}
+\caption[Tripartite structure of a signal peptide.]{\textbf{Tripartite structure of a signal peptide.} N, H and C domains in a signal peptide. C domain also contains a cleavage site from which mature peptide is cleaved off after reaching the endoplasmic lumen. }
+\label{fig:signal_peptide_structure}
+\end{figure}
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.45\textwidth]{chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf}
+    \caption[Signal peptides are highly hydrophobic at the N-terminal.]{\textbf{Signal peptides are highly hydrophobic at the N-terminal.} Savitzky–Golay filtering is applied to the hydrophobicity. SP and NO\_SP sequences from SignalP 5.0 dataset (Armenteros \textit{et al.} (2019)). SP, Signal Peptide; NO\_SP, Not a SP.}%the List of Figures because of the *}
+    \label{fig:signal_peptides}
+  \end{center}
+\end{wrapfigure}
+N-region usually consists of 2-5 charged residues, whereas H-region is highly hydrophobic and forms an alpha helix. C-region consists of small polar uncharged residues which often form a $\beta$-sheet structure. This topology helps in binding with signal peptidase and cleave off the mature peptide at the cleavage site. 
+
+% Translation is temporarily paused when signal recognition particle (SRP) binds to the SP. SRP then carries the ribosome/mRNA complex towards the translocon of endoplasmic recticulum (ER). Signal peptide is then detached from the mature peptide and possibly digested by signal peptidase. Translation resumes, pushing the nascent polypetide inside the ER lumen, where post translation modification happens and the newly synthesised protein is secreted out. 
+
+Using signal peptides in recombinant expression often leads to a high yield. As an added benefit, the proteins are often higher in quality because proper folding can happen inside the ER. 
+

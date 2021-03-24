@@ -1,0 +1,60 @@
+\subsection{Protein expression}
+Protein expression is the process by which protein is synthesised using the information in the messenger RNA (mRNA) (Figure \ref{fig:tranc_transl}). 
+
+
+\begin{figure}[htbp!]
+\center
+\includegraphics[width=0.7\textwidth]{chapters/Introduction/Figures/transc_transl.pdf}
+\caption[Protein expression depends on the rates of RNA and protein synthesis and their degradation.]{\textbf{Protein expression depends on the rates of RNA and protein synthesis and their degradation.} Solid arrow represents synthesis whereas dashed arrow represents degradation. [RNA], concentration of mRNA; [Protein], concentration of protein; $k_{transcription}$, rate of transcription; $k_{translation}$, rate of translation; $k_{mRNA\ degradation}$, rate of mRNA degradation; $k_{protein\ degradation}$, rate of protein degradation. Figure redrawn from Abreu \textit{et al.} (2009).}%the List of Figures because of the *}
+\label{fig:tranc_transl}
+\end{figure}
+
+Intuitively, we expect the protein yield to be predictable using mRNA levels, the correlation is lower than expected \cite{Abreu2009-zf, Taniguchi2010-uq, Bernstein2002-gg}. This reflects the complexities of the underlying process. The amount of protein produced is determined by translation rate and protein degradation (Figure \ref{fig:tranc_transl}).  This dynamic system can be mathematically described by a first order differential equation \cite{Abreu2009-zf} whose solution at equilibrium gives the following relationship relationship between protein concentration $(P_{\infty})$, mRNA concentration $(R_{\infty})$, translation rate $(k_{translation})$ and protein degradation rate $(k_{protein\ degradation})$ :
+
+\begin{equation}
+    \frac{P_{\infty}}{R_\infty} = \frac{k_{translation}}{k_{protein\ degradation}}
+\end{equation}
+
+There are various mechanisms regulating translation and protein degradation, so the correlation between $(P_{\infty})$ and $(R_{\infty})$ is not perfect. Squared Pearson's correlation is around $0.4$ for many organisms \cite{Abreu2009-zf}. Assuming the protein degradation rate $(k_{protein\ degradation})$ to be a constant, the ratio of $P/R$ depends upon the translation rate $(k_{translation})$ only. Hence, the amount of protein can be modulated by tuning  $k_{translation}$.
+
+\subsection{Translation}
+
+Translation in prokaryotes is \textit{initiated} when the small ribosome subunit $30S$ binds to the Shine-Dalgarno sequence and moves upto the start codon. Currently accepted model is that the initiator tRNA charged with N-formylmethionine, initiation factor (IF-2) and guanosine triphosphate (GTP) binds with this subunit followed by the release of IF-3 \cite{hames2005biochemistry}. This complex is called the 30S initiation complex. IF-1 and IF-2 are released and the large ribosomal subunit $50S$ now binds followed by the hydrolysis of GTP, to form a $70S$ initiation complex. 
+
+After the formation of initiation complex, the decoding of information in the mRNA begins. This is called \textit{translation elongation}. The $70S$ complex consists of three sites: peptidyl-tRNA site (P site), aminoacyl-tRNA site (A site) and exit site (E site). Initially, the start codon and the successive codon of mRNA is positioned at P site and A site respectively. Initiator tRNA charged with N-formylmethionine is coupled with start codon at the P site and the corresponding aminoacyl-tRNA is coupled to the next codon at the A site through codon-anticodon pairing (Figure \ref{fig:prokaryotic_translation}). Peptide bond is formed between the amino acid carried by tRNA at P and A site to give a dipeptide. Translocation occurs moving the tRNA at P site to E site, tRNA at A site to P site and ribosome moves along the mRNA. The deactylated tRNA at E site is released. Since the A site is now empty, it receives the next aminoacyl-tRNA and the process continues adding an amino acid to C terminal of the dipeptide. 
+
+
+Once the ribosome encounters a stop codon, release factor (RF1 or RF2 and RF3) bind to the ribosome resulting in a tranfer of polypeptide to a water molecule rather than aminoacyl-tRNA. The free polypeptide is released from the ribosome and $70S$ ribosome disassociates into $30S$ and $50S$ subunits. This step is called \textit{translation termination}. 
+
+%%TODO - FIGURE FOR TRANSLATION
+
+
+\begin{figure}[!hbtp]
+    \centering
+    \includegraphics{chapters/Introduction/Figures/translation.jpg}
+    \caption[Prokaryotic translation.]{\textbf{Prokaryotic translation.} Initiator tRNA binds to the smaller subunit at the start codon. Larger subunit joins to form a translation initiation complex such that initiator tRNA is at P site and the next aminoacyl-tRNA is at A site. Initiator tRNA moves to the E site, dipeptide is formed at the P site and new aminoacyl-tRNA is received at the A site. Figure from OpenStax College, Concepts of Biology. OpenStax CNX (Creative Commons license: CC BY 4.0) }%the List of Figures because of the *}
+    \label{fig:prokaryotic_translation}
+\end{figure}
+
+
+\subsection{mRNA features and their roles in translation}
+Translation rate depends on the rate formation of translation initiation complex and utilisation of available tRNA pool. Several features of a mRNA sequence are suggested to explain these two major dependencies of translation rate. However, many mRNA features are not independent, making it hard to distinguish the impacts of individual features \cite{mauger2019mrna}. The features can be classified into three categories: codon preferences, mRNA folding (secondary structure) and mRNA:ncRNA avoidance. These three categories of features is the basis to understand and optimise protein production. Hence, we will describe them in more details:
+
+% mRNA features
+%Codon Analysis
+\input{chapters/Introduction/ProteinExpression/Features/CodonAnalysis}
+
+%% Secondary structure
+\input{chapters/Introduction/ProteinExpression/Features/SecondaryStructures}
+
+%% Avoidance
+\input{chapters/Introduction/ProteinExpression/Features/Avoidance}
+
+
+
+
+
+Apart from these general mRNA features which play a role in protein expression, several specific features also exist. For example: Cis-regulatory elements such as promoters and enhancers, interactions of mRNA with sRNA and miRNA as well as introns in $5^{\prime}$ UTR in eukaryotes. However, our discussion will be based around the general features only. 
+
+
+A number of gene optimisation tools build a suitable cost or fitness function using a combination of these features. Typically, a genetic algorithm is then used to optimise the fitness. The synonymous mRNA sequence with the maximum fitness is regarded as the optimised mRNA sequence with optimal expression \cite{Villalobos2006-nx, Salis2009-dh, Raab2010-eg, Chung2012-zh, Terai2016-vp}. Despite being optimised on expression, the sequences may form aggregates, which cannot be used for further studies \cite{gustafsson2004codon, rosano2009rare}. This leads us to the discussion of optimising solubility. 

@@ -1,0 +1,168 @@
+
+\section{Supplementary tables}
+\begin{table*}[h]
+\centering
+\caption{Performance metrics of TIsigner and SoDoPE.}
+\label{tab:Summary_of_TIsigner_and_SoDoPE}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{Tool (approach)} &
+  \textbf{\begin{tabular}[c]{@{}l@{}}Dataset and host\\ (PubMed ID)\end{tabular}} &
+  \textbf{Type} &
+  \textbf{Sample size} &
+  \textbf{\begin{tabular}[c]{@{}l@{}}Spearman’s\\ correlation\end{tabular}} &
+  \textbf{AUROC} \\ \hline
+\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}TIsigner\\ (mRNA \\ accessibility)\end{tabular}} &
+  \begin{tabular}[c]{@{}l@{}}GFP report,\\ \textit{E. coli}\\ (PMID: 30247489)\end{tabular} &
+  Continuous &
+  14,425 &
+  \begin{tabular}[c]{@{}l@{}}$-0.65$ \\ (P$<2.2\times10\textsuperscript{-16}$)\end{tabular} &
+  N/A \\ \cline{2-6} 
+ &
+  \begin{tabular}[c]{@{}l@{}}YFP report, \\ \textit{S. cerevisiae}\\ (PMID: 31209029)\end{tabular} &
+  Continuous &
+  2,041 &
+  \begin{tabular}[c]{@{}l@{}}$-0.55$\\ (P$<2.2\times10\textsuperscript{-16}$)\end{tabular} &
+  N/A \\ \cline{2-6} 
+ &
+  \begin{tabular}[c]{@{}l@{}}GFP report, \\ \textit{M. musculus}\\ (PMID: 25170020)\end{tabular} &
+  Continuous &
+  65,536 &
+  \begin{tabular}[c]{@{}l@{}}$-0.28$ \\ (P$< 2.2\times10\textsuperscript{-16}$)\end{tabular} &
+  N/A \\ \cline{2-6} 
+ &
+  \begin{tabular}[c]{@{}l@{}}PSI:Biology, \\ \textit{E. coli}\\ (PMID: 24225319)\end{tabular} &
+  Binary &
+  \begin{tabular}[c]{@{}l@{}}8,780 (expressed),\\ 2,650 (not expressed)\end{tabular} &
+  N/A &
+  0.70 \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}SoDoPE\\ (SWI)\end{tabular}} &
+  \begin{tabular}[c]{@{}l@{}}eSOL, \\ \textit{E. coli}\\ (PMID: 19251648)\end{tabular} &
+  Continuous &
+  3,198 &
+  \begin{tabular}[c]{@{}l@{}}0.50\\ (P=$9.46 \times 10\textsuperscript{-206}$)\end{tabular} &
+  N/A \\ \cline{2-6} 
+ &
+  \begin{tabular}[c]{@{}l@{}}*PSI:Biology, \\ \textit{E. coli}\\ (PMID: 24225319)\end{tabular} &
+  Binary &
+  \begin{tabular}[c]{@{}l@{}}8,238 (soluble),\\ 3,978 (insoluble)\end{tabular} &
+  N/A &
+  0.71 \\ \hline
+\end{tabular}}}
+\textsuperscript{*}The metrics are derived from five-fold cross-validations for training purposes.\\
+AUROC, Area under the ROC curve; MCC, Matthew’s correlation coefficient; SWI: Solubility-Weighted Index.
+\end{table*}
+
+
+% \begin{table*}[h]
+% \caption{Performance metrics of Razor.}
+% \label{table:Summary_of_Razor}
+% {\resizebox{\textwidth}{!}{
+
+% \begin{tabular}{|l|l|l|l|l|l|}
+% \hline
+% \textbf{Dataset (PubMed ID)} & \textbf{Sample size} & \textbf{MCC} & \textbf{AUROC} & \textbf{AUPRC} & \textbf{Cleavage site  precision/recall} \\ \hline
+% \begin{tabular}[c]{@{}l@{}}SignalP 5.0 \\ (PMID: 30778233)\end{tabular} &
+%   \begin{tabular}[c]{@{}l@{}}211 ($+$)\\ 7,246 ($-$)\end{tabular} &
+%   0.831 &
+%   0.98 &
+%   0.85 &
+%   0.607/ 0.578 \\ \hline
+% \begin{tabular}[c]{@{}l@{}}*Toxin\\ (PMID: 22465017, 30395287)\end{tabular} &
+%   \begin{tabular}[c]{@{}l@{}}261 ($+$)\\ 1,738 ($-$)\end{tabular} &
+%   0.741 &
+%   0.89 &
+%   0.74 &
+%   N/A \\ \hline
+% \begin{tabular}[c]{@{}l@{}}*Fungi\\ (PMID: 30395287)\end{tabular} &
+%   \begin{tabular}[c]{@{}l@{}}121 ($+$)\\ 1,843 ($-$)\end{tabular} &
+%   0.506 &
+%   0.87 &
+%   0.48 &
+%   N/A \\ \hline
+% \end{tabular}
+
+% }}
+% \textsuperscript{*}The metrics are derived from five-fold cross-validations due to limited sample sizes.\\
+% AUROC/AUPRC, Area under ROC and Precision-Recall curve, respectively; MCC, Matthew’s correlation coefficient.
+% \end{table*}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{Performance metrics of Razor.}
+{\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+\multirow{2}{*}{\textbf{Classifier}} &
+  \multirow{2}{*}{\textbf{Dataset (references)}} &
+  \multirow{2}{*}{\textbf{Sample size}} &
+  \multirow{2}{*}{\textbf{MCC}} &
+  \multirow{2}{*}{\textbf{AUROC}} &
+  \multirow{2}{*}{\textbf{AUPRC}} &
+  \multicolumn{2}{l|}{\textbf{Cleavage site}} \\ \cline{7-8} 
+ &
+   &
+   &
+   &
+   &
+   &
+  \textbf{Precision} &
+  \textbf{Recall} \\ \hline
+\multirow{2}{*}{Eukaryotic SP} &
+  \begin{tabular}[c]{@{}l@{}}SignalP 5.0 benchmarking set,\\  (PMID: 30778233)\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}211 SPs,\\ 7,246 non-SPs\end{tabular} &
+  0.815 &
+  0.98 &
+  0.85 &
+  0.565 &
+  0.597 \\ \cline{2-8} 
+ &
+  Independent test set &
+  \begin{tabular}[c]{@{}l@{}}287 SPs,\\ 52,055 non-SPs\end{tabular} &
+  0.405 &
+  0.96 &
+  0.61 &
+  0.136 &
+  0.596 \\ \hline
+\multirow{2}{*}{Toxin SP} &
+  \begin{tabular}[c]{@{}l@{}}Training set, \\ (PMID: 22465017, 30395287)\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}261 toxin SPs,\\ 1,738 non-toxin SPs\end{tabular} &
+  0.741 &
+  0.89 &
+  0.74 &
+  N/A &
+  N/A \\ \cline{2-8} 
+ &
+  Independent test set &
+  \begin{tabular}[c]{@{}l@{}}47 toxin SPs,\\ 194 non-toxin SPs\end{tabular} &
+  0.769 &
+  0.98 &
+  0.93 &
+  N/A &
+  N/A \\ \hline
+\multirow{2}{*}{Fungal SP} &
+  \begin{tabular}[c]{@{}l@{}}Training set, \\ (PMID: 30395287)\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}121 fungal SPs,\\ 1,843 non-fungal SPs\end{tabular} &
+  0.506 &
+  0.87 &
+  0.48 &
+  N/A &
+  N/A \\ \cline{2-8} 
+ &
+  Independent test set &
+  \begin{tabular}[c]{@{}l@{}}18 fungal SPs,\\ 269 non-fungal SPs\end{tabular} &
+  0.6 &
+  0.94 &
+  0.75 &
+  N/A &
+  N/A \\ \hline
+\end{tabular}}}
+
+\label{tab:Summary_of_Razor}
+\end{table}
