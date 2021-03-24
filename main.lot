@@ -18,50 +18,46 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces MIDAS parts used in this work. The sequence of each part is shown, with BsmBI recognition sites used for cloning into the MIDAS pML1 vector underlined. MIDAS prefix and suffix nucleotides are highlighted by the bold blue and red text, respectively. The T7lac promoter and T7 T\GenericError {(inputenc) }{Package inputenc Error: Unicode char φ (U+3C6)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} transcription terminator (both sequences taken from pET-15b) were ordered as double-stranded DNA gBlocks from IDT. The lacI genetic element (with lacI promoter in green and lacI coding sequence in blue) was from GeneArt. Other parts were amplified by polymerase chain reaction. For the mScarlet-I part, the coding sequence is highlighted by the blue shading. Sequences of all parts were confirmed following cloning into the MIDAS pML1 vector. \relax }}{112}{table.A.1}
+\contentsline {table}{\numberline {A.1}{\ignorespaces MIDAS parts used in this work. The sequence of each part is shown, with BsmBI recognition sites used for cloning into the MIDAS pML1 vector. The T7lac promoter and T7 T$\phi $ transcription terminator (both sequences taken from pET-15b) were ordered as double-stranded DNA gBlocks from IDT. The lacI genetic element (with lacI promoter and lacI coding sequence) was from GeneArt. Other parts were amplified by polymerase chain reaction. Sequences of all parts were confirmed following cloning into the MIDAS pML1 vector. \relax }}{114}{table.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces MIDAS parts used in this work. The sequence of each part is shown, with BsmBI recognition sites used for cloning into the MIDAS pML1 vector underlined. MIDAS prefix and suffix nucleotides are highlighted by the bold blue and red text, respectively. The T7lac promoter and T7 T\GenericError {(inputenc) }{Package inputenc Error: Unicode char φ (U+3C6)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} transcription terminator (both sequences taken from pET-15b) were ordered as double-stranded DNA gBlocks from IDT. The lacI genetic element (with lacI promoter in green and lacI coding sequence in blue) was from GeneArt. Other parts were amplified by polymerase chain reaction. For the mScarlet-I part, the coding sequence is highlighted by the blue shading. Sequences of all parts were confirmed following cloning into the MIDAS pML1 vector. \relax }}{113}{table.A.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of gfp. }}{118}{table.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces MIDAS parts used in this work. The sequence of each part is shown, with BsmBI recognition sites used for cloning into the MIDAS pML1 vector underlined. MIDAS prefix and suffix nucleotides are highlighted by the bold blue and red text, respectively. The T7lac promoter and T7 T\GenericError {(inputenc) }{Package inputenc Error: Unicode char φ (U+3C6)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} transcription terminator (both sequences taken from pET-15b) were ordered as double-stranded DNA gBlocks from IDT. The lacI genetic element (with lacI promoter in green and lacI coding sequence in blue) was from GeneArt. Other parts were amplified by polymerase chain reaction. For the mScarlet-I part, the coding sequence is highlighted by the blue shading. Sequences of all parts were confirmed following cloning into the MIDAS pML1 vector. \relax }}{114}{table.A.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of gfp. }}{115}{table.A.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of luciferase. The sequences of each forward and reverse primer pair used for constructing each of the luciferase TIsigner variants is shown. The start codon in each of the forward primers is shaded yellow. BsmBI recognition sites (used for Golden Gate assembly into the MIDAS pML1 vector) are underlined. \relax }}{121}{table.caption.58}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of luciferase. The sequences of each forward and reverse primer pair used for constructing each of the luciferase TIsigner variants is shown. The start codon in each of the forward primers is shaded yellow. BsmBI recognition sites (used for Golden Gate assembly into the MIDAS pML1 vector) are underlined. \relax }}{124}{table.caption.60}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces Numbers of soluble and insoluble proteins examined in this study.}}{130}{table.caption.68}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Numbers of soluble and insoluble proteins examined in this study.}}{133}{table.caption.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.2}{\ignorespaces Analysis of miscellaneous protein sequence properties.}}{130}{table.caption.69}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Analysis of miscellaneous protein sequence properties.}}{133}{table.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.3}{\ignorespaces Training and test AUC scores in a 10-fold cross-validation.}}{131}{table.caption.70}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Training and test AUC scores in a 10-fold cross-validation.}}{134}{table.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.4}{\ignorespaces Weights of amino acid residues for solubility scoring.}}{131}{table.caption.71}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Weights of amino acid residues for solubility scoring.}}{134}{table.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.5}{\ignorespaces Correlation test results.}}{131}{table.caption.72}
+\contentsline {table}{\numberline {B.5}{\ignorespaces Correlation test results.}}{134}{table.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.6}{\ignorespaces Correlation test results.}}{132}{table.caption.73}
+\contentsline {table}{\numberline {B.6}{\ignorespaces Correlation test results.}}{135}{table.caption.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.7}{\ignorespaces Runtime of protein solubility prediction tools per sequence.}}{132}{table.caption.74}
+\contentsline {table}{\numberline {B.7}{\ignorespaces Runtime of protein solubility prediction tools per sequence.}}{135}{table.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.8}{\ignorespaces Probability of solubility at selected SWI thresholds.}}{132}{table.caption.75}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.1}{\ignorespaces Datasets used in this study.\relax }}{139}{table.caption.82}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.2}{\ignorespaces Feature selection for building the toxin classifier using five-fold cross-validations.}}{140}{table.caption.83}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.3}{\ignorespaces Benchmarking of eukaryotic SP prediction using an independent test set (toxin SPs=287, Non-SPs=52,055).}}{140}{table.caption.84}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.4}{\ignorespaces Benchmarking of the cleavage site prediction for eukaryotic SPs using an independent test set (SPs=287, Non-SPs=52,055).}}{141}{table.caption.85}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.5}{\ignorespaces Benchmarking of toxin SP prediction using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{141}{table.caption.86}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.6}{\ignorespaces Benchmarking of the cleavage site prediction for toxin SPs using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{141}{table.caption.87}
+\contentsline {table}{\numberline {B.8}{\ignorespaces Probability of solubility at selected SWI thresholds.}}{135}{table.caption.77}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.1}{\ignorespaces Performance metrics of TIsigner and SoDoPE.\relax }}{142}{table.caption.88}
+\contentsline {table}{\numberline {C.1}{\ignorespaces Datasets used in this study.\relax }}{142}{table.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.2}{\ignorespaces Performance metrics of Razor.\relax }}{143}{table.caption.89}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Feature selection for building the toxin classifier using five-fold cross-validations.}}{143}{table.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.3}{\ignorespaces Benchmarking of eukaryotic SP prediction using an independent test set (toxin SPs=287, Non-SPs=52,055).}}{143}{table.caption.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.4}{\ignorespaces Benchmarking of the cleavage site prediction for eukaryotic SPs using an independent test set (SPs=287, Non-SPs=52,055).}}{144}{table.caption.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.5}{\ignorespaces Benchmarking of toxin SP prediction using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{144}{table.caption.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.6}{\ignorespaces Benchmarking of the cleavage site prediction for toxin SPs using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{144}{table.caption.89}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {D.1}{\ignorespaces Performance metrics of TIsigner and SoDoPE.\relax }}{145}{table.caption.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {D.2}{\ignorespaces Performance metrics of Razor.\relax }}{146}{table.caption.91}

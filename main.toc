@@ -214,22 +214,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}Supplementary figures}{103}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Supplementary tables}{112}{section.A.3}
+\contentsline {section}{\numberline {A.3}Supplementary tables}{113}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{122}{appendix.B}
+\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{125}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Supplementary notes}{122}{section.B.1}
+\contentsline {section}{\numberline {B.1}Supplementary notes}{125}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Supplementary figures}{124}{section.B.2}
+\contentsline {section}{\numberline {B.2}Supplementary figures}{127}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Supplementary tables}{130}{section.B.3}
+\contentsline {section}{\numberline {B.3}Supplementary tables}{133}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{133}{appendix.C}
+\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{136}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Supplementary figures}{133}{section.C.1}
+\contentsline {section}{\numberline {C.1}Supplementary figures}{136}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Supplementary tables}{139}{section.C.2}
+\contentsline {section}{\numberline {C.2}Supplementary tables}{142}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{142}{appendix.D}
+\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{145}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Supplementary tables}{142}{section.D.1}
+\contentsline {section}{\numberline {D.1}Supplementary tables}{145}{section.D.1}

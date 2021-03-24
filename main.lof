@@ -112,38 +112,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {A.12}{\ignorespaces Opening energy of 10 or below at the region -24:24 is about two times more likely to come from the target genes that are successfully expressed than those that failed (related to Fig \ref {fig:tisigner_fig3}). }}{111}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Luciferase reporter assay.}}{112}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Solubility of the PSI:Biology targets grouped by source. }}{124}{figure.caption.59}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Prediction accuracy of 9,920 miscellaneous protein sequence properties.}}{125}{figure.caption.60}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.3}{\ignorespaces ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors. }}{126}{figure.caption.61}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Relationship between protein solubility and sequence similarity.}}{126}{figure.caption.62}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.5}{\ignorespaces AUC scores and weights of amino acid residues obtained from individual bootstrap samples}}{127}{figure.caption.63}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Relationship between protein solubility and surface amino acid residues. }}{127}{figure.caption.64}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Properties of soluble and insoluble proteins.}}{128}{figure.caption.65}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Solubility analysis of three commercial monoclonal antibodies.}}{128}{figure.caption.66}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. }}{129}{figure.caption.67}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces The yields of an antibody fragment and an archaebacterial dioxygenase can be improved by synonymous codon changes within the first six codons.}}{112}{figure.caption.59}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Signal peptides (SPs) show a strong hydrophobic property (1,964 experimentally validated SPs, 13,237 non-SPs).}}{133}{figure.caption.76}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Solubility of the PSI:Biology targets grouped by source. }}{127}{figure.caption.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Leucine (L) composition within the N-terminal region 4:20 shows the highest AUC score in classifying the presence or absence of eukaryotic signal peptides (1,964 and 13,237, respectively).}}{134}{figure.caption.77}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Prediction accuracy of 9,920 miscellaneous protein sequence properties.}}{128}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Isoleucine (I) composition within the N-terminal region 2:28 shows the highest AUC score in classifying toxin and non-toxin SPs (261 and 1,738, respectively).}}{135}{figure.caption.78}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors. }}{129}{figure.caption.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Performance of Razor and state-of-the-art in predicting eukaryotic SPs using an independent test set (SPs=241, non-SPs=52,055).}}{136}{figure.caption.79}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Relationship between protein solubility and sequence similarity.}}{129}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Gene ontology (GO) annotations (biological process) for the predicted toxin SPs.}}{137}{figure.caption.80}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces AUC scores and weights of amino acid residues obtained from individual bootstrap samples}}{130}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.6}{\ignorespaces GO annotations (molecular function) for the predicted toxin SPs.}}{138}{figure.caption.81}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Relationship between protein solubility and surface amino acid residues. }}{130}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Properties of soluble and insoluble proteins.}}{131}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Solubility analysis of three commercial monoclonal antibodies.}}{131}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. }}{132}{figure.caption.69}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Signal peptides (SPs) show a strong hydrophobic property (1,964 experimentally validated SPs, 13,237 non-SPs).}}{136}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Leucine (L) composition within the N-terminal region 4:20 shows the highest AUC score in classifying the presence or absence of eukaryotic signal peptides (1,964 and 13,237, respectively).}}{137}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Isoleucine (I) composition within the N-terminal region 2:28 shows the highest AUC score in classifying toxin and non-toxin SPs (261 and 1,738, respectively).}}{138}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Performance of Razor and state-of-the-art in predicting eukaryotic SPs using an independent test set (SPs=241, non-SPs=52,055).}}{139}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Gene ontology (GO) annotations (biological process) for the predicted toxin SPs.}}{140}{figure.caption.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.6}{\ignorespaces GO annotations (molecular function) for the predicted toxin SPs.}}{141}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
