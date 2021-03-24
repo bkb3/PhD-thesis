@@ -54,19 +54,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Abstract}{28}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Introduction}{28}{section.2.2}
+\contentsline {section}{\numberline {2.2}Introduction}{29}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Results}{30}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Accessibility of translation initiation sites strongly correlates with protein abundance}{30}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Accessibility predicts the outcome of recombinant protein expression}{32}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Accessibility predicts the outcome of recombinant protein expression}{31}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Accessibility outperforms other features in prediction of recombinant protein expression}{33}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Accessibility outperforms other features in prediction of recombinant protein expression}{35}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Accessibility can be improved using a simulated annealing algorithm}{37}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Accessibility can be improved using a simulated annealing algorithm}{36}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Low protein yields can be improved by synonymous codon changes in the vicinity of translation initiation sites}{38}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.5}Low protein yields can be improved by synonymous codon changes in the vicinity of translation initiation sites}{39}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Discussion}{41}{section.2.4}
 \defcounter {refsection}{0}\relax 
@@ -80,7 +80,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.4}Coarse-grained simulation}{43}{subsection.2.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.5}Development of Translation Initiation coding region designer (TIsigner)}{44}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.5}Development of Translation Initiation coding region designer (TIsigner)}{45}{subsection.2.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.6}Sequence optimisation}{47}{subsection.2.5.6}
 \defcounter {refsection}{0}\relax 
@@ -88,7 +88,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.8}Luciferase assay}{48}{subsection.2.5.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.9}Statistical analysis}{48}{subsection.2.5.9}
+\contentsline {subsection}{\numberline {2.5.9}Statistical analysis}{49}{subsection.2.5.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.10}Code and data availability}{49}{subsection.2.5.10}
 \defcounter {refsection}{0}\relax 
@@ -214,22 +214,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}Supplementary figures}{103}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Supplementary tables}{113}{section.A.3}
+\contentsline {section}{\numberline {A.3}Supplementary tables}{114}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{125}{appendix.B}
+\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{126}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Supplementary notes}{125}{section.B.1}
+\contentsline {section}{\numberline {B.1}Supplementary notes}{126}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Supplementary figures}{127}{section.B.2}
+\contentsline {section}{\numberline {B.2}Supplementary figures}{128}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Supplementary tables}{133}{section.B.3}
+\contentsline {section}{\numberline {B.3}Supplementary tables}{134}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{136}{appendix.C}
+\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{137}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Supplementary figures}{136}{section.C.1}
+\contentsline {section}{\numberline {C.1}Supplementary figures}{137}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Supplementary tables}{142}{section.C.2}
+\contentsline {section}{\numberline {C.2}Supplementary tables}{143}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{145}{appendix.D}
+\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{146}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Supplementary tables}{145}{section.D.1}
+\contentsline {section}{\numberline {D.1}Supplementary tables}{146}{section.D.1}

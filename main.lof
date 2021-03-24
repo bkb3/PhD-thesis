@@ -36,11 +36,11 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Correlations between the opening energies of translation initiation sites and protein abundance are stronger than that of minimum free energy.}}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Correlations between the opening energies of translation initiation sites and protein abundance are stronger than that of minimum free energy.}}{32}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Opening energies of regions surrounding the Shine-Dalgarno and start codons are predictive of protein expression in \textit {E. coli}.}}{34}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Accessibility of translation initiation sites is the strongest predictor of heterologous protein expression in \textit {E. coli}.}}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Accessibility of translation initiation sites is the strongest predictor of heterologous protein expression in \textit {E. coli}.}}{37}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The yields of heterologous protein productions are tunable by synonymous codon changes in the first nine codons.}}{40}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
@@ -114,40 +114,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {A.13}{\ignorespaces Luciferase reporter assay.}}{112}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.14}{\ignorespaces The yields of an antibody fragment and an archaebacterial dioxygenase can be improved by synonymous codon changes within the first six codons.}}{112}{figure.caption.59}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces The yields of an antibody fragment and an archaebacterial dioxygenase can be improved by synonymous codon changes within the first six codons.}}{113}{figure.caption.59}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Solubility of the PSI:Biology targets grouped by source. }}{127}{figure.caption.61}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Solubility of the PSI:Biology targets grouped by source. }}{128}{figure.caption.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Prediction accuracy of 9,920 miscellaneous protein sequence properties.}}{128}{figure.caption.62}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Prediction accuracy of 9,920 miscellaneous protein sequence properties.}}{129}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.3}{\ignorespaces ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors. }}{129}{figure.caption.63}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors. }}{130}{figure.caption.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Relationship between protein solubility and sequence similarity.}}{129}{figure.caption.64}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Relationship between protein solubility and sequence similarity.}}{130}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.5}{\ignorespaces AUC scores and weights of amino acid residues obtained from individual bootstrap samples}}{130}{figure.caption.65}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces AUC scores and weights of amino acid residues obtained from individual bootstrap samples}}{131}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Relationship between protein solubility and surface amino acid residues. }}{130}{figure.caption.66}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Relationship between protein solubility and surface amino acid residues. }}{131}{figure.caption.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Properties of soluble and insoluble proteins.}}{131}{figure.caption.67}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Properties of soluble and insoluble proteins.}}{132}{figure.caption.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Solubility analysis of three commercial monoclonal antibodies.}}{131}{figure.caption.68}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Solubility analysis of three commercial monoclonal antibodies.}}{132}{figure.caption.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. }}{132}{figure.caption.69}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. }}{133}{figure.caption.69}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Signal peptides (SPs) show a strong hydrophobic property (1,964 experimentally validated SPs, 13,237 non-SPs).}}{136}{figure.caption.78}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Signal peptides (SPs) show a strong hydrophobic property (1,964 experimentally validated SPs, 13,237 non-SPs).}}{137}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Leucine (L) composition within the N-terminal region 4:20 shows the highest AUC score in classifying the presence or absence of eukaryotic signal peptides (1,964 and 13,237, respectively).}}{137}{figure.caption.79}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Leucine (L) composition within the N-terminal region 4:20 shows the highest AUC score in classifying the presence or absence of eukaryotic signal peptides (1,964 and 13,237, respectively).}}{138}{figure.caption.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Isoleucine (I) composition within the N-terminal region 2:28 shows the highest AUC score in classifying toxin and non-toxin SPs (261 and 1,738, respectively).}}{138}{figure.caption.80}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Isoleucine (I) composition within the N-terminal region 2:28 shows the highest AUC score in classifying toxin and non-toxin SPs (261 and 1,738, respectively).}}{139}{figure.caption.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Performance of Razor and state-of-the-art in predicting eukaryotic SPs using an independent test set (SPs=241, non-SPs=52,055).}}{139}{figure.caption.81}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Performance of Razor and state-of-the-art in predicting eukaryotic SPs using an independent test set (SPs=241, non-SPs=52,055).}}{140}{figure.caption.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Gene ontology (GO) annotations (biological process) for the predicted toxin SPs.}}{140}{figure.caption.82}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Gene ontology (GO) annotations (biological process) for the predicted toxin SPs.}}{141}{figure.caption.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.6}{\ignorespaces GO annotations (molecular function) for the predicted toxin SPs.}}{141}{figure.caption.83}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces GO annotations (molecular function) for the predicted toxin SPs.}}{142}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
