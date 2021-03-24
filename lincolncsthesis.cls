@@ -287,7 +287,7 @@
 \newcommand{\submissionStatement}{
     \setstretch{1.25}
 %    \@ifundefined{@submissiontext}{Submitted for the degree of \@degree \\ in \@programme}{\@submissiontext}
-    \@ifundefined{@submissiontext}{Submitted for the degree of \@degree 
+    \@ifundefined{@submissiontext}{Submitted for the degree of \@degree }
 }
 
 % Print out supervisors
