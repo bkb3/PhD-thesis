@@ -73,7 +73,7 @@ Taken together, Razor uses an approach independent of homology search to identif
 
 \section{Methods}
 \subsection{Datasets}
-We retrieved the training dataset for the state-of-the-art SP prediction program SignalP 5.0, which is a curated set of the N-terminal sequences from all domains of life \cite{Almagro_Armenteros2019-vr}. To get the full sequences and annotations of eukaryotic proteins, we used UniProt’s ID mapping service \cite{UniProt_Consortium2019-ch} and obtained 17,264 fully annotated sequences, of which 2,609 sequences have been experimentally validated to harbour functional SPs. These sequences were used to build a generic, eukaryotic SP classifier. For feature analysis, we clustered these sequences (60 N-terminal residues) at an identity threshold of 70\% using CD-HIT v4.8.1 \cite{Fu2012-hp}. A single representative sequence was retained for each cluster to reduce sequence redundancy (Supplementary Table \ref{tab:razor_datasets}).
+We retrieved the training dataset for the state-of-the-art SP prediction program SignalP 5.0, which is a curated set of the N-terminal sequences from all domains of life \cite{Almagro_Armenteros2019-vr}. To get the full sequences and annotations of eukaryotic proteins, we used UniProt’s ID mapping service \cite{UniProt_Consortium2019-ch} and obtained 17,264 fully annotated sequences, of which 2,609 sequences have been experimentally validated to harbour functional SPs. These sequences were used to build a generic, eukaryotic SP classifier. For feature analysis, we clustered these sequences (60 N-terminal residues) at an identity threshold of 70\% using CD-HIT v4.8.1 \cite{Fu2012-ng}. A single representative sequence was retained for each cluster to reduce sequence redundancy (Supplementary Table \ref{tab:razor_datasets}).
 
 To build a classifier specialised for annotating toxin SPs, we manually curated a separate positive set using the dataset from the animal toxin annotation project \cite{Jungo2012-ja} and a subset from the above training set. Other SPs were assigned as a negative set. We then clustered the sequences as above and analysed the representative sequences (Supplementary Table \ref{tab:razor_datasets}). 
 
@@ -129,7 +129,7 @@ Razor accepts either a nucleotide sequence or a protein sequence. Sequences with
 
 
 \subsection{Statistical analysis}
-Data analysis was performed using pandas v1.0.3 \cite{McKinney2010-rg}. Hydrophobicity and SWI were smoothed for the classifier training using the Savitzky-Golay filter implemented in SciPy v1.4.1 \cite{Virtanen2020-fq}. Random forest classifier and MCC computation were done using scikit-learn v0.23.1 \cite{Pedregosa2011-vs}. Plots were generated using Matplotlib v3.1.3 and Seaborn v0.10.0 \cite{Hunter2007-ii,Waskom2020-ye}.
+Data analysis was performed using pandas v1.0.3 \cite{McKinney2010-rg}. Hydrophobicity and SWI were smoothed for the classifier training using the Savitzky-Golay filter implemented in SciPy v1.4.1 \cite{Virtanen2020-fq}. Random forest classifier and MCC computation were done using scikit-learn v0.23.1 \cite{Pedregosa2011-cd}. Plots were generated using Matplotlib v3.1.3 and Seaborn v0.10.0 \cite{Hunter2007-ii,Waskom2020-ye}.
 
 
 \subsection{Code and data availability}
