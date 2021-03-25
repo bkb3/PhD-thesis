@@ -60,25 +60,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Accessibility of translation initiation sites strongly correlates with protein abundance}{30}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Accessibility predicts the outcome of recombinant protein expression}{31}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Accessibility predicts the outcome of recombinant protein expression}{33}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Accessibility outperforms other features in prediction of recombinant protein expression}{35}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Accessibility outperforms other features in prediction of recombinant protein expression}{34}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.4}Accessibility can be improved using a simulated annealing algorithm}{36}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.5}Low protein yields can be improved by synonymous codon changes in the vicinity of translation initiation sites}{39}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Discussion}{41}{section.2.4}
+\contentsline {section}{\numberline {2.4}Discussion}{40}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Material and methods}{42}{section.2.5}
+\contentsline {section}{\numberline {2.5}Material and methods}{43}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Plasmids}{42}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Plasmids}{43}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Data}{42}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Data}{43}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.3}Sequence features analysis}{43}{subsection.2.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Coarse-grained simulation}{43}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.4}Coarse-grained simulation}{44}{subsection.2.5.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.5}Development of Translation Initiation coding region designer (TIsigner)}{45}{subsection.2.5.5}
 \defcounter {refsection}{0}\relax 
