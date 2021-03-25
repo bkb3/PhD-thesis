@@ -1077,6 +1077,40 @@
       \field{pages}{726752}
       \range{pages}{1}
     \endentry
+    \entry{bhandaribk2021-nar-gkab175}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a63bf86c50712e65bf87af197a46ae27}{%
+           family={Bhandari},
+           familyi={B\bibinitperiod},
+           given={Bikash\bibnamedelima K},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=596dfe4a578d7ea435136d4a15ecc014}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Chun\bibnamedelima Shen},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=07b69f39168a0c4348d9770d7fb7d739}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima P},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4aa806809fb156ad7a13f2922eea9b3d}
+      \strng{fullhash}{4aa806809fb156ad7a13f2922eea9b3d}
+      \strng{bibnamehash}{4aa806809fb156ad7a13f2922eea9b3d}
+      \strng{authorbibnamehash}{4aa806809fb156ad7a13f2922eea9b3d}
+      \strng{authornamehash}{4aa806809fb156ad7a13f2922eea9b3d}
+      \strng{authorfullhash}{4aa806809fb156ad7a13f2922eea9b3d}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Experiments that are planned using accurate prediction algorithms will mitigate failures in recombinant protein production. We have developed TISIGNER (https://tisigner.com) with the aim of addressing technical challenges to recombinant protein production. We offer three web services, TIsigner (Translation Initiation coding region designer), SoDoPE (Soluble Domain for Protein Expression) and Razor, which are specialised in synonymous optimisation of recombinant protein expression, solubility and signal peptide analysis, respectively. Importantly, TIsigner, SoDoPE and Razor are linked, which allows users to switch between the tools when optimising genes of interest.}}
+      \field{issn}{0305-1048}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{title}{{TISIGNER.com: web services for improving recombinant protein production}}
+      \field{year}{2021}
+    \endentry
     \entry{Bhandari2021-wd}{article}{}
       \name{author}{6}{}{%
         {{hash=a63bf86c50712e65bf87af197a46ae27}{%

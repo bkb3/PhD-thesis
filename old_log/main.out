@@ -1,0 +1,108 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Recombinant protein production}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Protein expression}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Translation}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{mRNA features and their roles in translation}{section.1.1}% 5
+\BOOKMARK [3][-]{section*.9}{Features based on codon analysis}{subsection.1.1.3}% 6
+\BOOKMARK [3][-]{equation.1.1.3}{Secondary structure}{subsection.1.1.3}% 7
+\BOOKMARK [3][-]{equation.1.1.11}{mRNA:ncRNA avoidance}{subsection.1.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.1.4}{Protein solubility}{section.1.1}% 9
+\BOOKMARK [3][-]{section*.13}{Intrinsic properties of a protein}{subsection.1.1.4}% 10
+\BOOKMARK [1][-]{section.1.2}{Signal Peptide}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.3}{Mathematical optimisation}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.3.1}{Simulated annealing}{section.1.3}% 13
+\BOOKMARK [2][-]{subsection.1.3.2}{Nelder-Mead method}{section.1.3}% 14
+\BOOKMARK [1][-]{section.1.4}{Classifiers}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.4.1}{Random forest}{section.1.4}% 16
+\BOOKMARK [0][-]{chapter.2}{Protein yield is tunable by synonymous codon changes of translation initiation sites}{}% 17
+\BOOKMARK [1][-]{section.2.1}{Abstract}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.2}{Introduction}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Results}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Accessibility of translation initiation sites strongly correlates with protein abundance}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{Accessibility predicts the outcome of recombinant protein expression}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.3}{Accessibility outperforms other features in prediction of recombinant protein expression}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.4}{Accessibility can be improved using a simulated annealing algorithm}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.5}{Low protein yields can be improved by synonymous codon changes in the vicinity of translation initiation sites}{section.2.3}% 25
+\BOOKMARK [1][-]{section.2.4}{Discussion}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.5}{Material and methods}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.5.1}{Plasmids}{section.2.5}% 28
+\BOOKMARK [2][-]{subsection.2.5.2}{Data}{section.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.5.3}{Sequence features analysis}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.4}{Coarse-grained simulation}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.5}{Development of Translation Initiation coding region designer \(TIsigner\)}{section.2.5}% 32
+\BOOKMARK [2][-]{subsection.2.5.6}{Sequence optimisation}{section.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.5.7}{GFP assay}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.8}{Luciferase assay}{section.2.5}% 35
+\BOOKMARK [2][-]{subsection.2.5.9}{Statistical analysis}{section.2.5}% 36
+\BOOKMARK [2][-]{subsection.2.5.10}{Code and data availability}{section.2.5}% 37
+\BOOKMARK [0][-]{chapter.3}{Solubility-Weighted Index: fast and accurate prediction of protein solubility}{}% 38
+\BOOKMARK [1][-]{section.3.1}{Abstract}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.2}{Introduction}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.3}{Results}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.1}{Global structural flexibility performs well at predicting protein solubility}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.2}{The Solubility-Weighted Index \(SWI\) is an improved predictor of solubility}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.3}{SWI outperforms many protein solubility prediction tools}{section.3.3}% 44
+\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.5}{Methods}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.5.1}{Data}{section.3.5}% 47
+\BOOKMARK [2][-]{subsection.3.5.2}{Protein sequence properties}{section.3.5}% 48
+\BOOKMARK [2][-]{subsection.3.5.3}{Protein solubility prediction}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.4}{SWI}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.5}{Bit score}{section.3.5}% 51
+\BOOKMARK [2][-]{subsection.3.5.6}{The SoDoPE web server}{section.3.5}% 52
+\BOOKMARK [2][-]{subsection.3.5.7}{Statistical analysis}{section.3.5}% 53
+\BOOKMARK [2][-]{subsection.3.5.8}{Code and data availability}{section.3.5}% 54
+\BOOKMARK [0][-]{chapter.4}{Razor: annotation of signal peptides from toxins}{}% 55
+\BOOKMARK [1][-]{section.4.1}{Abstract}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.2}{Introduction}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 58
+\BOOKMARK [2][-]{subsection.4.3.1}{Toxin SPs have distinct sequence properties}{section.4.3}% 59
+\BOOKMARK [2][-]{subsection.4.3.2}{Razor accurately predicts toxin SPs}{section.4.3}% 60
+\BOOKMARK [2][-]{subsection.4.3.3}{Defensive proteins harbour a toxin-like SP}{section.4.3}% 61
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.5}{Methods}{chapter.4}% 63
+\BOOKMARK [2][-]{subsection.4.5.1}{Datasets}{section.4.5}% 64
+\BOOKMARK [2][-]{subsection.4.5.2}{Bit score}{section.4.5}% 65
+\BOOKMARK [2][-]{subsection.4.5.3}{Protein sequence properties}{section.4.5}% 66
+\BOOKMARK [2][-]{subsection.4.5.4}{SP classifiers}{section.4.5}% 67
+\BOOKMARK [2][-]{subsection.4.5.5}{Performance measures}{section.4.5}% 68
+\BOOKMARK [2][-]{subsection.4.5.6}{Tool}{section.4.5}% 69
+\BOOKMARK [2][-]{subsection.4.5.7}{Statistical analysis}{section.4.5}% 70
+\BOOKMARK [2][-]{subsection.4.5.8}{Code and data availability}{section.4.5}% 71
+\BOOKMARK [0][-]{chapter.5}{TISIGNER.com: interactive web services for improving recombinant protein production}{}% 72
+\BOOKMARK [1][-]{section.5.1}{Abstract}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.2}{Introduction}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.3}{Web services}{chapter.5}% 75
+\BOOKMARK [2][-]{subsection.5.3.1}{TIsigner}{section.5.3}% 76
+\BOOKMARK [2][-]{subsection.5.3.2}{SoDoPE}{section.5.3}% 77
+\BOOKMARK [2][-]{subsection.5.3.3}{Razor}{section.5.3}% 78
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 79
+\BOOKMARK [1][-]{section.5.5}{General information}{chapter.5}% 80
+\BOOKMARK [1][-]{section.5.6}{Data availability}{chapter.5}% 81
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 82
+\BOOKMARK [1][-]{section.6.1}{Optimising protein expression using TIsigner \(Translation Initiation coding region designer\)}{chapter.6}% 83
+\BOOKMARK [1][-]{section.6.2}{Optimising protein solubility using SoDoPE \(Soluble Domains for Protein Expression\)}{chapter.6}% 84
+\BOOKMARK [1][-]{section.6.3}{Detection of signal peptides using Razor}{chapter.6}% 85
+\BOOKMARK [1][-]{section.6.4}{Reception of tools by the community}{chapter.6}% 86
+\BOOKMARK [1][-]{section.6.5}{Outlook}{chapter.6}% 87
+\BOOKMARK [0][-]{appendix.A}{Protein yield is tunable by synonymous codon changes of translation initiation sites}{}% 88
+\BOOKMARK [1][-]{section.A.1}{Supplementary notes}{appendix.A}% 89
+\BOOKMARK [2][-]{subsection.A.1.1}{Cloning of TIsigner variants of GFP and Luciferase}{section.A.1}% 90
+\BOOKMARK [3][-]{section*.45}{N-terminal region of GFP \(GFPN\)}{subsection.A.1.1}% 91
+\BOOKMARK [3][-]{section*.45}{C-terminal region of GFP \(GFPC\)}{subsection.A.1.1}% 92
+\BOOKMARK [3][-]{section*.45}{N-terminal region of luciferase \(RLucN\)}{subsection.A.1.1}% 93
+\BOOKMARK [3][-]{section*.45}{C-terminal region of luciferase \(RLucC\)}{subsection.A.1.1}% 94
+\BOOKMARK [3][-]{section*.45}{MIDAS Level-1 cloning of parts}{subsection.A.1.1}% 95
+\BOOKMARK [3][-]{section*.45}{MIDAS Level-2 assembly of devices}{subsection.A.1.1}% 96
+\BOOKMARK [3][-]{section*.45}{MIDAS Level-3 assembly \(construction of the expression plasmids\)}{subsection.A.1.1}% 97
+\BOOKMARK [1][-]{section.A.2}{Supplementary figures}{appendix.A}% 98
+\BOOKMARK [1][-]{section.A.3}{Supplementary tables}{appendix.A}% 99
+\BOOKMARK [0][-]{appendix.B}{Solubility-Weighted Index: fast and accurate prediction of protein solubility}{}% 100
+\BOOKMARK [1][-]{section.B.1}{Supplementary notes}{appendix.B}% 101
+\BOOKMARK [1][-]{section.B.2}{Supplementary figures}{appendix.B}% 102
+\BOOKMARK [1][-]{section.B.3}{Supplementary tables}{appendix.B}% 103
+\BOOKMARK [0][-]{appendix.C}{Razor: annotation of signal peptides from toxins}{}% 104
+\BOOKMARK [1][-]{section.C.1}{Supplementary figures}{appendix.C}% 105
+\BOOKMARK [1][-]{section.C.2}{Supplementary tables}{appendix.C}% 106
+\BOOKMARK [0][-]{appendix.D}{TISIGNER.com: interactive web services for improving recombinant protein production}{}% 107
+\BOOKMARK [1][-]{section.D.1}{Supplementary tables}{appendix.D}% 108
