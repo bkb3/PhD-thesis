@@ -4625,7 +4625,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{18}
-      \field{title}{{New coexpression vectors for expanded compatibilities in E. coli}}
+      \field{title}{{New coexpression vectors for expanded compatibilities in \textit{E. coli}}}
       \field{type}{techreport}
       \field{year}{2003}
     \endentry
@@ -5698,7 +5698,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in Microbiology}
-      \field{title}{{Enhancing Recombinant Protein Yields in the E. coli Periplasm by Combining Signal Peptide and Production Rate Screening}}
+      \field{title}{{Enhancing Recombinant Protein Yields in the \textit{E. coli} Periplasm by Combining Signal Peptide and Production Rate Screening}}
       \field{volume}{10}
       \field{year}{2019}
     \endentry
@@ -6330,7 +6330,7 @@
       \range{pages}{11}
       \keyw{Aggregation analysis; Aggregation suppressor; Buffer condition; Chaotrope; Chaperone; Fusion protein; Induction condition; Intrinsically disordered protein; Intrinsically disordered region; Kosmotrope; Protein aggregation; Protein concentration; Protein storage; Stabilizer}
     \endentry
-    \entry{Levy2012-ct}{misc}{}
+    \entry{Levy2012-ct}{article}{}
       \name{author}{3}{}{%
         {{hash=90f65b50f2f5f6922e5c7229e6cafcd1}{%
            family={Levy},
@@ -7180,13 +7180,6 @@
       \field{year}{2003}
       \field{pages}{1399\bibrangedash 1404}
       \range{pages}{6}
-    \endentry
-    \entry{noauthor_undated-nq}{misc}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://doi.org/10.1109/MCSE.2007.55}}
-      \field{title}{{{Matplotlib: A {2D} Graphics Environment - {IEEE} Journals \& Magazine}}}
     \endentry
     \entry{mauger2019mrna}{article}{}
       \true{moreauthor}
@@ -8759,16 +8752,16 @@
       \field{pages}{W126\bibrangedash 31}
       \range{pages}{-1}
     \endentry
-    \entry{R_Core_Team2019-kt}{misc}{}
+    \entry{R_Core_Team2019-kt}{manual}{}
       \name{author}{1}{}{%
         {{hash=a902f7a1275f47f57554b7ea75ccd0bc}{%
            family={{R Core Team}},
            familyi={R\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Vienna}%
+        {Vienna, Austria}%
       }
-      \list{publisher}{1}{%
+      \list{organization}{1}{%
         {R Foundation for Statistical Computing}%
       }
       \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
@@ -8781,8 +8774,14 @@
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{R: A \% languageand Environment for Statistical Computing}}
-      \field{year}{2019}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb http://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb http://www.R-project.org/
+      \endverb
     \endentry
     \entry{Raab2010-eg}{article}{}
       \name{author}{5}{}{%
