@@ -941,7 +941,7 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{BioRxiv}
+      \field{journaltitle}{bioRxiv}
       \field{title}{{{Annotating eukaryotic and toxin-specific signal peptides using {Razor}}}}
       \field{year}{2020}
     \endentry
@@ -2348,7 +2348,7 @@
       \field{pages}{134}
       \range{pages}{1}
     \endentry
-    \entry{Cock2009-ym}{misc}{}
+    \entry{Cock2009-ym}{article}{}
       \name{author}{11}{}{%
         {{hash=71d099035c3d31ded0dac071fb8e3060}{%
            family={Cock},
@@ -3059,7 +3059,7 @@
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Rna}
+      \field{journaltitle}{RNA}
       \field{number}{6}
       \field{title}{{Ab initio RNA folding by discrete molecular dynamics: from structure prediction to folding mechanisms}}
       \field{volume}{14}
@@ -3760,7 +3760,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Plant Mol. Biol.}
       \field{number}{6}
-      \field{title}{{Monitoring dynamic expression of nuclear genes in Chlamydomonas reinhardtii by using a synthetic luciferase reporter gene}}
+      \field{title}{{Monitoring dynamic expression of nuclear genes in \textit{Chlamydomonas reinhardtii} by using a synthetic luciferase reporter gene}}
       \field{volume}{55}
       \field{year}{2004}
       \field{pages}{869\bibrangedash 881}
@@ -4343,7 +4343,7 @@
            giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Oxford University Press}%
+        {[Oxford University Press, Biometrika Trust]}%
       }
       \strng{namehash}{9c197333adcc6286fb59bc7e49733a51}
       \strng{fullhash}{9c197333adcc6286fb59bc7e49733a51}
@@ -4355,8 +4355,13 @@
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{1}
       \field{title}{{Monte Carlo sampling methods using Markov chains and their applications}}
+      \field{volume}{57}
       \field{year}{1970}
+      \field{pages}{97\bibrangedash 109}
+      \range{pages}{13}
     \endentry
     \entry{Hebditch2017-bg}{article}{}
       \name{author}{5}{}{%
