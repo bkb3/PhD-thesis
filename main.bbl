@@ -8941,7 +8941,7 @@
       \field{pages}{231}
       \range{pages}{1}
     \endentry
-    \entry{Rawi2018-xo}{misc}{}
+    \entry{Rawi2018-xo}{article}{}
       \name{author}{6}{}{%
         {{hash=011c4afed47ef19393b4ca08c1260685}{%
            family={Rawi},
@@ -10228,7 +10228,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Embo J.}
       \field{number}{19}
-      \field{title}{{{Disulfide bond formation in the\textit{Escherichia coli} cytoplasm: an in vivo role reversal for the thioredoxins}}}
+      \field{title}{{{Disulfide bond formation in the \textit{Escherichia coli} cytoplasm: an in vivo role reversal for the thioredoxins}}}
       \field{volume}{17}
       \field{year}{1998}
       \field{pages}{5543\bibrangedash 5550}
@@ -13111,7 +13111,7 @@
       \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{BioRxiv}
+      \field{journaltitle}{bioRxiv}
       \field{title}{{Enhancing the cell-free expression of native membrane proteins by in-silico optimization of the coding sequence -- an experimental study of the human voltage-dependent anion channel}}
       \field{year}{2018}
     \endentry
@@ -13170,7 +13170,7 @@
       \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nucleic acids research}
+      \field{journaltitle}{Nucleic Acids Research}
       \field{number}{1}
       \field{title}{{Optimal computer folding of large RNA sequences using thermodynamics and auxiliary information}}
       \field{volume}{9}

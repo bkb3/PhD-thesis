@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  26 MAR 2021 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  26 MAR 2021 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3076,14 +3076,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 61D81ED240A3443710C642D3FF399F4D;8585.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3092,7 +3084,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
 Here is how much of TeX's memory you used:
  41133 strings out of 494923
  818005 string characters out of 6180742
- 1470947 words of memory out of 5000000
+ 1470939 words of memory out of 5000000
  43007 multiletter control sequences out of 15000+600000
  620855 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -3114,10 +3106,10 @@ nts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on main.pdf (186 pages, 35597367 bytes).
+Output written on main.pdf (186 pages, 35597550 bytes).
 PDF statistics:
- 4225 PDF objects out of 4296 (max. 8388607)
- 3441 compressed objects within 35 object streams
+ 4226 PDF objects out of 4296 (max. 8388607)
+ 3442 compressed objects within 35 object streams
  686 named destinations out of 1000 (max. 500000)
  1207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
