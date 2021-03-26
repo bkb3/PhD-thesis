@@ -216,20 +216,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.3}Supplementary tables}{114}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{126}{appendix.B}
+\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{127}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Supplementary notes}{126}{section.B.1}
+\contentsline {section}{\numberline {B.1}Supplementary notes}{127}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Supplementary figures}{128}{section.B.2}
+\contentsline {section}{\numberline {B.2}Supplementary figures}{129}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Supplementary tables}{134}{section.B.3}
+\contentsline {section}{\numberline {B.3}Supplementary tables}{135}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{137}{appendix.C}
+\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{138}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Supplementary figures}{137}{section.C.1}
+\contentsline {section}{\numberline {C.1}Supplementary figures}{138}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Supplementary tables}{143}{section.C.2}
+\contentsline {section}{\numberline {C.2}Supplementary tables}{144}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{146}{appendix.D}
+\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{147}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Supplementary tables}{146}{section.D.1}
+\contentsline {section}{\numberline {D.1}Supplementary tables}{147}{section.D.1}
