@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  29 MAR 2021 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  29 MAR 2021 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1982,7 +1982,7 @@ l.10
 
 
 ]
-<chapters/Introduction/Figures/Status_of_protein_expression(2).pdf, id=900, 898
+<chapters/Introduction/Figures/Status_of_protein_expression(2).pdf, id=901, 898
 .14862pt x 406.50085pt>
 File: chapters/Introduction/Figures/Status_of_protein_expression(2).pdf Graphic
  file (type pdf)
@@ -1991,7 +1991,7 @@ Package pdftex.def Info: chapters/Introduction/Figures/Status_of_protein_expres
 sion(2).pdf  used on input line 14.
 (pdftex.def)             Requested size: 429.3521pt x 194.32425pt.
  (./chapters/Introduction/ProteinExpression/ProteinExpression.tex
-<chapters/Introduction/Figures/transc_transl.pdf, id=902, 495.17906pt x 124.886
+<chapters/Introduction/Figures/transc_transl.pdf, id=903, 495.17906pt x 124.886
 95pt>
 File: chapters/Introduction/Figures/transc_transl.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/transc_transl.pdf>
@@ -2001,7 +2001,7 @@ on input line 7.
 
 [2 <./chapters/Introduction/Figures/Status_of_protein_expression(2).pdf>]
 [3 <./chapters/Introduction/Figures/transc_transl.pdf>]
-<chapters/Introduction/Figures/translation.jpg, id=956, 262.0992pt x 452.4102pt
+<chapters/Introduction/Figures/translation.jpg, id=957, 262.0992pt x 452.4102pt
 >
 File: chapters/Introduction/Figures/translation.jpg Graphic file (type jpg)
 <use chapters/Introduction/Figures/translation.jpg>
@@ -2016,7 +2016,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 [6])
 (./chapters/Introduction/ProteinExpression/Features/SecondaryStructures.tex
-<chapters/Introduction/Figures/sec_str_rbs.jpg, id=1004, 308.352pt x 222.1098pt
+<chapters/Introduction/Figures/sec_str_rbs.jpg, id=1005, 308.352pt x 222.1098pt
 >
 File: chapters/Introduction/Figures/sec_str_rbs.jpg Graphic file (type jpg)
 <use chapters/Introduction/Figures/sec_str_rbs.jpg>
@@ -2026,13 +2026,13 @@ Package pdftex.def Info: chapters/Introduction/Figures/sec_str_rbs.jpg  used on
 
 [7] [8 <./chapters/Introduction/Figures/sec_str_rbs.jpg>] [9] [10])
 (./chapters/Introduction/ProteinExpression/Features/Avoidance.tex [11]
-<chapters/Introduction/Figures/accs.pdf, id=1078, 414.4095pt x 275.29474pt>
+<chapters/Introduction/Figures/accs.pdf, id=1079, 414.4095pt x 275.29474pt>
 File: chapters/Introduction/Figures/accs.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/accs.pdf>
 Package pdftex.def Info: chapters/Introduction/Figures/accs.pdf  used on input 
 line 21.
 (pdftex.def)             Requested size: 429.3521pt x 285.22018pt.
-<chapters/Introduction/Figures/interac.pdf, id=1083, 498.36188pt x 178.41656pt>
+<chapters/Introduction/Figures/interac.pdf, id=1084, 498.36188pt x 178.41656pt>
 
 File: chapters/Introduction/Figures/interac.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/interac.pdf>
@@ -2062,7 +2062,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 14.
 
 [15]
-<chapters/Introduction/Figures/flex_and_hydrop.png, id=1171, 753.2943pt x 656.3
+<chapters/Introduction/Figures/flex_and_hydrop.png, id=1172, 753.2943pt x 656.3
 3205pt>
 File: chapters/Introduction/Figures/flex_and_hydrop.png Graphic file (type png)
 
@@ -2075,7 +2075,7 @@ d on input line 26.
 LaTeX Warning: Command \r invalid in math mode on input line 61.
 
 [17]
-<chapters/Introduction/Figures/bfactors.pdf, id=1209, 274.90515pt x 267.46112pt
+<chapters/Introduction/Figures/bfactors.pdf, id=1210, 274.90515pt x 267.46112pt
 >
 File: chapters/Introduction/Figures/bfactors.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/bfactors.pdf>
@@ -2084,7 +2084,7 @@ put line 100.
 (pdftex.def)             Requested size: 193.20712pt x 187.98466pt.
  [18 <./chapters/Introduction/Figures/bfactors.pdf>])
 (./chapters/Introduction/SignalPeptide/SignalPeptide.tex
-<chapters/Introduction/SignalPeptide/Figures/signal_peptide.png, id=1273, 1065.
+<chapters/Introduction/SignalPeptide/Figures/signal_peptide.png, id=1274, 1065.
 9825pt x 204.5241pt>
 File: chapters/Introduction/SignalPeptide/Figures/signal_peptide.png Graphic fi
 le (type png)
@@ -2092,7 +2092,7 @@ le (type png)
 Package pdftex.def Info: chapters/Introduction/SignalPeptide/Figures/signal_pep
 tide.png  used on input line 6.
 (pdftex.def)             Requested size: 429.3521pt x 82.37616pt.
-<chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf, id=1275, 281
+<chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf, id=1276, 281
 .11273pt x 259.1927pt>
 File: chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf Graphic 
 file (type pdf)
@@ -2113,7 +2113,7 @@ Underfull \hbox (badness 2671) in paragraph at lines 1--1
 
 [20 <./chapters/Introduction/SignalPeptide/Figures/signal_peptide.png> <./chapt
 ers/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf>] [21]
-<chapters/Introduction/Figures/rastrigin.pdf, id=1376, 456.96506pt x 218.2554pt
+<chapters/Introduction/Figures/rastrigin.pdf, id=1377, 456.96506pt x 218.2554pt
 >
 File: chapters/Introduction/Figures/rastrigin.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/rastrigin.pdf>
@@ -2121,7 +2121,7 @@ Package pdftex.def Info: chapters/Introduction/Figures/rastrigin.pdf  used on i
 nput line 47.
 (pdftex.def)             Requested size: 429.3521pt x 205.07683pt.
  [22]
-<chapters/Introduction/Figures/simulated_annealing.pdf, id=1384, 493.3423pt x 2
+<chapters/Introduction/Figures/simulated_annealing.pdf, id=1385, 493.3423pt x 2
 22.35571pt>
 File: chapters/Introduction/Figures/simulated_annealing.pdf Graphic file (type 
 pdf)
@@ -2143,14 +2143,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 69.
-<chapters/Introduction/Figures/rosen.pdf, id=1447, 464.82254pt x 218.2554pt>
+<chapters/Introduction/Figures/rosen.pdf, id=1448, 464.82254pt x 218.2554pt>
 File: chapters/Introduction/Figures/rosen.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/rosen.pdf>
 Package pdftex.def Info: chapters/Introduction/Figures/rosen.pdf  used on input
  line 87.
 (pdftex.def)             Requested size: 322.01407pt x 151.20248pt.
  [24]
-<chapters/Introduction/Figures/Nelder-Mead.pdf, id=1454, 495.2605pt x 431.70746
+<chapters/Introduction/Figures/Nelder-Mead.pdf, id=1455, 495.2605pt x 431.70746
 pt>
 File: chapters/Introduction/Figures/Nelder-Mead.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/Nelder-Mead.pdf>
@@ -2165,7 +2165,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Introduction/Figures/Nelder-
 Mead.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >] [26]
-<chapters/Introduction/Figures/classifier_comparision.pdf, id=1528, 920.662pt x
+<chapters/Introduction/Figures/classifier_comparision.pdf, id=1529, 920.662pt x
  631.25264pt>
 File: chapters/Introduction/Figures/classifier_comparision.pdf Graphic file (ty
 pe pdf)
@@ -2177,12 +2177,6 @@ df  used on input line 14.
 Underfull \hbox (badness 1067) in paragraph at lines 15--15
 []\T1/lmr/m/n/12 Figure 1.15: |\T1/lmr/bx/n/12 Com-par-i-son be-tween the some 
 of the com-monly used
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 15--15
-\T1/lmr/m/n/12 of each clas-si-fier is shown on bot-tom right. Adapted from htt
-ps://scikit-
  []
 
 
@@ -2202,7 +2196,7 @@ se (http://targetdb.rcsb.org/
  []
 
 [29] [30]
-<chapters/TIsigner/Figs/fig1.png, id=1668, 767.86874pt x 2006.49625pt>
+<chapters/TIsigner/Figs/fig1.png, id=1669, 767.86874pt x 2006.49625pt>
 File: chapters/TIsigner/Figs/fig1.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig1.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig1.png  used on input line 24
@@ -2229,7 +2223,7 @@ Underfull \hbox (badness 1484) in paragraph at lines 27--27
  []
 
 [31] [32 <./chapters/TIsigner/Figs/fig1.png>] [33]
-<chapters/TIsigner/Figs/fig2.png, id=1718, 689.57625pt x 2006.49625pt>
+<chapters/TIsigner/Figs/fig2.png, id=1719, 689.57625pt x 2006.49625pt>
 File: chapters/TIsigner/Figs/fig2.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig2.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig2.png  used on input line 47
@@ -2256,14 +2250,14 @@ Underfull \hbox (badness 1082) in paragraph at lines 50--50
  []
 
 [34] [35 <./chapters/TIsigner/Figs/fig2.png>]
-<chapters/TIsigner/Figs/fig3.png, id=1750, 2006.49625pt x 1789.68625pt>
+<chapters/TIsigner/Figs/fig3.png, id=1751, 2006.49625pt x 1789.68625pt>
 File: chapters/TIsigner/Figs/fig3.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig3.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig3.png  used on input line 63
 .
 (pdftex.def)             Requested size: 429.3521pt x 382.94539pt.
  [36] [37 <./chapters/TIsigner/Figs/fig3.png>] [38] [39]
-<chapters/TIsigner/Figs/fig4.png, id=1792, 995.72pt x 2006.49625pt>
+<chapters/TIsigner/Figs/fig4.png, id=1793, 995.72pt x 2006.49625pt>
 File: chapters/TIsigner/Figs/fig4.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig4.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig4.png  used on input line 86
@@ -2317,7 +2311,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig1-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig1-eps-converted-to.pdf, id=2026, 582.175pt x 25
+<chapters/Solubility/Figures/fig1-eps-converted-to.pdf, id=2027, 582.175pt x 25
 4.9525pt>
 File: chapters/Solubility/Figures/fig1-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2342,7 +2336,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig2-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig2-eps-converted-to.pdf, id=2084, 666.49pt x 546
+<chapters/Solubility/Figures/fig2-eps-converted-to.pdf, id=2085, 666.49pt x 546
 .04pt>
 File: chapters/Solubility/Figures/fig2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2366,7 +2360,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig3-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig3-eps-converted-to.pdf, id=2095, 781.92125pt x 
+<chapters/Solubility/Figures/fig3-eps-converted-to.pdf, id=2096, 781.92125pt x 
 412.54124pt>
 File: chapters/Solubility/Figures/fig3-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2406,7 +2400,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig4-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig4-eps-converted-to.pdf, id=2291, 727.71875pt x 
+<chapters/Solubility/Figures/fig4-eps-converted-to.pdf, id=2292, 727.71875pt x 
 332.24126pt>
 File: chapters/Solubility/Figures/fig4-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2436,7 +2430,7 @@ Overfull \hbox (6.6781pt too wide) in paragraph at lines 65--65
 (./chapters/Signal_Peptide/signal.tex [67
 
 ] [68] [69]
-<chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png, id=2468, 749.
+<chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png, id=2469, 749.
 4399pt x 354.123pt>
 File: chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png Graphic f
 ile (type png)
@@ -2446,7 +2440,7 @@ toxin.png  used on input line 23.
 (pdftex.def)             Requested size: 429.3521pt x 202.87344pt.
  [70 <./chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png>]
 <chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_with_toxi
-n.png, id=2481, 717.4002pt x 467.1051pt>
+n.png, id=2482, 717.4002pt x 467.1051pt>
 File: chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_with
 _toxin.png Graphic file (type png)
 <use chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_with_
@@ -2456,7 +2450,7 @@ cleavage_sites_with_toxin.png  used on input line 35.
 (pdftex.def)             Requested size: 429.3521pt x 279.5596pt.
  [71 <./chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_wi
 th_toxin.png>]
-<chapters/Signal_Peptide/Figures/fig4_tox.png, id=2493, 1870.99pt x 2006.49625p
+<chapters/Signal_Peptide/Figures/fig4_tox.png, id=2494, 1870.99pt x 2006.49625p
 t>
 File: chapters/Signal_Peptide/Figures/fig4_tox.png Graphic file (type png)
 <use chapters/Signal_Peptide/Figures/fig4_tox.png>
@@ -2480,7 +2474,7 @@ niProt (N=561,776,
  []
 
 [75] [76]
-<chapters/Signal_Peptide/Figures/flowchart-fs8.png, id=2562, 318.83115pt x 236.
+<chapters/Signal_Peptide/Figures/flowchart-fs8.png, id=2563, 318.83115pt x 236.
 5638pt>
 File: chapters/Signal_Peptide/Figures/flowchart-fs8.png Graphic file (type png)
 
@@ -2535,7 +2529,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig1-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf, id=2667, 610.28pt x 457.7
+<chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf, id=2668, 610.28pt x 457.7
 1pt>
 File: chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2547,7 +2541,7 @@ sed on input line 115.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig2.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/TIsigner_Web/Fig/fig2.pdf, id=2702, 120.32954pt x 149.96025pt>
+<chapters/TIsigner_Web/Fig/fig2.pdf, id=2703, 120.32954pt x 149.96025pt>
 File: chapters/TIsigner_Web/Fig/fig2.pdf Graphic file (type pdf)
 <use chapters/TIsigner_Web/Fig/fig2.pdf>
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig2.pdf  used on input line
@@ -2557,7 +2551,7 @@ Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig2.pdf  used on input line
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig3.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/TIsigner_Web/Fig/fig3.pdf, id=2731, 484.9558pt x 587.70464pt>
+<chapters/TIsigner_Web/Fig/fig3.pdf, id=2732, 484.9558pt x 587.70464pt>
 File: chapters/TIsigner_Web/Fig/fig3.pdf Graphic file (type pdf)
 <use chapters/TIsigner_Web/Fig/fig3.pdf>
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig3.pdf  used on input line
@@ -2567,7 +2561,7 @@ Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig3.pdf  used on input line
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig4.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/TIsigner_Web/Fig/fig4.pdf, id=2763, 120.93181pt x 114.30705pt>
+<chapters/TIsigner_Web/Fig/fig4.pdf, id=2764, 120.93181pt x 114.30705pt>
 File: chapters/TIsigner_Web/Fig/fig4.pdf Graphic file (type pdf)
 <use chapters/TIsigner_Web/Fig/fig4.pdf>
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig4.pdf  used on input line
@@ -2589,7 +2583,7 @@ Overfull \hbox (0.88567pt too wide) in paragraph at lines 3--3
 [91
 
 ]
-<chapters/Discussion/Figures/terminator_prompt.png, id=2802, 1131.22626pt x 309
+<chapters/Discussion/Figures/terminator_prompt.png, id=2803, 1131.22626pt x 309
 .155pt>
 File: chapters/Discussion/Figures/terminator_prompt.png Graphic file (type png)
 
@@ -2598,7 +2592,7 @@ Package pdftex.def Info: chapters/Discussion/Figures/terminator_prompt.png  use
 d on input line 8.
 (pdftex.def)             Requested size: 429.3521pt x 117.3386pt.
  [92 <./chapters/Discussion/Figures/terminator_prompt.png>]
-<chapters/Discussion/Figures/tisigner_stats.png, id=2813, 613.8132pt x 649.2255
+<chapters/Discussion/Figures/tisigner_stats.png, id=2814, 613.8132pt x 649.2255
 pt>
 File: chapters/Discussion/Figures/tisigner_stats.png Graphic file (type png)
 <use chapters/Discussion/Figures/tisigner_stats.png>
@@ -2606,7 +2600,7 @@ Package pdftex.def Info: chapters/Discussion/Figures/tisigner_stats.png  used o
 n input line 29.
 (pdftex.def)             Requested size: 343.48299pt x 363.31613pt.
  [93] [94 <./chapters/Discussion/Figures/tisigner_stats.png>]
-<chapters/Discussion/Figures/control_system.png, id=2826, 381.3447pt x 145.8649
+<chapters/Discussion/Figures/control_system.png, id=2827, 381.3447pt x 145.8649
 4pt>
 File: chapters/Discussion/Figures/control_system.png Graphic file (type png)
 <use chapters/Discussion/Figures/control_system.png>
@@ -2614,7 +2608,7 @@ Package pdftex.def Info: chapters/Discussion/Figures/control_system.png  used o
 n input line 40.
 (pdftex.def)             Requested size: 429.3521pt x 164.22673pt.
  [95 <./chapters/Discussion/Figures/control_system.png>]
-<chapters/Discussion/Figures/cambray_fitting.pdf, id=2837, 339.73488pt x 328.21
+<chapters/Discussion/Figures/cambray_fitting.pdf, id=2838, 339.73488pt x 328.21
 057pt>
 File: chapters/Discussion/Figures/cambray_fitting.pdf Graphic file (type pdf)
 <use chapters/Discussion/Figures/cambray_fitting.pdf>
@@ -2626,7 +2620,7 @@ Underfull \hbox (badness 1881) in paragraph at lines 67--68
 \T1/lmr/m/n/12 cause the max-i-mum out-put can be
  []
 
-<chapters/Discussion/Figures/refitting_tisigner.png, id=2842, 703.54845pt x 630
+<chapters/Discussion/Figures/refitting_tisigner.png, id=2843, 703.54845pt x 630
 .79665pt>
 File: chapters/Discussion/Figures/refitting_tisigner.png Graphic file (type png
 )
@@ -2657,57 +2651,57 @@ m-bled in pML2(+)WF
  []
 
 [101]
-<appendix/TIsigner/Figs/S1.png, id=2921, 917.4275pt x 272.01625pt>
+<appendix/TIsigner/Figs/S1.png, id=2922, 917.4275pt x 272.01625pt>
 File: appendix/TIsigner/Figs/S1.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S1.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S1.png  used on input line 46.
 (pdftex.def)             Requested size: 429.3521pt x 127.30391pt.
-<appendix/TIsigner/Figs/S2.png, id=2924, 650.43pt x 159.59625pt>
+<appendix/TIsigner/Figs/S2.png, id=2925, 650.43pt x 159.59625pt>
 File: appendix/TIsigner/Figs/S2.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S2.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S2.png  used on input line 56.
 (pdftex.def)             Requested size: 429.3521pt x 105.35332pt.
-<appendix/TIsigner/Figs/S3.png, id=2925, 1384.17125pt x 220.825pt>
+<appendix/TIsigner/Figs/S3.png, id=2926, 1384.17125pt x 220.825pt>
 File: appendix/TIsigner/Figs/S3.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S3.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S3.png  used on input line 67.
 (pdftex.def)             Requested size: 429.3521pt x 68.49547pt.
-<appendix/TIsigner/Figs/S4.png, id=2926, 852.18375pt x 892.33376pt>
+<appendix/TIsigner/Figs/S4.png, id=2927, 852.18375pt x 892.33376pt>
 File: appendix/TIsigner/Figs/S4.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S4.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S4.png  used on input line 75.
 (pdftex.def)             Requested size: 429.3521pt x 449.58337pt.
-<appendix/TIsigner/Figs/S5.png, id=2929, 856.19875pt x 888.31876pt>
+<appendix/TIsigner/Figs/S5.png, id=2930, 856.19875pt x 888.31876pt>
 File: appendix/TIsigner/Figs/S5.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S5.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S5.png  used on input line 84.
 (pdftex.def)             Requested size: 429.3521pt x 445.45953pt.
-<appendix/TIsigner/Figs/S6.png, id=2932, 120.45pt x 134.6631pt>
+<appendix/TIsigner/Figs/S6.png, id=2933, 120.45pt x 134.6631pt>
 File: appendix/TIsigner/Figs/S6.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S6.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S6.png  used on input line 95.
 (pdftex.def)             Requested size: 429.3521pt x 480.0628pt.
  [102 <./appendix/TIsigner/Figs/S1.png (PNG copy)> <./appendix/TIsigner/Figs/S2
 .png (PNG copy)>]
-<appendix/TIsigner/Figs/S7.png, id=2943, 1030.85126pt x 2006.49625pt>
+<appendix/TIsigner/Figs/S7.png, id=2944, 1030.85126pt x 2006.49625pt>
 File: appendix/TIsigner/Figs/S7.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S7.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S7.png  used on input line 102.
 
 (pdftex.def)             Requested size: 214.67604pt x 417.85574pt.
-<appendix/TIsigner/Figs/S8.png, id=2954, 241.70569pt x 267.56819pt>
+<appendix/TIsigner/Figs/S8.png, id=2955, 241.70569pt x 267.56819pt>
 File: appendix/TIsigner/Figs/S8.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S8.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S8.png  used on input line 111.
 
 (pdftex.def)             Requested size: 429.3521pt x 475.32674pt.
-<appendix/TIsigner/Figs/S9.png, id=2961, 2006.49625pt x 853.1875pt>
+<appendix/TIsigner/Figs/S9.png, id=2962, 2006.49625pt x 853.1875pt>
 File: appendix/TIsigner/Figs/S9.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S9.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S9.png  used on input line 119.
 
 (pdftex.def)             Requested size: 429.3521pt x 182.5595pt.
-<appendix/TIsigner/Figs/S10.png, id=2964, 725.71124pt x 2006.49625pt>
+<appendix/TIsigner/Figs/S10.png, id=2965, 725.71124pt x 2006.49625pt>
 File: appendix/TIsigner/Figs/S10.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S10.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S10.png  used on input line 128
@@ -2723,13 +2717,13 @@ Underfull \hbox (badness 1168) in paragraph at lines 132--132
 \T1/lmr/m/n/12 in-creases with in-creas-ing num-ber of
  []
 
-<appendix/TIsigner/Figs/S11.png, id=2965, 269.5671pt x 260.8947pt>
+<appendix/TIsigner/Figs/S11.png, id=2966, 269.5671pt x 260.8947pt>
 File: appendix/TIsigner/Figs/S11.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S11.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S11.png  used on input line 137
 .
 (pdftex.def)             Requested size: 214.67604pt x 207.77254pt.
-<appendix/TIsigner/Figs/S12.png, id=2966, 1546.77875pt x 2006.49625pt>
+<appendix/TIsigner/Figs/S12.png, id=2967, 1546.77875pt x 2006.49625pt>
 File: appendix/TIsigner/Figs/S12.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S12.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S12.png  used on input line 144
@@ -2740,13 +2734,13 @@ Underfull \hbox (badness 1755) in paragraph at lines 149--149
 \T1/lmr/bx/n/12 are suc-cess-fully ex-pressed than
  []
 
-<appendix/TIsigner/Figs/S13.png, id=2971, 2006.49625pt x 854.19125pt>
+<appendix/TIsigner/Figs/S13.png, id=2972, 2006.49625pt x 854.19125pt>
 File: appendix/TIsigner/Figs/S13.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S13.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S13.png  used on input line 153
 .
 (pdftex.def)             Requested size: 429.3521pt x 182.77426pt.
-<appendix/TIsigner/Figs/S14.png, id=2972, 462.0462pt x 300.8841pt>
+<appendix/TIsigner/Figs/S14.png, id=2973, 462.0462pt x 300.8841pt>
 File: appendix/TIsigner/Figs/S14.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S14.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S14.png  used on input line 162
@@ -2835,14 +2829,14 @@ LaTeX Warning: Command \r invalid in math mode on input line 5.
 
 
 ]
-<appendix/Solubility/Figs/S1.png, id=3101, 120.45pt x 234.51614pt>
+<appendix/Solubility/Figs/S1.png, id=3102, 120.45pt x 234.51614pt>
 File: appendix/Solubility/Figs/S1.png Graphic file (type png)
 <use appendix/Solubility/Figs/S1.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S1.png  used on input line 39
 .
 (pdftex.def)             Requested size: 279.07623pt x 543.41582pt.
  [128]
-<appendix/Solubility/Figs/S2.png, id=3106, 1606.0pt x 1114.1625pt>
+<appendix/Solubility/Figs/S2.png, id=3107, 1606.0pt x 1114.1625pt>
 File: appendix/Solubility/Figs/S2.png Graphic file (type png)
 <use appendix/Solubility/Figs/S2.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S2.png  used on input line 47
@@ -2854,43 +2848,43 @@ Underfull \hbox (badness 3049) in paragraph at lines 50--50
 r based on
  []
 
-<appendix/Solubility/Figs/S3.png, id=3111, 2509.375pt x 1833.85126pt>
+<appendix/Solubility/Figs/S3.png, id=3112, 2509.375pt x 1833.85126pt>
 File: appendix/Solubility/Figs/S3.png Graphic file (type png)
 <use appendix/Solubility/Figs/S3.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S3.png  used on input line 57
 .
 (pdftex.def)             Requested size: 214.67604pt x 156.86867pt.
-<appendix/Solubility/Figs/S4.png, id=3112, 240.9pt x 84.315pt>
+<appendix/Solubility/Figs/S4.png, id=3113, 240.9pt x 84.315pt>
 File: appendix/Solubility/Figs/S4.png Graphic file (type png)
 <use appendix/Solubility/Figs/S4.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S4.png  used on input line 65
 .
 (pdftex.def)             Requested size: 429.3521pt x 150.28732pt.
-<appendix/Solubility/Figs/S5.png, id=3119, 2509.375pt x 1143.27126pt>
+<appendix/Solubility/Figs/S5.png, id=3120, 2509.375pt x 1143.27126pt>
 File: appendix/Solubility/Figs/S5.png Graphic file (type png)
 <use appendix/Solubility/Figs/S5.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S5.png  used on input line 74
 .
 (pdftex.def)             Requested size: 429.3521pt x 195.60957pt.
-<appendix/Solubility/Figs/S6.png, id=3122, 240.9pt x 82.26735pt>
+<appendix/Solubility/Figs/S6.png, id=3123, 240.9pt x 82.26735pt>
 File: appendix/Solubility/Figs/S6.png Graphic file (type png)
 <use appendix/Solubility/Figs/S6.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S6.png  used on input line 85
 .
 (pdftex.def)             Requested size: 429.3521pt x 146.6375pt.
-<appendix/Solubility/Figs/S7.png, id=3123, 2509.375pt x 969.6225pt>
+<appendix/Solubility/Figs/S7.png, id=3124, 2509.375pt x 969.6225pt>
 File: appendix/Solubility/Figs/S7.png Graphic file (type png)
 <use appendix/Solubility/Figs/S7.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S7.png  used on input line 95
 .
 (pdftex.def)             Requested size: 429.3521pt x 165.8989pt.
-<appendix/Solubility/Figs/S8.png, id=3124, 240.9pt x 88.4103pt>
+<appendix/Solubility/Figs/S8.png, id=3125, 240.9pt x 88.4103pt>
 File: appendix/Solubility/Figs/S8.png Graphic file (type png)
 <use appendix/Solubility/Figs/S8.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S8.png  used on input line 10
 4.
 (pdftex.def)             Requested size: 429.3521pt x 157.58699pt.
-<appendix/Solubility/Figs/S9.png, id=3125, 869.98627pt x 744.23647pt>
+<appendix/Solubility/Figs/S9.png, id=3126, 869.98627pt x 744.23647pt>
 File: appendix/Solubility/Figs/S9.png Graphic file (type png)
 <use appendix/Solubility/Figs/S9.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S9.png  used on input line 11
@@ -2927,27 +2921,27 @@ Overfull \hbox (6.6781pt too wide) in paragraph at lines 85--85
  []
 
 (./appendix/Razor/razor.tex
-<appendix/Razor/Figs/figS1_bitscore_heatmap.png, id=3192, 749.6808pt x 354.123p
+<appendix/Razor/Figs/figS1_bitscore_heatmap.png, id=3193, 749.6808pt x 354.123p
 t>
 File: appendix/Razor/Figs/figS1_bitscore_heatmap.png Graphic file (type png)
 <use appendix/Razor/Figs/figS1_bitscore_heatmap.png>
 Package pdftex.def Info: appendix/Razor/Figs/figS1_bitscore_heatmap.png  used o
 n input line 5.
 (pdftex.def)             Requested size: 429.3521pt x 202.81401pt.
-<appendix/Razor/Figs/AUC_matrix_Eukaryota.png, id=3193, 720.0501pt x 862.1811pt
+<appendix/Razor/Figs/AUC_matrix_Eukaryota.png, id=3194, 720.0501pt x 862.1811pt
 >
 File: appendix/Razor/Figs/AUC_matrix_Eukaryota.png Graphic file (type png)
 <use appendix/Razor/Figs/AUC_matrix_Eukaryota.png>
 Package pdftex.def Info: appendix/Razor/Figs/AUC_matrix_Eukaryota.png  used on 
 input line 14.
 (pdftex.def)             Requested size: 429.3521pt x 514.10263pt.
-<appendix/Razor/Figs/AUC_matrix_Toxins.png, id=3194, 720.0501pt x 865.7946pt>
+<appendix/Razor/Figs/AUC_matrix_Toxins.png, id=3195, 720.0501pt x 865.7946pt>
 File: appendix/Razor/Figs/AUC_matrix_Toxins.png Graphic file (type png)
 <use appendix/Razor/Figs/AUC_matrix_Toxins.png>
 Package pdftex.def Info: appendix/Razor/Figs/AUC_matrix_Toxins.png  used on inp
 ut line 24.
 (pdftex.def)             Requested size: 429.3521pt x 516.25731pt.
-<appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png, id=3195, 70
+<appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png, id=3196, 70
 9.33005pt x 445.9059pt>
 File: appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png Graphic
  file (type png)
@@ -2960,7 +2954,7 @@ tes_all.png  used on input line 34.
  <./appendix/Razor/Figs/figS1_bitscore_heatmap.png>] [139 <./appendix/Razor/Fig
 s/AUC_matrix_Eukaryota.png>] [140 <./appendix/Razor/Figs/AUC_matrix_Toxins.png>
 ] [141 <./appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png>]
-<appendix/Razor/Figs/toxins_GO_biological_process.pdf, id=3216, 990.63226pt x 1
+<appendix/Razor/Figs/toxins_GO_biological_process.pdf, id=3217, 990.63226pt x 1
 813.23357pt>
 File: appendix/Razor/Figs/toxins_GO_biological_process.pdf Graphic file (type p
 df)
@@ -2968,7 +2962,7 @@ df)
 Package pdftex.def Info: appendix/Razor/Figs/toxins_GO_biological_process.pdf  
 used on input line 45.
 (pdftex.def)             Requested size: 322.01407pt x 589.4046pt.
-<appendix/Razor/Figs/toxins_GO_molecular_function.pdf, id=3217, 991.25642pt x 1
+<appendix/Razor/Figs/toxins_GO_molecular_function.pdf, id=3218, 991.25642pt x 1
 245.85764pt>
 File: appendix/Razor/Figs/toxins_GO_molecular_function.pdf Graphic file (type p
 df)
@@ -3091,10 +3085,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 61D81ED240A3443710C642D3FF399F4D;8585.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3103,7 +3093,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
 Here is how much of TeX's memory you used:
  41142 strings out of 494923
  818143 string characters out of 6180742
- 1468100 words of memory out of 5000000
+ 1468228 words of memory out of 5000000
  43009 multiletter control sequences out of 15000+600000
  620855 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -3125,10 +3115,10 @@ nts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on main.pdf (187 pages, 35598647 bytes).
+Output written on main.pdf (187 pages, 35598589 bytes).
 PDF statistics:
- 4233 PDF objects out of 4296 (max. 8388607)
- 3448 compressed objects within 35 object streams
+ 4234 PDF objects out of 4296 (max. 8388607)
+ 3449 compressed objects within 35 object streams
  690 named destinations out of 1000 (max. 500000)
  1207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
