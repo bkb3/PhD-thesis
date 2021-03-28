@@ -11,3 +11,8 @@ These are the configurations that work.
      `Biber`
  - Bibliography > Type 
      `BibLaTeX`
+ - `sudo apt-get install texlive-fonts-extra` for extra fonts. Else comment out these lines in `preamble/packages.tex`:
+      ```sh
+      \usepackage{gfsartemisia-euler}
+      \usepackage[T1]{fontenc}
+      ```

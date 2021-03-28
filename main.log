@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  29 MAR 2021 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  29 MAR 2021 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1257,6 +1257,138 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )))
 (./preamble/packages.tex
+(/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/gfsartemisia-euler.sty
+File: gfsartemisia-euler.sty 2007/10/07 v1.0 Package `gfsartemisia-euler.sty'
+ 
+*****************************************************************
+ GFS-Artemisia-Euler style file by A. Tsolomitis and I. Vasilogiorgakis 
+*****************************************************************
+(/usr/share/texlive/texmf-dist/tex/latex/euler/euler.sty
+Package: euler 1995/03/05 v2.5
+
+Package: `euler' v2.5 <1995/03/05> (FJ and FMi)
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 35.
+LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
+(Font)              `letters' in the math version `normal' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> U/eur/m/n on input line 35.
+LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
+(Font)              `letters' in the math version `bold' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/lmm/b/it --> U/eur/m/n on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
+\symEulerFraktur=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `EulerFraktur' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 63.
+LaTeX Info: Redefining \oldstylenums on input line 85.
+\symEulerScript=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `EulerScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \aleph on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Re on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \Im on input line 99.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 101.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 114.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 116.
+LaTeX Font Info:    Redeclaring math symbol \mathsection on input line 117.
+\symEulerExtension=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \coprod@ on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \prod@ on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \sum@ on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 163.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 166.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 168.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 170.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 172.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 174.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 178.
+
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 180
+.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 182.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 184.
+\symcmmigroup=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `cmmigroup' in version `bold'
+(Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 200.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 211.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 245.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 246.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 247.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 248.
+LaTeX Font Info:    Redeclaring math accent \check on input line 249.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 250.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 252.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
+)
+\symartemisiaeulernumbers=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> T1/artemisiaeuler/m/n on input line 103
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> T1/artemisiaeuler/b/n on input line 10
+4.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> T1/artemisiaeuler/m/it on input line 1
+05.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 106.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 107.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count470
@@ -1267,10 +1399,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+\symAMSa=\mathgroup9
+\symAMSb=\mathgroup10
+LaTeX Info: Redefining \frak on input line 111.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -1672,10 +1803,13 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 22.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+LaTeX Font Info:    Try loading font information for T1+artemisiaeuler on input
+ line 22.
+
+(/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/t1artemisiaeuler.fd)
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 11.75995pt on input line 22.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count499
@@ -1775,6 +1909,49 @@ Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 22.
 Package biblatex Info: Reference segment=0 on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> T1/artemisiaeuler/m/n on input line 22.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> T1/artemisiaeuler/m/n on input line 22
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/artemisiaeuler/m/n --> T1/artemisiaeuler/bx/n on inp
+ut line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  T1/artemisiaeuler/b/n --> T1/artemisiaeuler/bx/n on inp
+ut line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> T1/artemisiaeuler/bx/n on input line 2
+2.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  T1/lmss/m/n --> T1/lmss/m/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  T1/artemisiaeuler/m/it --> T1/artemisiaeuler/m/it on in
+put line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> T1/artemisiaeuler/m/it on input line 
+22.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  T1/lmtt/m/n --> T1/lmtt/m/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/artemisiaeuler/m/it --> T1/artemisiaeuler/bx/it on i
+nput line 22.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -1832,20 +2009,29 @@ LaTeX Info: Redefining \selectfont on input line 126.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 20.3251pt on input line 31.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 20.3251pt on input line 31.
 <logo.png, id=435, 194.6472pt x 322.806pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 31.
 (pdftex.def)             Requested size: 65.36536pt x 108.405pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 31.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 14.11192pt on input line 31.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 31.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 9.79996pt on input line 31.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 6.85997pt on input line 31.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 4.89998pt on input line 31.
+LaTeX Font Info:    Try loading font information for U+eur on input line 31.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 31.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 31.
 
@@ -1865,6 +2051,31 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 31.
+LaTeX Font Info:    Try loading font information for U+euf on input line 31.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+LaTeX Font Info:    Try loading font information for U+eus on input line 31.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
+)
+LaTeX Font Info:    Try loading font information for U+euex on input line 31.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuex.fd
+File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
+)
+LaTeX Font Info:    Try loading font information for OT1+artemisiaeuler on inpu
+t line 31.
+
+(/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/ot1artemisiaeuler.fd)
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 31.
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 6.85997pt on input line 31.
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 4.89998pt on input line 31.
 LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1874,7 +2085,10 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/it' will be
+(Font)              scaled to size 9.79996pt on input line 31.
+ [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
@@ -1910,7 +2124,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./chapters/blank-pages.tex)
+ (./chapters/blank-pages.tex
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 24.3823pt on input line 5.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 24.3823pt on input line 5.
+)
 (./chapters/acknowledgements.tex [1
 
 
@@ -1918,49 +2137,73 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 7.83997pt on input line 3.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 5.87997pt on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 11.75995pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 7.83997pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 5.87997pt on input line 3.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) (./chapters/publications.tex
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 16.93431pt on input line 1.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 16.93431pt on input line 1.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 11.75995pt on input line 3.
+
+Overfull \hbox (11.31844pt too wide) in paragraph at lines 3--4
+[]\T1/artemisiaeuler/bx/n/12 Bikash K Bhan-dari$[]$\T1/artemisiaeuler/m/n/12 , 
+Paul P Gard-ner, Chun Shen Lim$[]$, Solubility-Weighted
+ []
+
+
+Overfull \hbox (0.98932pt too wide) in paragraph at lines 3--4
+\T1/artemisiaeuler/m/n/12 Vol-ume 36, Is-sue 18, 15 Septem-ber 2020, Pages 4691
+^^U4698, []https://doi.org/10 
+ []
+
 [3
 
 
-]) [4] (./main.toc [5
+]
+Overfull \hbox (1.46762pt too wide) in paragraph at lines 7--8
+\T1/artemisiaeuler/m/n/12 Re-search, 2021;, gkab175, []https://doi.org/10.1093/
+nar/gkab175[]. (Re-lated Chap-
+ []
+
+) [4] (./main.toc [5
 
 
 ] [6] [7])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [8] (./main.lof [9
+ [8] (./main.lof
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/it' will be
+(Font)              scaled to size 11.75995pt on input line 41.
+ [9
 
 
-]
-Overfull \hbox (1.21442pt too wide) in paragraph at lines 71--71
- [][] [][]\T1/lmr/m/n/12 The re-sults of TIsigner shows a pro-tein ex-pres-sion
- op-ti-mised nu-cleotide 
+] [10] [11]
+Overfull \hbox (0.10577pt too wide) detected at line 143
+ []\T1/artemisiaeuler/m/n/12 144
  []
 
-
-Overfull \hbox (8.2006pt too wide) in paragraph at lines 81--81
- [][] [][]\T1/lmr/m/n/12 TISIGNER.com web ser-vice is get-ting pop-u-lar among 
-re-searchers world- 
- []
-
-[10]
-Overfull \hbox (6.08095pt too wide) in paragraph at lines 131--131
- [][] [][]\T1/lmr/m/n/12 Relationship be-tween pro-tein sol-u-bil-ity and sur-f
-ace amino acid residues. 
- []
-
-[11])
+)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
@@ -1982,7 +2225,7 @@ l.10
 
 
 ]
-<chapters/Introduction/Figures/Status_of_protein_expression(2).pdf, id=901, 898
+<chapters/Introduction/Figures/Status_of_protein_expression(2).pdf, id=906, 898
 .14862pt x 406.50085pt>
 File: chapters/Introduction/Figures/Status_of_protein_expression(2).pdf Graphic
  file (type pdf)
@@ -1991,7 +2234,9 @@ Package pdftex.def Info: chapters/Introduction/Figures/Status_of_protein_expres
 sion(2).pdf  used on input line 14.
 (pdftex.def)             Requested size: 429.3521pt x 194.32425pt.
  (./chapters/Introduction/ProteinExpression/ProteinExpression.tex
-<chapters/Introduction/Figures/transc_transl.pdf, id=903, 495.17906pt x 124.886
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 14.11192pt on input line 1.
+<chapters/Introduction/Figures/transc_transl.pdf, id=908, 495.17906pt x 124.886
 95pt>
 File: chapters/Introduction/Figures/transc_transl.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/transc_transl.pdf>
@@ -2001,7 +2246,7 @@ on input line 7.
 
 [2 <./chapters/Introduction/Figures/Status_of_protein_expression(2).pdf>]
 [3 <./chapters/Introduction/Figures/transc_transl.pdf>]
-<chapters/Introduction/Figures/translation.jpg, id=957, 262.0992pt x 452.4102pt
+<chapters/Introduction/Figures/translation.jpg, id=963, 262.0992pt x 452.4102pt
 >
 File: chapters/Introduction/Figures/translation.jpg Graphic file (type jpg)
 <use chapters/Introduction/Figures/translation.jpg>
@@ -2016,7 +2261,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 [6])
 (./chapters/Introduction/ProteinExpression/Features/SecondaryStructures.tex
-<chapters/Introduction/Figures/sec_str_rbs.jpg, id=1005, 308.352pt x 222.1098pt
+<chapters/Introduction/Figures/sec_str_rbs.jpg, id=1009, 308.352pt x 222.1098pt
 >
 File: chapters/Introduction/Figures/sec_str_rbs.jpg Graphic file (type jpg)
 <use chapters/Introduction/Figures/sec_str_rbs.jpg>
@@ -2032,7 +2277,9 @@ File: chapters/Introduction/Figures/accs.pdf Graphic file (type pdf)
 Package pdftex.def Info: chapters/Introduction/Figures/accs.pdf  used on input 
 line 21.
 (pdftex.def)             Requested size: 429.3521pt x 285.22018pt.
-<chapters/Introduction/Figures/interac.pdf, id=1084, 498.36188pt x 178.41656pt>
+ [12]
+[13 <./chapters/Introduction/Figures/accs.pdf>]
+<chapters/Introduction/Figures/interac.pdf, id=1117, 498.36188pt x 178.41656pt>
 
 File: chapters/Introduction/Figures/interac.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/interac.pdf>
@@ -2044,25 +2291,14 @@ Overfull \hbox (85.86911pt too wide) in paragraph at lines 51--52
  [] 
  []
 
-
-Underfull \hbox (badness 1635) in paragraph at lines 52--52
-[]\T1/lmr/m/n/12 Figure 1.6: |\T1/lmr/bx/n/12 RNA:RNA in-ter-ac-tion
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 52--52
-\T1/lmr/bx/n/12 and no-ta-tions used for par-ti-tion
- []
-
-[12] [13 <./chapters/Introduction/Figures/accs.pdf>]))
-(./chapters/Introduction/Solubility/Solubility.tex [14 <./chapters/Introduction
-/Figures/interac.pdf>]
+)) (./chapters/Introduction/Solubility/Solubility.tex [14 <./chapters/Introduct
+ion/Figures/interac.pdf>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 14.
 
 [15]
-<chapters/Introduction/Figures/flex_and_hydrop.png, id=1172, 753.2943pt x 656.3
+<chapters/Introduction/Figures/flex_and_hydrop.png, id=1171, 753.2943pt x 656.3
 3205pt>
 File: chapters/Introduction/Figures/flex_and_hydrop.png Graphic file (type png)
 
@@ -2070,21 +2306,21 @@ File: chapters/Introduction/Figures/flex_and_hydrop.png Graphic file (type png)
 Package pdftex.def Info: chapters/Introduction/Figures/flex_and_hydrop.png  use
 d on input line 26.
 (pdftex.def)             Requested size: 429.3521pt x 374.08311pt.
- [16 <./chapters/Introduction/Figures/flex_and_hydrop.png>]
+ [16] [17 <./chapters/Introduction/Figures/flex_and_hydrop.png>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 61.
 
-[17]
-<chapters/Introduction/Figures/bfactors.pdf, id=1210, 274.90515pt x 267.46112pt
+[18]
+<chapters/Introduction/Figures/bfactors.pdf, id=1219, 274.90515pt x 267.46112pt
 >
 File: chapters/Introduction/Figures/bfactors.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/bfactors.pdf>
 Package pdftex.def Info: chapters/Introduction/Figures/bfactors.pdf  used on in
 put line 100.
 (pdftex.def)             Requested size: 193.20712pt x 187.98466pt.
- [18 <./chapters/Introduction/Figures/bfactors.pdf>])
+ [19 <./chapters/Introduction/Figures/bfactors.pdf>])
 (./chapters/Introduction/SignalPeptide/SignalPeptide.tex
-<chapters/Introduction/SignalPeptide/Figures/signal_peptide.png, id=1274, 1065.
+<chapters/Introduction/SignalPeptide/Figures/signal_peptide.png, id=1289, 1065.
 9825pt x 204.5241pt>
 File: chapters/Introduction/SignalPeptide/Figures/signal_peptide.png Graphic fi
 le (type png)
@@ -2092,7 +2328,7 @@ le (type png)
 Package pdftex.def Info: chapters/Introduction/SignalPeptide/Figures/signal_pep
 tide.png  used on input line 6.
 (pdftex.def)             Requested size: 429.3521pt x 82.37616pt.
-<chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf, id=1276, 281
+<chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf, id=1291, 281
 .11273pt x 259.1927pt>
 File: chapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf Graphic 
 file (type pdf)
@@ -2100,28 +2336,22 @@ file (type pdf)
 Package pdftex.def Info: chapters/Introduction/SignalPeptide/Figures/sp_nosp_li
 neplot.pdf  used on input line 14.
 (pdftex.def)             Requested size: 193.20712pt x 178.14313pt.
- [19]
-Underfull \hbox (badness 1117) in paragraph at lines 19--20
-\T1/lmr/m/n/12 residues which of-ten form a $\OML/lmm/m/it/12 ^^L$\T1/lmr/m/n/1
-2 -sheet
+ [20 <./chapters/Introduction/SignalPeptide/Figures/signal_peptide.png>]
+Underfull \hbox (badness 3954) in paragraph at lines 19--20
+[][]\T1/artemisiaeuler/m/n/12 N-region usu-ally con-sists of 2-5
  []
 
-) (./chapters/Introduction/OptimisationMethods/OptimisationMethods.tex
-Underfull \hbox (badness 2671) in paragraph at lines 1--1
-|[]\T1/lmr/bx/n/17.28 Mathematical op-
- []
-
-[20 <./chapters/Introduction/SignalPeptide/Figures/signal_peptide.png> <./chapt
-ers/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf>] [21]
-<chapters/Introduction/Figures/rastrigin.pdf, id=1377, 456.96506pt x 218.2554pt
+) (./chapters/Introduction/OptimisationMethods/OptimisationMethods.tex [21 <./c
+hapters/Introduction/SignalPeptide/Figures/sp_nosp_lineplot.pdf>] [22]
+<chapters/Introduction/Figures/rastrigin.pdf, id=1386, 456.96506pt x 218.2554pt
 >
 File: chapters/Introduction/Figures/rastrigin.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/rastrigin.pdf>
 Package pdftex.def Info: chapters/Introduction/Figures/rastrigin.pdf  used on i
 nput line 47.
 (pdftex.def)             Requested size: 429.3521pt x 205.07683pt.
- [22]
-<chapters/Introduction/Figures/simulated_annealing.pdf, id=1385, 493.3423pt x 2
+ [23]
+<chapters/Introduction/Figures/simulated_annealing.pdf, id=1394, 493.3423pt x 2
 22.35571pt>
 File: chapters/Introduction/Figures/simulated_annealing.pdf Graphic file (type 
 pdf)
@@ -2130,42 +2360,40 @@ Package pdftex.def Info: chapters/Introduction/Figures/simulated_annealing.pdf
  used on input line 55.
 (pdftex.def)             Requested size: 429.3521pt x 193.52252pt.
 
-[23 <./chapters/Introduction/Figures/rastrigin.pdf> <./chapters/Introduction/Fi
+[24 <./chapters/Introduction/Figures/rastrigin.pdf> <./chapters/Introduction/Fi
 gures/simulated_annealing.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Introduction/Figures/simulat
 ed_annealing.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 69.
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 69.
-<chapters/Introduction/Figures/rosen.pdf, id=1448, 464.82254pt x 218.2554pt>
+LaTeX Font Info:    Try loading font information for U+artemisiaeulernums on in
+put line 69.
+ (/usr/share/texlive/texmf-dist/tex/latex/gfsartemisia/uartemisiaeulernums.fd)
+LaTeX Font Info:    Font shape `U/artemisiaeulernums/m/tabnums' will be
+(Font)              scaled to size 11.75995pt on input line 69.
+<chapters/Introduction/Figures/rosen.pdf, id=1456, 464.82254pt x 218.2554pt>
 File: chapters/Introduction/Figures/rosen.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/rosen.pdf>
 Package pdftex.def Info: chapters/Introduction/Figures/rosen.pdf  used on input
  line 87.
 (pdftex.def)             Requested size: 322.01407pt x 151.20248pt.
- [24]
-<chapters/Introduction/Figures/Nelder-Mead.pdf, id=1455, 495.2605pt x 431.70746
+ [25]
+<chapters/Introduction/Figures/Nelder-Mead.pdf, id=1464, 495.2605pt x 431.70746
 pt>
 File: chapters/Introduction/Figures/Nelder-Mead.pdf Graphic file (type pdf)
 <use chapters/Introduction/Figures/Nelder-Mead.pdf>
 Package pdftex.def Info: chapters/Introduction/Figures/Nelder-Mead.pdf  used on
  input line 94.
 (pdftex.def)             Requested size: 322.01407pt x 280.69215pt.
-)
-(./chapters/Introduction/Classifiers/classifiers.tex [25 <./chapters/Introducti
-on/Figures/rosen.pdf> <./chapters/Introduction/Figures/Nelder-Mead.pdf
+) (./chapters/Introduction/Classifiers/classifiers.tex [26 <./chapters/Introduc
+tion/Figures/rosen.pdf> <./chapters/Introduction/Figures/Nelder-Mead.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Introduction/Figures/Nelder-
 Mead.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
->] [26]
-<chapters/Introduction/Figures/classifier_comparision.pdf, id=1529, 920.662pt x
+>] [27]
+<chapters/Introduction/Figures/classifier_comparision.pdf, id=1539, 920.662pt x
  631.25264pt>
 File: chapters/Introduction/Figures/classifier_comparision.pdf Graphic file (ty
 pe pdf)
@@ -2174,117 +2402,128 @@ Package pdftex.def Info: chapters/Introduction/Figures/classifier_comparision.p
 df  used on input line 14.
 (pdftex.def)             Requested size: 429.3521pt x 294.3867pt.
 
-Underfull \hbox (badness 1067) in paragraph at lines 15--15
-[]\T1/lmr/m/n/12 Figure 1.15: |\T1/lmr/bx/n/12 Com-par-i-son be-tween the some 
-of the com-monly used
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\T1/lmr/m/n/12 learn.org/stable/auto_examples/classification/plot_classifier_co
-mparison.html.
+\T1/artemisiaeuler/m/n/12 learn.org/stable/auto_examples/classification/plot_cl
+assifier_comparison.html.
  []
 
-)) [27 <./chapters/Introduction/Figures/classifier_comparision.pdf>]
+)) [28 <./chapters/Introduction/Figures/classifier_comparision.pdf>]
 Chapter 2.
-(./chapters/TIsigner/tisigner.tex [28
+(./chapters/TIsigner/tisigner.tex [29
 
-]
-Overfull \hbox (4.7447pt too wide) in paragraph at lines 7--8
-\T1/lmr/m/n/12 decades, half of the ex-per-i-ments fail in the ex-pres-sion pha
-se (http://targetdb.rcsb.org/ 
+] [30]
+Overfull \hbox (4.39137pt too wide) in paragraph at lines 14--14
+|[]\T1/artemisiaeuler/bx/n/14.4 Accessibility of trans-la-tion ini-ti-a-tion si
+tes strongly cor-
  []
 
-[29] [30]
-<chapters/TIsigner/Figs/fig1.png, id=1669, 767.86874pt x 2006.49625pt>
+[31]
+<chapters/TIsigner/Figs/fig1.png, id=1677, 767.86874pt x 2006.49625pt>
 File: chapters/TIsigner/Figs/fig1.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig1.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig1.png  used on input line 24
 .
 (pdftex.def)             Requested size: 214.67604pt x 560.95787pt.
 
-Underfull \hbox (badness 1448) in paragraph at lines 27--27
-[][]\T1/lmr/m/n/12 : |\T1/lmr/bx/n/12 Cor-re-la-tions be-tween
+Underfull \hbox (badness 1057) in paragraph at lines 27--27
+[][]\T1/artemisiaeuler/m/n/12 : |\T1/artemisiaeuler/bx/n/12 Cor-re-la-tions be-
+tween
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 27--27
-\T1/lmr/m/n/12 GFP ex-pres-sion dataset (N=14,425)
+Underfull \hbox (badness 2564) in paragraph at lines 27--27
+\T1/artemisiaeuler/m/n/12 S6A, sub-sequence l=48 at po-si-
  []
 
-
-Underfull \hbox (badness 1783) in paragraph at lines 27--27
-\T1/lmr/m/n/12 also Sup-ple-men-tary Fig []A.6[]B, sub-
+[32] [33 <./chapters/TIsigner/Figs/fig1.png>]
+Overfull \hbox (13.02142pt too wide) in paragraph at lines 41--42
+[]\T1/artemisiaeuler/m/n/12 We cal-cu-lated the open-ing en-er-gies for all pos
+-si-ble sub-sequences of the PSI:Biology
  []
 
-
-Underfull \hbox (badness 1484) in paragraph at lines 27--27
-\T1/lmr/m/n/12 GFP ex-pres-sion dataset (N=65,536)
- []
-
-[31] [32 <./chapters/TIsigner/Figs/fig1.png>] [33]
-<chapters/TIsigner/Figs/fig2.png, id=1719, 689.57625pt x 2006.49625pt>
+[34]
+<chapters/TIsigner/Figs/fig2.png, id=1726, 689.57625pt x 2006.49625pt>
 File: chapters/TIsigner/Figs/fig2.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig2.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig2.png  used on input line 47
 .
 (pdftex.def)             Requested size: 214.67604pt x 624.64046pt.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/it' will be
+(Font)              scaled to size 11.75995pt on input line 50.
 
-Underfull \hbox (badness 2126) in paragraph at lines 50--50
-[][]\T1/lmr/m/n/12 : |\T1/lmr/bx/n/12 Open-ing en-er-gies of
+Underfull \hbox (badness 1137) in paragraph at lines 50--50
+[][]\T1/artemisiaeuler/m/n/12 : |\T1/artemisiaeuler/bx/n/12 Open-ing en-er-gies
+ of
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 50--50
-\T1/lmr/bx/n/12 re-gions sur-round-ing the Shine-
+Underfull \hbox (badness 1122) in paragraph at lines 50--50
+\T1/artemisiaeuler/bx/n/12 re-gions sur-round-ing the Shine-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 50--50
-\T1/lmr/m/n/12 the PSI:Biology tar-gets us-ing open-
+Underfull \hbox (badness 1132) in paragraph at lines 50--50
+\T1/artemisiaeuler/m/n/12 of open-ing en-ergy. \T1/artemisiaeuler/bx/n/12 (B) \
+T1/artemisiaeuler/m/n/12 Cor-re-la-
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 50--50
-\T1/lmr/m/n/12 crosshair) shows the high-est pre-dic-
+Underfull \hbox (badness 1325) in paragraph at lines 50--50
+\T1/artemisiaeuler/m/n/12 to 18 nt (green crosshair) shows
  []
 
-[34] [35 <./chapters/TIsigner/Figs/fig2.png>]
-<chapters/TIsigner/Figs/fig3.png, id=1751, 2006.49625pt x 1789.68625pt>
+[35] [36 <./chapters/TIsigner/Figs/fig2.png>]
+<chapters/TIsigner/Figs/fig3.png, id=1759, 2006.49625pt x 1789.68625pt>
 File: chapters/TIsigner/Figs/fig3.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig3.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig3.png  used on input line 63
 .
 (pdftex.def)             Requested size: 429.3521pt x 382.94539pt.
- [36] [37 <./chapters/TIsigner/Figs/fig3.png>] [38] [39]
-<chapters/TIsigner/Figs/fig4.png, id=1793, 995.72pt x 2006.49625pt>
+ [37] [38 <./chapters/TIsigner/Figs/fig3.png>] [39] [40]
+<chapters/TIsigner/Figs/fig4.png, id=1801, 995.72pt x 2006.49625pt>
 File: chapters/TIsigner/Figs/fig4.png Graphic file (type png)
 <use chapters/TIsigner/Figs/fig4.png>
 Package pdftex.def Info: chapters/TIsigner/Figs/fig4.png  used on input line 86
 .
 (pdftex.def)             Requested size: 214.67604pt x 432.58234pt.
 
-Underfull \hbox (badness 3769) in paragraph at lines 89--89
-[][]\T1/lmr/m/n/12 : |\T1/lmr/bx/n/12 The yields of het-
+Underfull \hbox (badness 2418) in paragraph at lines 89--89
+[][]\T1/artemisiaeuler/m/n/12 : |\T1/artemisiaeuler/bx/n/12 The yields of het-
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 89--89
-\T1/lmr/bx/n/12 tun-able by syn-ony-mous codon
+Underfull \hbox (badness 2970) in paragraph at lines 89--89
+\T1/artemisiaeuler/bx/n/12 tun-able by syn-ony-mous codon
  []
 
-[40] [41 <./chapters/TIsigner/Figs/fig4.png>] [42] [43] [44] [45] [46] [47]
+[41] [42 <./chapters/TIsigner/Figs/fig4.png>] [43] [44] [45] [46] [47]
+Overfull \hbox (9.60695pt too wide) detected at line 142
+[]
+ []
+
+
+Overfull \hbox (3.7311pt too wide) in paragraph at lines 145--146
+[]\T1/artemisiaeuler/m/n/12 The fit-ted pos-i-tive like-li-hood ra-tios were ob
+-tained from the fol-low-ing 4-parametric
+ []
+
 [48]
-Overfull \hbox (16.13043pt too wide) in paragraph at lines 169--170
-\T1/lmr/m/n/12 Our code and data can be found in our GitHub repos-i-tory (https
-://github.com/Gardner-
+Overfull \hbox (2.12pt too wide) in paragraph at lines 157--158
+\T1/artemisiaeuler/m/n/12 Ex-pOp-ti-mizer web server from Novo-Pro Bio-science 
+(https://www.novoprolabs.com/ 
  []
 
-) [49]
+[49] [50]
+Overfull \hbox (25.65166pt too wide) in paragraph at lines 169--170
+\T1/artemisiaeuler/m/n/12 Our code and data can be found in our GitHub repos-i-
+tory (https://github.com/Gardner-
+ []
+
+) [51]
 Chapter 3.
 
-Overfull \hbox (0.66125pt too wide) in paragraph at lines 62--62
-|\T1/lmr/bx/n/24.88 Solubility-Weighted In-dex: fast and
+Overfull \hbox (2.38486pt too wide) in paragraph at lines 62--62
+|\T1/artemisiaeuler/bx/n/24.88 Solubility-Weighted In-dex: fast and
  []
 
 (./chapters/Solubility/solubility.tex
@@ -2292,9 +2531,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
 
-[50
+[52
 
-] [51] [52]
+] [53] [54]
 Package epstopdf Info: Source file: <chapters/Solubility/Figures/fig1.eps>
 (epstopdf)                    date: 2021-03-25 14:45:47
 (epstopdf)                    size: 364737 bytes
@@ -2311,7 +2550,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig1-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig1-eps-converted-to.pdf, id=2027, 582.175pt x 25
+<chapters/Solubility/Figures/fig1-eps-converted-to.pdf, id=2039, 582.175pt x 25
 4.9525pt>
 File: chapters/Solubility/Figures/fig1-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2319,7 +2558,7 @@ pdf)
 Package pdftex.def Info: chapters/Solubility/Figures/fig1-eps-converted-to.pdf 
  used on input line 28.
 (pdftex.def)             Requested size: 429.3521pt x 188.03166pt.
-[53 <./chapters/Solubility/Figures/fig1-eps-converted-to.pdf>] [54]
+[55 <./chapters/Solubility/Figures/fig1-eps-converted-to.pdf>] [56]
 Package epstopdf Info: Source file: <chapters/Solubility/Figures/fig2.eps>
 (epstopdf)                    date: 2021-03-25 14:45:47
 (epstopdf)                    size: 189356 bytes
@@ -2336,7 +2575,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig2-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig2-eps-converted-to.pdf, id=2085, 666.49pt x 546
+<chapters/Solubility/Figures/fig2-eps-converted-to.pdf, id=2096, 666.49pt x 546
 .04pt>
 File: chapters/Solubility/Figures/fig2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2360,7 +2599,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig3-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig3-eps-converted-to.pdf, id=2096, 781.92125pt x 
+<chapters/Solubility/Figures/fig3-eps-converted-to.pdf, id=2107, 781.92125pt x 
 412.54124pt>
 File: chapters/Solubility/Figures/fig3-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2368,22 +2607,22 @@ pdf)
 Package pdftex.def Info: chapters/Solubility/Figures/fig3-eps-converted-to.pdf 
  used on input line 78.
 (pdftex.def)             Requested size: 429.3521pt x 226.52698pt.
-
-Overfull \hbox (10.93822pt too wide) in paragraph at lines 92--93
-[]\T1/lmr/m/n/12 To val-i-date the cross-validation re-sults, we used a dataset
- in-de-pen-dent of the PSI:Biolgy
- []
-
-[55] [56 <./chapters/Solubility/Figures/fig2-eps-converted-to.pdf>] [57 <./chap
-ters/Solubility/Figures/fig3-eps-converted-to.pdf>] [58] [59]
+[57] [58 <./chapters/Solubility/Figures/fig2-eps-converted-to.pdf>] [59 <./chap
+ters/Solubility/Figures/fig3-eps-converted-to.pdf>] [60] [61]
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/bx/n' will be
+(Font)              scaled to size 7.83997pt on input line 189.
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 10.73094pt on input line 190.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 191.
+LaTeX Font Info:    Font shape `OT1/artemisiaeuler/m/n' will be
+(Font)              scaled to size 10.73094pt on input line 191.
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--195
 [][]
  []
 
-[60] [61]
+[62] [63]
 Package epstopdf Info: Source file: <chapters/Solubility/Figures/fig4.eps>
 (epstopdf)                    date: 2021-03-25 14:45:47
 (epstopdf)                    size: 231235 bytes
@@ -2400,7 +2639,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/Solubility/Figures/fig4-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-<chapters/Solubility/Figures/fig4-eps-converted-to.pdf, id=2292, 727.71875pt x 
+<chapters/Solubility/Figures/fig4-eps-converted-to.pdf, id=2298, 727.71875pt x 
 332.24126pt>
 File: chapters/Solubility/Figures/fig4-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2408,29 +2647,35 @@ pdf)
 Package pdftex.def Info: chapters/Solubility/Figures/fig4-eps-converted-to.pdf 
  used on input line 209.
 (pdftex.def)             Requested size: 429.3521pt x 196.0257pt.
-[62 <./chapters/Solubility/Figures/fig4-eps-converted-to.pdf>]
-Overfull \hbox (0.2663pt too wide) in paragraph at lines 223--224
-\T1/lmr/m/n/12 ef-fects of sur-face amino acid residues ([]http://www.weizmann.
-ac.il/Structural_Biolog 
+[64] [65 <./chapters/Solubility/Figures/fig4-eps-converted-to.pdf>]
+Overfull \hbox (8.10585pt too wide) in paragraph at lines 223--224
+\T1/artemisiaeuler/m/n/12 ine the ef-fects of sur-face amino acid residues ([]h
+ttp://www.weizmann.ac.il/Structural 
  []
 
-[63] [64] [65]
-Overfull \hbox (10.9774pt too wide) in paragraph at lines 271--272
-\T1/lmr/m/n/12 (SoDoPE) can be found at []https://github.com/Gardner-BinfLab/TI
-SIGNER-ReactJS[]. 
+[66] [67]
+Overfull \hbox (3.49588pt too wide) in paragraph at lines 250--251
+[]\T1/artemisiaeuler/m/n/12 For a con-trol, ran-dom pro-tein se-quences were ge
+n-er-ated with in-cre-men-tal lengths,
  []
 
-) [66]
+[68] [69]
+Overfull \hbox (6.59938pt too wide) in paragraph at lines 271--272
+\T1/artemisiaeuler/m/n/12 (SoDoPE) can be found at []https://github.com/Gardner
+-BinfLab/TISIGNER-ReactJS[]. 
+ []
+
+) [70]
 Chapter 4.
 
-Overfull \hbox (6.6781pt too wide) in paragraph at lines 65--65
-|\T1/lmr/bx/n/24.88 Razor: an-no-ta-tion of sig-nal pep-tides
+Overfull \hbox (4.18912pt too wide) in paragraph at lines 65--65
+|\T1/artemisiaeuler/bx/n/24.88 Razor: an-no-ta-tion of sig-nal pep-tides
  []
 
-(./chapters/Signal_Peptide/signal.tex [67
+(./chapters/Signal_Peptide/signal.tex [71
 
-] [68] [69]
-<chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png, id=2469, 749.
+] [72] [73]
+<chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png, id=2489, 749.
 4399pt x 354.123pt>
 File: chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png Graphic f
 ile (type png)
@@ -2438,9 +2683,9 @@ ile (type png)
 Package pdftex.def Info: chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_
 toxin.png  used on input line 23.
 (pdftex.def)             Requested size: 429.3521pt x 202.87344pt.
- [70 <./chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png>]
+ [74 <./chapters/Signal_Peptide/Figures/fig1_bitscore_heatmap_toxin.png>]
 <chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_with_toxi
-n.png, id=2482, 717.4002pt x 467.1051pt>
+n.png, id=2501, 717.4002pt x 467.1051pt>
 File: chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_with
 _toxin.png Graphic file (type png)
 <use chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_with_
@@ -2448,9 +2693,7 @@ toxin.png>
 Package pdftex.def Info: chapters/Signal_Peptide/Figures/fig3_new_benchmarking_
 cleavage_sites_with_toxin.png  used on input line 35.
 (pdftex.def)             Requested size: 429.3521pt x 279.5596pt.
- [71 <./chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_sites_wi
-th_toxin.png>]
-<chapters/Signal_Peptide/Figures/fig4_tox.png, id=2494, 1870.99pt x 2006.49625p
+<chapters/Signal_Peptide/Figures/fig4_tox.png, id=2507, 1870.99pt x 2006.49625p
 t>
 File: chapters/Signal_Peptide/Figures/fig4_tox.png Graphic file (type png)
 <use chapters/Signal_Peptide/Figures/fig4_tox.png>
@@ -2459,22 +2702,12 @@ input line 45.
 (pdftex.def)             Requested size: 364.95189pt x 391.37236pt.
 
 
-LaTeX Warning: Float too large for page by 10.21336pt on input line 48.
+LaTeX Warning: Float too large for page by 24.71336pt on input line 48.
 
-[72] [73 <./chapters/Signal_Peptide/Figures/fig4_tox.png>] [74]
-Overfull \hbox (0.10567pt too wide) in paragraph at lines 79--80
-\T1/lmr/m/n/12 toxin SP clas-si-fier was eval-u-ated us-ing a sub-set of this i
-n-de-pen-dent set (toxin SPs=47,
- []
-
-
-Overfull \hbox (4.29189pt too wide) in paragraph at lines 79--80
-\T1/lmr/m/n/12 non-SPs=52,055). We also scanned the re-viewed se-quences from U
-niProt (N=561,776,
- []
-
-[75] [76]
-<chapters/Signal_Peptide/Figures/flowchart-fs8.png, id=2563, 318.83115pt x 236.
+[75] [76 <./chapters/Signal_Peptide/Figures/fig3_new_benchmarking_cleavage_site
+s_with_toxin.png>] [77 <./chapters/Signal_Peptide/Figures/fig4_tox.png>]
+[78] [79] [80] [81]
+<chapters/Signal_Peptide/Figures/flowchart-fs8.png, id=2586, 318.83115pt x 236.
 5638pt>
 File: chapters/Signal_Peptide/Figures/flowchart-fs8.png Graphic file (type png)
 
@@ -2482,37 +2715,33 @@ File: chapters/Signal_Peptide/Figures/flowchart-fs8.png Graphic file (type png)
 Package pdftex.def Info: chapters/Signal_Peptide/Figures/flowchart-fs8.png  use
 d on input line 113.
 (pdftex.def)             Requested size: 193.20712pt x 143.35435pt.
-
-Underfull \hbox (badness 1303) in paragraph at lines 120--121
-\T1/lmr/m/n/12 quence or a pro-tein se-quence. Se-
+ [82 <./chapters/Signal_Peptide/Figures/flowchart-fs8.png>]
+Overfull \hbox (3.44884pt too wide) in paragraph at lines 135--137
+\T1/artemisiaeuler/m/n/12 Jupyter note-books for re-pro-duc-ing our anal-y-ses 
+are avail-able at https://github.com/ 
  []
 
-
-Underfull \hbox (badness 1803) in paragraph at lines 120--121
-\T1/lmr/m/n/12 30 residues are padded with Ser-ine
- []
-
-[77 <./chapters/Signal_Peptide/Figures/flowchart-fs8.png>]
-Overfull \hbox (11.53885pt too wide) in paragraph at lines 135--137
-\T1/lmr/m/n/12 tion server can be found at https://github.com/Gardner-BinfLab/T
-ISIGNER-ReactJS. 
- []
-
-) [78]
+) [83]
 Chapter 5.
 
-Overfull \hbox (19.72655pt too wide) in paragraph at lines 69--69
-|\T1/lmr/bx/n/24.88 TISIGNER.com: in-ter-ac-tive web ser-
+Overfull \hbox (8.21233pt too wide) in paragraph at lines 69--69
+|\T1/artemisiaeuler/bx/n/24.88 TISIGNER.com: in-ter-ac-tive web ser-
  []
 
 
-Overfull \hbox (13.33243pt too wide) in paragraph at lines 69--69
-\T1/lmr/bx/n/24.88 vices for im-prov-ing re-com-bi-nant pro-
+Overfull \hbox (20.28148pt too wide) in paragraph at lines 69--69
+\T1/artemisiaeuler/bx/n/24.88 vices for im-prov-ing re-com-bi-nant pro-
  []
 
-(./chapters/TIsigner_Web/tisigner_web.tex [79
+(./chapters/TIsigner_Web/tisigner_web.tex
+Overfull \hbox (14.98416pt too wide) in paragraph at lines 5--17
+[]$\T1/artemisiaeuler/m/n/12 nitiation cod-ing re-gion de$[]$), SoDoPE ($[]$lub
+le $[]$main for $[]$rotein $[]$xpression)
+ []
 
-] [80]
+[84
+
+] [85]
 Package epstopdf Info: Source file: <chapters/TIsigner_Web/Fig/fig1.eps>
 (epstopdf)                    date: 2021-03-25 14:45:47
 (epstopdf)                    size: 183830 bytes
@@ -2529,7 +2758,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig1-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf, id=2668, 610.28pt x 457.7
+<chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf, id=2692, 610.28pt x 457.7
 1pt>
 File: chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2537,53 +2766,48 @@ f)
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf  u
 sed on input line 115.
 (pdftex.def)             Requested size: 429.3521pt x 322.0291pt.
-[81] [82 <./chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf>]
+[86] [87 <./chapters/TIsigner_Web/Fig/fig1-eps-converted-to.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig2.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/TIsigner_Web/Fig/fig2.pdf, id=2703, 120.32954pt x 149.96025pt>
+<chapters/TIsigner_Web/Fig/fig2.pdf, id=2728, 120.32954pt x 149.96025pt>
 File: chapters/TIsigner_Web/Fig/fig2.pdf Graphic file (type pdf)
 <use chapters/TIsigner_Web/Fig/fig2.pdf>
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig2.pdf  used on input line
  154.
 (pdftex.def)             Requested size: 429.3521pt x 535.15189pt.
-[83] [84 <./chapters/TIsigner_Web/Fig/fig2.pdf>]
+[88] [89 <./chapters/TIsigner_Web/Fig/fig2.pdf>] [90]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig3.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/TIsigner_Web/Fig/fig3.pdf, id=2732, 484.9558pt x 587.70464pt>
+<chapters/TIsigner_Web/Fig/fig3.pdf, id=2762, 484.9558pt x 587.70464pt>
 File: chapters/TIsigner_Web/Fig/fig3.pdf Graphic file (type pdf)
 <use chapters/TIsigner_Web/Fig/fig3.pdf>
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig3.pdf  used on input line
  227.
 (pdftex.def)             Requested size: 429.3521pt x 520.33829pt.
-[85] [86] [87 <./chapters/TIsigner_Web/Fig/fig3.pdf>]
+[91] [92 <./chapters/TIsigner_Web/Fig/fig3.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./chapters/TIsigner_Web/Fig/fig4.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/TIsigner_Web/Fig/fig4.pdf, id=2764, 120.93181pt x 114.30705pt>
+<chapters/TIsigner_Web/Fig/fig4.pdf, id=2788, 120.93181pt x 114.30705pt>
 File: chapters/TIsigner_Web/Fig/fig4.pdf Graphic file (type pdf)
 <use chapters/TIsigner_Web/Fig/fig4.pdf>
 Package pdftex.def Info: chapters/TIsigner_Web/Fig/fig4.pdf  used on input line
  292.
 (pdftex.def)             Requested size: 429.3521pt x 405.91493pt.
-[88 <./chapters/TIsigner_Web/Fig/fig4.pdf>] [89]
-Overfull \hbox (17.25533pt too wide) in paragraph at lines 341--344
-[]\T1/lmr/m/n/12 https://github.com/Gardner-BinfLab/Razor[]) and pri-vacy frien
-dly (no user data stored). 
- []
-
-) [90]
+[93 <./chapters/TIsigner_Web/Fig/fig4.pdf>] [94]) [95]
 Chapter 6.
 (./chapters/Discussion/Discussion.tex
-Overfull \hbox (0.88567pt too wide) in paragraph at lines 3--3
-\T1/lmr/bx/n/17.28 (Trans-la-tion Ini-ti-a-tion cod-ing re-gion de-signer)| 
+Overfull \hbox (0.62643pt too wide) in paragraph at lines 3--3
+\T1/artemisiaeuler/bx/n/17.28 (Trans-la-tion Ini-ti-a-tion cod-ing re-gion de-s
+igner)| 
  []
 
-[91
+[96
 
 ]
-<chapters/Discussion/Figures/terminator_prompt.png, id=2803, 1131.22626pt x 309
+<chapters/Discussion/Figures/terminator_prompt.png, id=2827, 1131.22626pt x 309
 .155pt>
 File: chapters/Discussion/Figures/terminator_prompt.png Graphic file (type png)
 
@@ -2591,36 +2815,31 @@ File: chapters/Discussion/Figures/terminator_prompt.png Graphic file (type png)
 Package pdftex.def Info: chapters/Discussion/Figures/terminator_prompt.png  use
 d on input line 8.
 (pdftex.def)             Requested size: 429.3521pt x 117.3386pt.
- [92 <./chapters/Discussion/Figures/terminator_prompt.png>]
-<chapters/Discussion/Figures/tisigner_stats.png, id=2814, 613.8132pt x 649.2255
+ [97 <./chapters/Discussion/Figures/terminator_prompt.png>]
+<chapters/Discussion/Figures/tisigner_stats.png, id=2838, 613.8132pt x 649.2255
 pt>
 File: chapters/Discussion/Figures/tisigner_stats.png Graphic file (type png)
 <use chapters/Discussion/Figures/tisigner_stats.png>
 Package pdftex.def Info: chapters/Discussion/Figures/tisigner_stats.png  used o
 n input line 29.
 (pdftex.def)             Requested size: 343.48299pt x 363.31613pt.
- [93] [94 <./chapters/Discussion/Figures/tisigner_stats.png>]
-<chapters/Discussion/Figures/control_system.png, id=2827, 381.3447pt x 145.8649
+ [98] [99 <./chapters/Discussion/Figures/tisigner_stats.png>]
+<chapters/Discussion/Figures/control_system.png, id=2852, 381.3447pt x 145.8649
 4pt>
 File: chapters/Discussion/Figures/control_system.png Graphic file (type png)
 <use chapters/Discussion/Figures/control_system.png>
 Package pdftex.def Info: chapters/Discussion/Figures/control_system.png  used o
 n input line 40.
 (pdftex.def)             Requested size: 429.3521pt x 164.22673pt.
- [95 <./chapters/Discussion/Figures/control_system.png>]
-<chapters/Discussion/Figures/cambray_fitting.pdf, id=2838, 339.73488pt x 328.21
+ [100 <./chapters/Discussion/Figures/control_system.png>]
+<chapters/Discussion/Figures/cambray_fitting.pdf, id=2861, 339.73488pt x 328.21
 057pt>
 File: chapters/Discussion/Figures/cambray_fitting.pdf Graphic file (type pdf)
 <use chapters/Discussion/Figures/cambray_fitting.pdf>
 Package pdftex.def Info: chapters/Discussion/Figures/cambray_fitting.pdf  used 
 on input line 61.
 (pdftex.def)             Requested size: 214.67604pt x 207.39975pt.
-
-Underfull \hbox (badness 1881) in paragraph at lines 67--68
-\T1/lmr/m/n/12 cause the max-i-mum out-put can be
- []
-
-<chapters/Discussion/Figures/refitting_tisigner.png, id=2843, 703.54845pt x 630
+<chapters/Discussion/Figures/refitting_tisigner.png, id=2866, 703.54845pt x 630
 .79665pt>
 File: chapters/Discussion/Figures/refitting_tisigner.png Graphic file (type png
 )
@@ -2628,273 +2847,224 @@ File: chapters/Discussion/Figures/refitting_tisigner.png Graphic file (type png
 Package pdftex.def Info: chapters/Discussion/Figures/refitting_tisigner.png  us
 ed on input line 73.
 (pdftex.def)             Requested size: 386.41426pt x 346.45796pt.
-) [96 <./chapters/Discussion/Figures/cambray_fitting.pdf>] [97 <./chapters/Disc
-ussion/Figures/refitting_tisigner.png>]
+) [101 <./chapters/Discussion/Figures/cambray_fitting.pdf>] [102 <./chapters/Di
+scussion/Figures/refitting_tisigner.png>]
 Appendix A.
 (./appendix/TIsigner/tisigner.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 7.
 
-[98
+[103
 
-] [99]
-Overfull \hbox (17.33546pt too wide) in paragraph at lines 21--22
-\T1/lmr/m/n/12 PCR prod-ucts, pu-ri-fied us-ing com-mer-cially avail-able colum
-n-based pro-to-cols (Macherey-
+] [104] [105]
+Overfull \hbox (20.55794pt too wide) in paragraph at lines 35--36
+[]\T1/artemisiaeuler/m/n/12 Full-length gfp de-vices for each TIsigner vari-ant
+ were as-sem-bled in pML2(+)WF
  []
 
-[100]
-Overfull \hbox (2.21217pt too wide) in paragraph at lines 35--36
-[]\T1/lmr/m/n/12 Full-length gfp de-vices for each TIsigner vari-ant were as-se
-m-bled in pML2(+)WF
- []
-
-[101]
-<appendix/TIsigner/Figs/S1.png, id=2922, 917.4275pt x 272.01625pt>
+[106]
+<appendix/TIsigner/Figs/S1.png, id=2945, 917.4275pt x 272.01625pt>
 File: appendix/TIsigner/Figs/S1.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S1.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S1.png  used on input line 46.
 (pdftex.def)             Requested size: 429.3521pt x 127.30391pt.
-<appendix/TIsigner/Figs/S2.png, id=2925, 650.43pt x 159.59625pt>
+<appendix/TIsigner/Figs/S2.png, id=2948, 650.43pt x 159.59625pt>
 File: appendix/TIsigner/Figs/S2.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S2.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S2.png  used on input line 56.
 (pdftex.def)             Requested size: 429.3521pt x 105.35332pt.
-<appendix/TIsigner/Figs/S3.png, id=2926, 1384.17125pt x 220.825pt>
+<appendix/TIsigner/Figs/S3.png, id=2949, 1384.17125pt x 220.825pt>
 File: appendix/TIsigner/Figs/S3.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S3.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S3.png  used on input line 67.
 (pdftex.def)             Requested size: 429.3521pt x 68.49547pt.
-<appendix/TIsigner/Figs/S4.png, id=2927, 852.18375pt x 892.33376pt>
+<appendix/TIsigner/Figs/S4.png, id=2950, 852.18375pt x 892.33376pt>
 File: appendix/TIsigner/Figs/S4.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S4.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S4.png  used on input line 75.
 (pdftex.def)             Requested size: 429.3521pt x 449.58337pt.
-<appendix/TIsigner/Figs/S5.png, id=2930, 856.19875pt x 888.31876pt>
+<appendix/TIsigner/Figs/S5.png, id=2953, 856.19875pt x 888.31876pt>
 File: appendix/TIsigner/Figs/S5.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S5.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S5.png  used on input line 84.
 (pdftex.def)             Requested size: 429.3521pt x 445.45953pt.
-<appendix/TIsigner/Figs/S6.png, id=2933, 120.45pt x 134.6631pt>
+<appendix/TIsigner/Figs/S6.png, id=2956, 120.45pt x 134.6631pt>
 File: appendix/TIsigner/Figs/S6.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S6.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S6.png  used on input line 95.
 (pdftex.def)             Requested size: 429.3521pt x 480.0628pt.
- [102 <./appendix/TIsigner/Figs/S1.png (PNG copy)> <./appendix/TIsigner/Figs/S2
+ [107 <./appendix/TIsigner/Figs/S1.png (PNG copy)> <./appendix/TIsigner/Figs/S2
 .png (PNG copy)>]
-<appendix/TIsigner/Figs/S7.png, id=2944, 1030.85126pt x 2006.49625pt>
+<appendix/TIsigner/Figs/S7.png, id=2968, 1030.85126pt x 2006.49625pt>
 File: appendix/TIsigner/Figs/S7.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S7.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S7.png  used on input line 102.
 
 (pdftex.def)             Requested size: 214.67604pt x 417.85574pt.
-<appendix/TIsigner/Figs/S8.png, id=2955, 241.70569pt x 267.56819pt>
+<appendix/TIsigner/Figs/S8.png, id=2979, 241.70569pt x 267.56819pt>
 File: appendix/TIsigner/Figs/S8.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S8.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S8.png  used on input line 111.
 
 (pdftex.def)             Requested size: 429.3521pt x 475.32674pt.
-<appendix/TIsigner/Figs/S9.png, id=2962, 2006.49625pt x 853.1875pt>
+<appendix/TIsigner/Figs/S9.png, id=2986, 2006.49625pt x 853.1875pt>
 File: appendix/TIsigner/Figs/S9.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S9.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S9.png  used on input line 119.
 
 (pdftex.def)             Requested size: 429.3521pt x 182.5595pt.
-<appendix/TIsigner/Figs/S10.png, id=2965, 725.71124pt x 2006.49625pt>
+<appendix/TIsigner/Figs/S10.png, id=2989, 725.71124pt x 2006.49625pt>
 File: appendix/TIsigner/Figs/S10.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S10.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S10.png  used on input line 128
 .
 (pdftex.def)             Requested size: 214.67604pt x 593.53395pt.
 
-Underfull \hbox (badness 4024) in paragraph at lines 132--132
-\T1/lmr/bx/n/12 creased by syn-ony-mous codon
+Underfull \hbox (badness 2818) in paragraph at lines 132--132
+\T1/artemisiaeuler/bx/n/12 creased by syn-ony-mous codon
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 132--132
-\T1/lmr/m/n/12 in-creases with in-creas-ing num-ber of
- []
+LaTeX Warning: Float too large for page by 0.341pt on input line 132.
 
-<appendix/TIsigner/Figs/S11.png, id=2966, 269.5671pt x 260.8947pt>
+<appendix/TIsigner/Figs/S11.png, id=2990, 269.5671pt x 260.8947pt>
 File: appendix/TIsigner/Figs/S11.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S11.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S11.png  used on input line 137
 .
 (pdftex.def)             Requested size: 214.67604pt x 207.77254pt.
-<appendix/TIsigner/Figs/S12.png, id=2967, 1546.77875pt x 2006.49625pt>
+<appendix/TIsigner/Figs/S12.png, id=2991, 1546.77875pt x 2006.49625pt>
 File: appendix/TIsigner/Figs/S12.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S12.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S12.png  used on input line 144
 .
 (pdftex.def)             Requested size: 214.67604pt x 278.45824pt.
 
-Underfull \hbox (badness 1755) in paragraph at lines 149--149
-\T1/lmr/bx/n/12 are suc-cess-fully ex-pressed than
+Underfull \hbox (badness 1292) in paragraph at lines 149--149
+\T1/artemisiaeuler/bx/n/12 are suc-cess-fully ex-pressed than
  []
 
-<appendix/TIsigner/Figs/S13.png, id=2972, 2006.49625pt x 854.19125pt>
+<appendix/TIsigner/Figs/S13.png, id=2996, 2006.49625pt x 854.19125pt>
 File: appendix/TIsigner/Figs/S13.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S13.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S13.png  used on input line 153
 .
 (pdftex.def)             Requested size: 429.3521pt x 182.77426pt.
-<appendix/TIsigner/Figs/S14.png, id=2973, 462.0462pt x 300.8841pt>
+<appendix/TIsigner/Figs/S14.png, id=2997, 462.0462pt x 300.8841pt>
 File: appendix/TIsigner/Figs/S14.png Graphic file (type png)
 <use appendix/TIsigner/Figs/S14.png>
 Package pdftex.def Info: appendix/TIsigner/Figs/S14.png  used on input line 162
 .
 (pdftex.def)             Requested size: 429.3521pt x 279.59892pt.
-[103 <./appendix/TIsigner/Figs/S3.png (PNG copy)>] [104 <./appendix/TIsigner/Fi
-gs/S4.png (PNG copy)>] [105 <./appendix/TIsigner/Figs/S5.png (PNG copy)>]
-[106 <./appendix/TIsigner/Figs/S6.png>] [107 <./appendix/TIsigner/Figs/S7.png>]
-[108 <./appendix/TIsigner/Figs/S8.png>] [109 <./appendix/TIsigner/Figs/S9.png>]
-[110 <./appendix/TIsigner/Figs/S10.png>] [111 <./appendix/TIsigner/Figs/S11.png
-> <./appendix/TIsigner/Figs/S12.png>] [112 <./appendix/TIsigner/Figs/S13.png>]
-[113 <./appendix/TIsigner/Figs/S14.png>] [114
+[108 <./appendix/TIsigner/Figs/S3.png (PNG copy)>] [109 <./appendix/TIsigner/Fi
+gs/S4.png (PNG copy)>] [110 <./appendix/TIsigner/Figs/S5.png (PNG copy)>]
+[111 <./appendix/TIsigner/Figs/S6.png>] [112 <./appendix/TIsigner/Figs/S7.png>]
+[113 <./appendix/TIsigner/Figs/S8.png>] [114 <./appendix/TIsigner/Figs/S9.png>]
+[115 <./appendix/TIsigner/Figs/S10.png>] [116 <./appendix/TIsigner/Figs/S11.png
+> <./appendix/TIsigner/Figs/S12.png>] [117 <./appendix/TIsigner/Figs/S13.png>]
+[118 <./appendix/TIsigner/Figs/S14.png>] [119
 
 ]
-Overfull \hbox (262.54915pt too wide) in alignment at lines 178--184
+Overfull \hbox (249.57275pt too wide) in alignment at lines 178--184
  [] [] 
  []
 
 
-Overfull \hbox (262.54915pt too wide) in alignment at lines 184--191
+Overfull \hbox (249.57275pt too wide) in alignment at lines 184--191
  [] [] 
  []
 
 
-Overfull \hbox (262.54915pt too wide) in alignment at lines 191--207
+Overfull \hbox (249.57275pt too wide) in alignment at lines 191--207
  [] [] 
- []
-
-[115
-
-] [116] [117] [118] [119]
-Overfull \hbox (10.58745pt too wide) in alignment at lines 277--283
- [] [] [] 
- []
-
-
-Overfull \hbox (10.58745pt too wide) in alignment at lines 283--289
- [] [] [] 
- []
-
-
-Overfull \hbox (10.58745pt too wide) in alignment at lines 289--310
- [] [] [] 
- []
-
-
-Overfull \hbox (10.58745pt too wide) in alignment at lines 310--330
- [] [] [] 
  []
 
 [120
 
+] [121] [122] [123] [124] [125
 
-]
-Overfull \hbox (10.58745pt too wide) in alignment at lines 330--350
- [] [] [] 
- []
 
-[121]
-Overfull \hbox (10.58745pt too wide) in alignment at lines 350--370
- [] [] [] 
- []
-
-[122]
-Overfull \hbox (10.58745pt too wide) in alignment at lines 370--391
- [] [] [] 
- []
-
-[123] [124] [125]
+] [126] [127] [128] [129] [130]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 399.
 
-) [126]
+) [131]
 Appendix B.
 
-Overfull \hbox (0.66125pt too wide) in paragraph at lines 82--82
-|\T1/lmr/bx/n/24.88 Solubility-Weighted In-dex: fast and
+Overfull \hbox (2.38486pt too wide) in paragraph at lines 82--82
+|\T1/artemisiaeuler/bx/n/24.88 Solubility-Weighted In-dex: fast and
  []
 
 (./appendix/Solubility/solubility.tex
 
 LaTeX Warning: Command \r invalid in math mode on input line 5.
 
-[127
+[132
 
 
 ]
-<appendix/Solubility/Figs/S1.png, id=3102, 120.45pt x 234.51614pt>
+<appendix/Solubility/Figs/S1.png, id=3126, 120.45pt x 234.51614pt>
 File: appendix/Solubility/Figs/S1.png Graphic file (type png)
 <use appendix/Solubility/Figs/S1.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S1.png  used on input line 39
 .
 (pdftex.def)             Requested size: 279.07623pt x 543.41582pt.
- [128]
-<appendix/Solubility/Figs/S2.png, id=3107, 1606.0pt x 1114.1625pt>
+ [133]
+<appendix/Solubility/Figs/S2.png, id=3132, 1606.0pt x 1114.1625pt>
 File: appendix/Solubility/Figs/S2.png Graphic file (type png)
 <use appendix/Solubility/Figs/S2.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S2.png  used on input line 47
 .
 (pdftex.def)             Requested size: 429.3521pt x 297.85277pt.
-
-Underfull \hbox (badness 3049) in paragraph at lines 50--50
-\T1/lmr/m/n/12 ture Ini-tia-tive:Biology; ROC, Grantham.Xr, Quasi-sequence-orde
-r based on
- []
-
-<appendix/Solubility/Figs/S3.png, id=3112, 2509.375pt x 1833.85126pt>
+<appendix/Solubility/Figs/S3.png, id=3137, 2509.375pt x 1833.85126pt>
 File: appendix/Solubility/Figs/S3.png Graphic file (type png)
 <use appendix/Solubility/Figs/S3.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S3.png  used on input line 57
 .
 (pdftex.def)             Requested size: 214.67604pt x 156.86867pt.
-<appendix/Solubility/Figs/S4.png, id=3113, 240.9pt x 84.315pt>
+<appendix/Solubility/Figs/S4.png, id=3138, 240.9pt x 84.315pt>
 File: appendix/Solubility/Figs/S4.png Graphic file (type png)
 <use appendix/Solubility/Figs/S4.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S4.png  used on input line 65
 .
 (pdftex.def)             Requested size: 429.3521pt x 150.28732pt.
-<appendix/Solubility/Figs/S5.png, id=3120, 2509.375pt x 1143.27126pt>
+<appendix/Solubility/Figs/S5.png, id=3145, 2509.375pt x 1143.27126pt>
 File: appendix/Solubility/Figs/S5.png Graphic file (type png)
 <use appendix/Solubility/Figs/S5.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S5.png  used on input line 74
 .
 (pdftex.def)             Requested size: 429.3521pt x 195.60957pt.
-<appendix/Solubility/Figs/S6.png, id=3123, 240.9pt x 82.26735pt>
+<appendix/Solubility/Figs/S6.png, id=3148, 240.9pt x 82.26735pt>
 File: appendix/Solubility/Figs/S6.png Graphic file (type png)
 <use appendix/Solubility/Figs/S6.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S6.png  used on input line 85
 .
 (pdftex.def)             Requested size: 429.3521pt x 146.6375pt.
-<appendix/Solubility/Figs/S7.png, id=3124, 2509.375pt x 969.6225pt>
+<appendix/Solubility/Figs/S7.png, id=3149, 2509.375pt x 969.6225pt>
 File: appendix/Solubility/Figs/S7.png Graphic file (type png)
 <use appendix/Solubility/Figs/S7.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S7.png  used on input line 95
 .
 (pdftex.def)             Requested size: 429.3521pt x 165.8989pt.
-<appendix/Solubility/Figs/S8.png, id=3125, 240.9pt x 88.4103pt>
+<appendix/Solubility/Figs/S8.png, id=3150, 240.9pt x 88.4103pt>
 File: appendix/Solubility/Figs/S8.png Graphic file (type png)
 <use appendix/Solubility/Figs/S8.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S8.png  used on input line 10
 4.
 (pdftex.def)             Requested size: 429.3521pt x 157.58699pt.
-<appendix/Solubility/Figs/S9.png, id=3126, 869.98627pt x 744.23647pt>
+<appendix/Solubility/Figs/S9.png, id=3151, 869.98627pt x 744.23647pt>
 File: appendix/Solubility/Figs/S9.png Graphic file (type png)
 <use appendix/Solubility/Figs/S9.png>
 Package pdftex.def Info: appendix/Solubility/Figs/S9.png  used on input line 11
 3.
 (pdftex.def)             Requested size: 429.3521pt x 367.29097pt.
-[129 <./appendix/Solubility/Figs/S1.png>] [130 <./appendix/Solubility/Figs/S2.p
-ng>] [131 <./appendix/Solubility/Figs/S3.png> <./appendix/Solubility/Figs/S4.pn
-g>] [132 <./appendix/Solubility/Figs/S5.png> <./appendix/Solubility/Figs/S6.png
->] [133 <./appendix/Solubility/Figs/S7.png> <./appendix/Solubility/Figs/S8.png>
-] [134 <./appendix/Solubility/Figs/S9.png>]
+ [134 <./appendix/Solubility/Figs/S1.png>] [135 <./appendix/Solubility/Figs/S2.
+png>] [136 <./appendix/Solubility/Figs/S3.png> <./appendix/Solubility/Figs/S4.p
+ng>] [137 <./appendix/Solubility/Figs/S5.png> <./appendix/Solubility/Figs/S6.pn
+g>] [138 <./appendix/Solubility/Figs/S7.png> <./appendix/Solubility/Figs/S8.png
+>] [139 <./appendix/Solubility/Figs/S9.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2913,35 +3083,35 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [135] [136] [137]
+) [140] [141] [142]
 Appendix C.
 
-Overfull \hbox (6.6781pt too wide) in paragraph at lines 85--85
-|\T1/lmr/bx/n/24.88 Razor: an-no-ta-tion of sig-nal pep-tides
+Overfull \hbox (4.18912pt too wide) in paragraph at lines 85--85
+|\T1/artemisiaeuler/bx/n/24.88 Razor: an-no-ta-tion of sig-nal pep-tides
  []
 
 (./appendix/Razor/razor.tex
-<appendix/Razor/Figs/figS1_bitscore_heatmap.png, id=3193, 749.6808pt x 354.123p
+<appendix/Razor/Figs/figS1_bitscore_heatmap.png, id=3215, 749.6808pt x 354.123p
 t>
 File: appendix/Razor/Figs/figS1_bitscore_heatmap.png Graphic file (type png)
 <use appendix/Razor/Figs/figS1_bitscore_heatmap.png>
 Package pdftex.def Info: appendix/Razor/Figs/figS1_bitscore_heatmap.png  used o
 n input line 5.
 (pdftex.def)             Requested size: 429.3521pt x 202.81401pt.
-<appendix/Razor/Figs/AUC_matrix_Eukaryota.png, id=3194, 720.0501pt x 862.1811pt
+<appendix/Razor/Figs/AUC_matrix_Eukaryota.png, id=3216, 720.0501pt x 862.1811pt
 >
 File: appendix/Razor/Figs/AUC_matrix_Eukaryota.png Graphic file (type png)
 <use appendix/Razor/Figs/AUC_matrix_Eukaryota.png>
 Package pdftex.def Info: appendix/Razor/Figs/AUC_matrix_Eukaryota.png  used on 
 input line 14.
 (pdftex.def)             Requested size: 429.3521pt x 514.10263pt.
-<appendix/Razor/Figs/AUC_matrix_Toxins.png, id=3195, 720.0501pt x 865.7946pt>
+<appendix/Razor/Figs/AUC_matrix_Toxins.png, id=3217, 720.0501pt x 865.7946pt>
 File: appendix/Razor/Figs/AUC_matrix_Toxins.png Graphic file (type png)
 <use appendix/Razor/Figs/AUC_matrix_Toxins.png>
 Package pdftex.def Info: appendix/Razor/Figs/AUC_matrix_Toxins.png  used on inp
 ut line 24.
 (pdftex.def)             Requested size: 429.3521pt x 516.25731pt.
-<appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png, id=3196, 70
+<appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png, id=3218, 70
 9.33005pt x 445.9059pt>
 File: appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png Graphic
  file (type png)
@@ -2949,12 +3119,16 @@ File: appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png Graphic
 Package pdftex.def Info: appendix/Razor/Figs/figS4_new_benchmarking_cleavage_si
 tes_all.png  used on input line 34.
 (pdftex.def)             Requested size: 429.3521pt x 269.90659pt.
- [138
+Missing character: There is no = in font artemisiab9a!
+Missing character: There is no = in font artemisiab9a!
+Missing character: There is no = in font artemisiab9a!
+Missing character: There is no = in font artemisiab9a!
+ [143
 
- <./appendix/Razor/Figs/figS1_bitscore_heatmap.png>] [139 <./appendix/Razor/Fig
-s/AUC_matrix_Eukaryota.png>] [140 <./appendix/Razor/Figs/AUC_matrix_Toxins.png>
-] [141 <./appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png>]
-<appendix/Razor/Figs/toxins_GO_biological_process.pdf, id=3217, 990.63226pt x 1
+ <./appendix/Razor/Figs/figS1_bitscore_heatmap.png>] [144 <./appendix/Razor/Fig
+s/AUC_matrix_Eukaryota.png>] [145 <./appendix/Razor/Figs/AUC_matrix_Toxins.png>
+] [146 <./appendix/Razor/Figs/figS4_new_benchmarking_cleavage_sites_all.png>]
+<appendix/Razor/Figs/toxins_GO_biological_process.pdf, id=3240, 990.63226pt x 1
 813.23357pt>
 File: appendix/Razor/Figs/toxins_GO_biological_process.pdf Graphic file (type p
 df)
@@ -2962,7 +3136,7 @@ df)
 Package pdftex.def Info: appendix/Razor/Figs/toxins_GO_biological_process.pdf  
 used on input line 45.
 (pdftex.def)             Requested size: 322.01407pt x 589.4046pt.
-<appendix/Razor/Figs/toxins_GO_molecular_function.pdf, id=3218, 991.25642pt x 1
+<appendix/Razor/Figs/toxins_GO_molecular_function.pdf, id=3241, 991.25642pt x 1
 245.85764pt>
 File: appendix/Razor/Figs/toxins_GO_molecular_function.pdf Graphic file (type p
 df)
@@ -2970,9 +3144,9 @@ df)
 Package pdftex.def Info: appendix/Razor/Figs/toxins_GO_molecular_function.pdf  
 used on input line 54.
 (pdftex.def)             Requested size: 429.3521pt x 539.62445pt.
- [142
+ [147
 
- <./appendix/Razor/Figs/toxins_GO_biological_process.pdf>] [143 <./appendix/Raz
+ <./appendix/Razor/Figs/toxins_GO_biological_process.pdf>] [148 <./appendix/Raz
 or/Figs/toxins_GO_molecular_function.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2994,16 +3168,16 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 158.
 
-) [144] [145] [146]
+) [149] [150] [151]
 Appendix D.
 
-Overfull \hbox (19.72655pt too wide) in paragraph at lines 89--89
-|\T1/lmr/bx/n/24.88 TISIGNER.com: in-ter-ac-tive web ser-
+Overfull \hbox (8.21233pt too wide) in paragraph at lines 89--89
+|\T1/artemisiaeuler/bx/n/24.88 TISIGNER.com: in-ter-ac-tive web ser-
  []
 
 
-Overfull \hbox (13.33243pt too wide) in paragraph at lines 89--89
-\T1/lmr/bx/n/24.88 vices for im-prov-ing re-com-bi-nant pro-
+Overfull \hbox (20.28148pt too wide) in paragraph at lines 89--89
+\T1/artemisiaeuler/bx/n/24.88 vices for im-prov-ing re-com-bi-nant pro-
  []
 
 (./appendix/TIsigner_Web/TIsigner_Web.tex
@@ -3011,28 +3185,20 @@ Overfull \hbox (13.33243pt too wide) in paragraph at lines 89--89
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 96.
 
-) [147
+) [152
 
-] [148] [149
+] [153] [154
 
-] [150]
-Overfull \hbox (11.78732pt too wide) in paragraph at lines 116--116
-\T1/lmr/m/n/12 Shakhnovich, `  Ac-ces-si-bil-ity of the Shine-Dalgarno Se-quenc
-e Dic-tates N-Terminal
+] [155]
+LaTeX Font Info:    Font shape `T1/artemisiaeuler/m/sc' will be
+(Font)              scaled to size 11.75995pt on input line 116.
+
+Overfull \hbox (2.5497pt too wide) in paragraph at lines 116--116
+[]\T1/artemisiaeuler/m/n/12 L. F. Bidondo, L. Fer-nan-dez Bidondo, N. Al-ma-sia
+, A. Bazz-ini, R. Colombo,
  []
 
-[151]
-Overfull \hbox (3.2124pt too wide) in paragraph at lines 116--116
-\T1/lmr/m/n/12 thetic se-quences re-veals de-sign prin-ci-ples to op-ti-mize tr
-ans-la-tion in \T1/lmr/m/it/12 Es-cherichia
- []
-
-[152] [153] [154]
-Overfull \hbox (33.96844pt too wide) in paragraph at lines 116--116
-[]\T1/lmr/m/n/12 G. Estrada, E. Vil-le-gas and G. Corzo, `  Spi-der ven-oms: a 
-rich source of acylpolyamines
- []
-
+[156] [157] [158] [159]
 
 ! Package inputenc Error: Unicode char ́ (U+301)
 (inputenc)                not set up for use with LaTeX.
@@ -3047,37 +3213,52 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[155] [156] [157] [158]
-Overfull \hbox (4.6789pt too wide) in paragraph at lines 116--116
-[]\T1/lmr/m/n/12 L. In-g-ber, `  Adap-tive sim-u-lated an-neal-ing (ASA): Lesso
-ns learned', 2000. eprint:
+[160] [161] [162] [163]
+Overfull \hbox (3.45396pt too wide) in paragraph at lines 116--116
+[]\T1/artemisiaeuler/m/n/12 J. Janin, `  Sur-face and in-side vol-umes in glob-
+u-lar pro-teins', \T1/artemisiaeuler/m/it/12 Na-ture\T1/artemisiaeuler/m/n/12 ,
+ vol. 277,
+ []
+
+[164]
+Overfull \hbox (30.0797pt too wide) in paragraph at lines 116--116
+[]\T1/artemisiaeuler/m/n/12 I. Kalvari, E. P. Nawrocki, N. Ontiveros-Palacios, 
+J. Ar-gasin-ska, K. Lamkiewicz,
  []
 
 
-Overfull \hbox (8.42917pt too wide) in paragraph at lines 116--116
-[]\T1/lmr/m/n/12 I. Kalvari, E. P. Nawrocki, N. Ontiveros-Palacios, J. Ar-gasin
--ska, K. Lamkiewicz,
+Overfull \hbox (6.9385pt too wide) in paragraph at lines 116--116
+[]\T1/artemisiaeuler/m/n/12 A. Kary-olaimos, K. M. Dolata, M. Antelo-Varela, A.
+ M. Bor-ras, R. Elfageih,
  []
 
-[159] [160] [161] [162] [163] [164]
-Overfull \hbox (7.28726pt too wide) in paragraph at lines 116--116
-[]\T1/lmr/m/n/12 P. Radi-vo-jac, `  Pro-tein flex-i-bil-ity and in-trin-sic dis
--or-der', \T1/lmr/m/it/12 Pro-tein Sci-ence\T1/lmr/m/n/12 , vol. 13,
+[165] [166] [167] [168] [169] [170] [171] [172]
+Overfull \hbox (6.71736pt too wide) in paragraph at lines 116--116
+\T1/artemisiaeuler/m/n/12 `  PROSO II--a new method for pro-tein sol-u-bil-ity 
+pre-dic-tion', \T1/artemisiaeuler/m/it/12 Febs J.\T1/artemisiaeuler/m/n/12 , vo
+l. 279,
  []
 
-[165] [166] [167] [168] [169] [170]
-Overfull \hbox (6.46135pt too wide) in paragraph at lines 116--116
-[]\T1/lmr/m/n/12 G. Walsh, `  Bio-phar-ma-ceu-ti-cal bench-marks 2014', \T1/lmr
-/m/it/12 Na-ture Biotech-nol-ogy\T1/lmr/m/n/12 , vol. 32,
+[173] [174] [175]
+Overfull \hbox (2.75185pt too wide) in paragraph at lines 116--116
+\T1/artemisiaeuler/m/it/12 coli \T1/artemisiaeuler/m/n/12 in vitro ex-pres-sion
+ sys-tem', \T1/artemisiaeuler/m/it/12 Biochem. Bio-phys. Res. Com-mun.\T1/artem
+isiaeuler/m/n/12 , vol. 318,
  []
 
-[171]
-Overfull \hbox (2.2657pt too wide) in paragraph at lines 116--116
-\T1/lmr/m/n/12 Promis-ing Tar-get for Broad-Spectrum An-tivenom Drug De-vel-op-
-ment', \T1/lmr/m/it/12 Biomed
+[176]
+Overfull \hbox (8.78598pt too wide) in paragraph at lines 116--116
+[]\T1/artemisiaeuler/m/n/12 M. Waskom, O. Botvin-nik, D. O'Kane, P. Hob-son, J.
+ Os-t-blom, S. Lukauskas,
  []
 
-[172] [173]
+
+Overfull \hbox (1.71593pt too wide) in paragraph at lines 116--116
+[]\T1/artemisiaeuler/m/n/12 M. Waskom, O. Botvin-nik, J. Os-t-blom, S. Lukauska
+s, P. Hob-son, MaozGel-
+ []
+
+[177] [178] [179]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./main.aux)
@@ -3091,34 +3272,36 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 41142 strings out of 494923
- 818143 string characters out of 6180742
- 1468228 words of memory out of 5000000
- 43009 multiletter control sequences out of 15000+600000
- 620855 words of font info for 81 fonts, out of 8000000 for 9000
+ 41320 strings out of 494923
+ 821485 string characters out of 6180742
+ 1469466 words of memory out of 5000000
+ 43141 multiletter control sequences out of 15000+600000
+ 567682 words of font info for 130 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  66i,20n,96p,10381b,3462s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-Output written on main.pdf (187 pages, 35598589 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaecsc.enc
+}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiaec.enc}{/
+usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/artemisiatabnums.enc}
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/gfsartemisia/
+artemisia.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemisia/GF
+SArtemisia-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/gfsartemi
+sia/GFSArtemisia-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/gfsartemisia/GFSArtemisia-Italic.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/gfsartemisia/GFSArtemisia-Regular.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/euler/euex8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (193 pages, 35448634 bytes).
 PDF statistics:
- 4234 PDF objects out of 4296 (max. 8388607)
- 3449 compressed objects within 35 object streams
- 690 named destinations out of 1000 (max. 500000)
+ 4248 PDF objects out of 4296 (max. 8388607)
+ 3461 compressed objects within 35 object streams
+ 696 named destinations out of 1000 (max. 500000)
  1207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
