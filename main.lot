@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of protein solubility prediction methods and software.\relax }}{63}{table.caption.30}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of protein solubility prediction methods and software.\relax }}{64}{table.caption.30}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -18,46 +18,46 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces MIDAS parts used in this work.}}{120}{table.A.1}
+\contentsline {table}{\numberline {A.1}{\ignorespaces MIDAS parts used in this work.}}{121}{table.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of gfp. }}{125}{table.A.2}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of gfp. }}{126}{table.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of luciferase.}}{131}{table.caption.60}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces Numbers of soluble and insoluble proteins examined in this study.}}{140}{table.caption.70}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.2}{\ignorespaces Analysis of miscellaneous protein sequence properties.}}{140}{table.caption.71}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.3}{\ignorespaces Training and test AUC scores in a 10-fold cross-validation.}}{141}{table.caption.72}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.4}{\ignorespaces Weights of amino acid residues for solubility scoring.}}{141}{table.caption.73}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.5}{\ignorespaces Correlation test results.}}{141}{table.caption.74}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.6}{\ignorespaces Correlation test results.}}{142}{table.caption.75}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.7}{\ignorespaces Runtime of protein solubility prediction tools per sequence.}}{142}{table.caption.76}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.8}{\ignorespaces Probability of solubility at selected SWI thresholds.}}{142}{table.caption.77}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Oligonucleotide primer pairs for constructing TIsigner variants of luciferase.}}{132}{table.caption.60}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.1}{\ignorespaces Datasets used in this study.\relax }}{149}{table.caption.84}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Numbers of soluble and insoluble proteins examined in this study.}}{141}{table.caption.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.2}{\ignorespaces Feature selection for building the toxin classifier using five-fold cross-validations.}}{150}{table.caption.85}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Analysis of miscellaneous protein sequence properties.}}{141}{table.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.3}{\ignorespaces Benchmarking of eukaryotic SP prediction using an independent test set (toxin SPs=287, Non-SPs=52,055).}}{150}{table.caption.86}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Training and test AUC scores in a 10-fold cross-validation.}}{142}{table.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.4}{\ignorespaces Benchmarking of the cleavage site prediction for eukaryotic SPs using an independent test set (SPs=287, Non-SPs=52,055).}}{151}{table.caption.87}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Weights of amino acid residues for solubility scoring.}}{142}{table.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.5}{\ignorespaces Benchmarking of toxin SP prediction using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{151}{table.caption.88}
+\contentsline {table}{\numberline {B.5}{\ignorespaces Correlation test results.}}{142}{table.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {C.6}{\ignorespaces Benchmarking of the cleavage site prediction for toxin SPs using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{151}{table.caption.89}
+\contentsline {table}{\numberline {B.6}{\ignorespaces Correlation test results.}}{143}{table.caption.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.7}{\ignorespaces Runtime of protein solubility prediction tools per sequence.}}{143}{table.caption.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.8}{\ignorespaces Probability of solubility at selected SWI thresholds.}}{143}{table.caption.77}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.1}{\ignorespaces Performance metrics of TIsigner and SoDoPE.\relax }}{152}{table.caption.90}
+\contentsline {table}{\numberline {C.1}{\ignorespaces Datasets used in this study.\relax }}{150}{table.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.2}{\ignorespaces Performance metrics of Razor.\relax }}{153}{table.caption.91}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Feature selection for building the toxin classifier using five-fold cross-validations.}}{151}{table.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.3}{\ignorespaces Benchmarking of eukaryotic SP prediction using an independent test set (toxin SPs=287, Non-SPs=52,055).}}{151}{table.caption.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.4}{\ignorespaces Benchmarking of the cleavage site prediction for eukaryotic SPs using an independent test set (SPs=287, Non-SPs=52,055).}}{152}{table.caption.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.5}{\ignorespaces Benchmarking of toxin SP prediction using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{152}{table.caption.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {C.6}{\ignorespaces Benchmarking of the cleavage site prediction for toxin SPs using an independent test set (toxin SPs=47, Non-toxin SPs=52,055).}}{152}{table.caption.89}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {D.1}{\ignorespaces Performance metrics of TIsigner and SoDoPE.\relax }}{153}{table.caption.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {D.2}{\ignorespaces Performance metrics of Razor.\relax }}{154}{table.caption.91}
