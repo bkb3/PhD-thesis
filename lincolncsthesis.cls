@@ -287,7 +287,7 @@
 \newcommand{\submissionStatement}{
     \setstretch{1.25}
 %    \@ifundefined{@submissiontext}{Submitted for the degree of \@degree \\ in \@programme}{\@submissiontext}
-    \@ifundefined{@submissiontext}{a thesis submitted for the degree of \\ \textbf{Doctor of Philosophy} \\ at the at the University of Otago, Dunedin,\\New Zealand}
+    \@ifundefined{@submissiontext}{a thesis submitted for the degree of \\ \textbf{Doctor of Philosophy} \\ at the University of Otago, Dunedin,\\New Zealand}
 }
 
 % Print out supervisors
