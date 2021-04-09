@@ -36,17 +36,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Instability index}{16}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Flexibility}{18}{equation.1.1.14}
+\contentsline {paragraph}{Flexibility}{16}{equation.1.1.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Signal Peptide}{20}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Mathematical optimisation}{21}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Simulated annealing}{22}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Simulated annealing}{21}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Nelder-Mead method}{25}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Nelder-Mead method}{24}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Classifiers}{27}{section.1.4}
+\contentsline {section}{\numberline {1.4}Classifiers}{26}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.1}Random forest}{27}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
@@ -68,7 +68,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.5}Low protein yields can be improved by synonymous codon changes in the vicinity of translation initiation sites}{40}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Discussion}{43}{section.2.4}
+\contentsline {section}{\numberline {2.4}Discussion}{41}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Material and methods}{44}{section.2.5}
 \defcounter {refsection}{0}\relax 
@@ -76,160 +76,160 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Data}{44}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Sequence features analysis}{45}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.3}Sequence features analysis}{44}{subsection.2.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Coarse-grained simulation}{46}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.4}Coarse-grained simulation}{45}{subsection.2.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.5}Development of Translation Initiation coding region designer (TIsigner)}{47}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.5}Development of Translation Initiation coding region designer (TIsigner)}{46}{subsection.2.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.6}Sequence optimisation}{49}{subsection.2.5.6}
+\contentsline {subsection}{\numberline {2.5.6}Sequence optimisation}{48}{subsection.2.5.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.7}GFP assay}{49}{subsection.2.5.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.8}Luciferase assay}{50}{subsection.2.5.8}
+\contentsline {subsection}{\numberline {2.5.8}Luciferase assay}{49}{subsection.2.5.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.9}Statistical analysis}{51}{subsection.2.5.9}
+\contentsline {subsection}{\numberline {2.5.9}Statistical analysis}{50}{subsection.2.5.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.10}Code and data availability}{51}{subsection.2.5.10}
+\contentsline {subsection}{\numberline {2.5.10}Code and data availability}{50}{subsection.2.5.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{53}{chapter.3}
+\contentsline {chapter}{\numberline {3}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{52}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Abstract}{53}{section.3.1}
+\contentsline {section}{\numberline {3.1}Abstract}{52}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Introduction}{54}{section.3.2}
+\contentsline {section}{\numberline {3.2}Introduction}{53}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Results}{55}{section.3.3}
+\contentsline {section}{\numberline {3.3}Results}{54}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Global structural flexibility performs well at predicting protein solubility}{55}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Global structural flexibility performs well at predicting protein solubility}{54}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}The Solubility-Weighted Index (SWI) is an improved predictor of solubility}{57}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}The Solubility-Weighted Index (SWI) is an improved predictor of solubility}{56}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}SWI outperforms many protein solubility prediction tools}{63}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}SWI outperforms many protein solubility prediction tools}{61}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Discussion}{63}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Methods}{67}{section.3.5}
+\contentsline {section}{\numberline {3.5}Methods}{65}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Data}{67}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Data}{65}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Protein sequence properties}{68}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.2}Protein sequence properties}{65}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Protein solubility prediction}{68}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.3}Protein solubility prediction}{66}{subsection.3.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.4}SWI}{68}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.4}SWI}{66}{subsection.3.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.5}Bit score}{69}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.5}Bit score}{67}{subsection.3.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.6}The SoDoPE web server}{70}{subsection.3.5.6}
+\contentsline {subsection}{\numberline {3.5.6}The SoDoPE web server}{67}{subsection.3.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.7}Statistical analysis}{71}{subsection.3.5.7}
+\contentsline {subsection}{\numberline {3.5.7}Statistical analysis}{68}{subsection.3.5.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.8}Code and data availability}{71}{subsection.3.5.8}
+\contentsline {subsection}{\numberline {3.5.8}Code and data availability}{68}{subsection.3.5.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Razor: annotation of signal peptides from toxins}{72}{chapter.4}
+\contentsline {chapter}{\numberline {4}Razor: annotation of signal peptides from toxins}{69}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Abstract}{72}{section.4.1}
+\contentsline {section}{\numberline {4.1}Abstract}{69}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Introduction}{73}{section.4.2}
+\contentsline {section}{\numberline {4.2}Introduction}{70}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{74}{section.4.3}
+\contentsline {section}{\numberline {4.3}Results}{71}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Toxin SPs have distinct sequence properties}{74}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Toxin SPs have distinct sequence properties}{71}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Razor accurately predicts toxin SPs}{76}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Razor accurately predicts toxin SPs}{72}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Defensive proteins harbour a toxin-like SP}{76}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Defensive proteins harbour a toxin-like SP}{73}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Discussion}{79}{section.4.4}
+\contentsline {section}{\numberline {4.4}Discussion}{74}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Methods}{80}{section.4.5}
+\contentsline {section}{\numberline {4.5}Methods}{76}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Datasets}{80}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Datasets}{76}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Bit score}{81}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Bit score}{77}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Protein sequence properties}{81}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}Protein sequence properties}{77}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}SP classifiers}{81}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.4}SP classifiers}{78}{subsection.4.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}Performance measures}{82}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.5}Performance measures}{79}{subsection.4.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.6}Tool}{83}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.6}Tool}{79}{subsection.4.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.7}Statistical analysis}{83}{subsection.4.5.7}
+\contentsline {subsection}{\numberline {4.5.7}Statistical analysis}{80}{subsection.4.5.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.8}Code and data availability}{84}{subsection.4.5.8}
+\contentsline {subsection}{\numberline {4.5.8}Code and data availability}{80}{subsection.4.5.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}TISIGNER.com: interactive web services for improving recombinant protein production}{85}{chapter.5}
+\contentsline {chapter}{\numberline {5}TISIGNER.com: interactive web services for improving recombinant protein production}{81}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Abstract}{85}{section.5.1}
+\contentsline {section}{\numberline {5.1}Abstract}{81}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Introduction}{86}{section.5.2}
+\contentsline {section}{\numberline {5.2}Introduction}{82}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Web services}{89}{section.5.3}
+\contentsline {section}{\numberline {5.3}Web services}{85}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}TIsigner}{89}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}TIsigner}{85}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}SoDoPE}{91}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}SoDoPE}{87}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Razor}{92}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Razor}{88}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Discussion}{95}{section.5.4}
+\contentsline {section}{\numberline {5.4}Discussion}{91}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}General information}{96}{section.5.5}
+\contentsline {section}{\numberline {5.5}General information}{92}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Data availability}{96}{section.5.6}
+\contentsline {section}{\numberline {5.6}Data availability}{92}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{97}{chapter.6}
+\contentsline {chapter}{\numberline {6}Discussion}{93}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Optimising protein expression using TIsigner (Translation Initiation coding region designer)}{97}{section.6.1}
+\contentsline {section}{\numberline {6.1}Optimising protein expression using TIsigner (Translation Initiation coding region designer)}{93}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Optimising protein solubility using SoDoPE (Soluble Domains for Protein Expression)}{98}{section.6.2}
+\contentsline {section}{\numberline {6.2}Optimising protein solubility using SoDoPE (Soluble Domains for Protein Expression)}{94}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Detection of signal peptides using Razor}{99}{section.6.3}
+\contentsline {section}{\numberline {6.3}Detection of signal peptides using Razor}{95}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Reception of tools by the community}{99}{section.6.4}
+\contentsline {section}{\numberline {6.4}Reception of tools by the community}{95}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Outlook}{100}{section.6.5}
+\contentsline {section}{\numberline {6.5}Outlook}{96}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Protein yield is tunable by synonymous codon changes of translation initiation sites}{104}{appendix.A}
+\contentsline {chapter}{\numberline {A}Protein yield is tunable by synonymous codon changes of translation initiation sites}{100}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Supplementary notes}{104}{section.A.1}
+\contentsline {section}{\numberline {A.1}Supplementary notes}{100}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Cloning of TIsigner variants of GFP and Luciferase}{104}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.1}Cloning of TIsigner variants of GFP and Luciferase}{100}{subsection.A.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{N-terminal region of GFP (GFPN)}{105}{section*.45}
+\contentsline {subsubsection}{N-terminal region of GFP (GFPN)}{101}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{C-terminal region of GFP (GFPC)}{105}{section*.45}
+\contentsline {subsubsection}{C-terminal region of GFP (GFPC)}{101}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{N-terminal region of luciferase (RLucN)}{105}{section*.45}
+\contentsline {subsubsection}{N-terminal region of luciferase (RLucN)}{101}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{C-terminal region of luciferase (RLucC)}{105}{section*.45}
+\contentsline {subsubsection}{C-terminal region of luciferase (RLucC)}{101}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MIDAS Level-1 cloning of parts}{106}{section*.45}
+\contentsline {subsubsection}{MIDAS Level-1 cloning of parts}{102}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MIDAS Level-2 assembly of devices}{106}{section*.45}
+\contentsline {subsubsection}{MIDAS Level-2 assembly of devices}{102}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MIDAS Level-3 assembly (construction of the expression plasmids)}{107}{section*.45}
+\contentsline {subsubsection}{MIDAS Level-3 assembly (construction of the expression plasmids)}{103}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Supplementary figures}{109}{section.A.2}
+\contentsline {section}{\numberline {A.2}Supplementary figures}{105}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Supplementary tables}{120}{section.A.3}
+\contentsline {section}{\numberline {A.3}Supplementary tables}{116}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{133}{appendix.B}
+\contentsline {chapter}{\numberline {B}Solubility-Weighted Index: fast and accurate prediction of protein solubility}{129}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Supplementary notes}{133}{section.B.1}
+\contentsline {section}{\numberline {B.1}Supplementary notes}{129}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Supplementary figures}{135}{section.B.2}
+\contentsline {section}{\numberline {B.2}Supplementary figures}{131}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Supplementary tables}{141}{section.B.3}
+\contentsline {section}{\numberline {B.3}Supplementary tables}{137}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{144}{appendix.C}
+\contentsline {chapter}{\numberline {C}Razor: annotation of signal peptides from toxins}{140}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Supplementary figures}{144}{section.C.1}
+\contentsline {section}{\numberline {C.1}Supplementary figures}{140}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Supplementary tables}{150}{section.C.2}
+\contentsline {section}{\numberline {C.2}Supplementary tables}{146}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{153}{appendix.D}
+\contentsline {chapter}{\numberline {D}TISIGNER.com: interactive web services for improving recombinant protein production}{149}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Supplementary tables}{153}{section.D.1}
+\contentsline {section}{\numberline {D.1}Supplementary tables}{149}{section.D.1}
