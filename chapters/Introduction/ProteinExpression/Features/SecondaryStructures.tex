@@ -72,7 +72,7 @@ The full partition function of RNA with $N$ nucleotides is given by $Z = Q_{1N}$
     p(s) = \frac{1}{Z} e^{-\beta E(s)}
 \end{equation}
 
-The computational approach outlined above is very generic and can be used for other specific cases. For example: if we want to know the probability that $[i^{th}, j^{th}]$ nucleotides are paired, then we can modify Equation \ref{eqn:part_func}, where partition function is found by simply summing Boltzmann's factor over all structures $\zeta \subseteq \Xi$ where $[i^{th}, j^{th}]$ nucleotides are paired:
+The computational approach outlined above is very generic and can be used for other specific cases. For example: if we want to know the probability that $[i^{th}, j^{th}]$ nucleotides are paired, then we can modify Equation \ref{eqn:part_func}, where partition function is found by simply summing Boltzmann's factor over all structures $\zeta$ where $[i^{th}, j^{th}]$ nucleotides are paired ($\zeta \subseteq \Xi$, where $\Xi$ is the ensemble of structures):
 
 \begin{equation}
     Z_p = \sum_{s\in\zeta} e^{-\beta E(s)}
