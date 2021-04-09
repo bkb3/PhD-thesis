@@ -3013,58 +3013,43 @@
       \field{pages}{374\bibrangedash 383}
       \range{pages}{10}
     \endentry
-    \entry{ding2008ab}{article}{}
-      \name{author}{6}{}{%
-        {{hash=90095d841afb85729f0c1bddce675019}{%
+    \entry{ding2005rna}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f8827b5d165a3e8b291087abe1c7e491}{%
            family={Ding},
            familyi={D\bibinitperiod},
-           given={Feng},
-           giveni={F\bibinitperiod}}}%
-        {{hash=cd78751d57a1aec553ad8b54989c5bf5}{%
-           family={Sharma},
-           familyi={S\bibinitperiod},
-           given={Shantanu},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a090dfe561ff7f8e916b59db7d18ea8c}{%
-           family={Chalasani},
+           given={YE},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=edc9b60dc0076ddad8bc9ab3efbae053}{%
+           family={Chan},
            familyi={C\bibinitperiod},
-           given={Poornima},
-           giveni={P\bibinitperiod}}}%
-        {{hash=2a0ada430c946cf88f9e8178aca0d9ec}{%
-           family={Demidov},
-           familyi={D\bibinitperiod},
-           given={Vadim\bibnamedelima V},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=9ad9316b23dda345b695d77501a20151}{%
-           family={Broude},
-           familyi={B\bibinitperiod},
-           given={Natalia\bibnamedelima E},
-           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=3b176734d1a2ef5ecf3dce6afaac9fce}{%
-           family={Dokholyan},
-           familyi={D\bibinitperiod},
-           given={Nikolay\bibnamedelima V},
-           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+           given={Chi\bibnamedelima Yu},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=fe84acb0622150365f1707d20a797df5}{%
+           family={Lawrence},
+           familyi={L\bibinitperiod},
+           given={Charles\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Cold Spring Harbor Lab}%
       }
-      \strng{namehash}{be616f7dec3868c73f0f3329716b75b1}
-      \strng{fullhash}{be616f7dec3868c73f0f3329716b75b1}
-      \strng{bibnamehash}{be616f7dec3868c73f0f3329716b75b1}
-      \strng{authorbibnamehash}{be616f7dec3868c73f0f3329716b75b1}
-      \strng{authornamehash}{be616f7dec3868c73f0f3329716b75b1}
-      \strng{authorfullhash}{be616f7dec3868c73f0f3329716b75b1}
+      \strng{namehash}{8fca0de761464479b2237fbcbfa6347c}
+      \strng{fullhash}{8fca0de761464479b2237fbcbfa6347c}
+      \strng{bibnamehash}{8fca0de761464479b2237fbcbfa6347c}
+      \strng{authorbibnamehash}{8fca0de761464479b2237fbcbfa6347c}
+      \strng{authornamehash}{8fca0de761464479b2237fbcbfa6347c}
+      \strng{authorfullhash}{8fca0de761464479b2237fbcbfa6347c}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{RNA}
-      \field{number}{6}
-      \field{title}{{Ab initio RNA folding by discrete molecular dynamics: from structure prediction to folding mechanisms}}
-      \field{volume}{14}
-      \field{year}{2008}
-      \field{pages}{1164\bibrangedash 1173}
+      \field{journaltitle}{Rna}
+      \field{number}{8}
+      \field{title}{{RNA secondary structure prediction by centroids in a Boltzmann weighted ensemble}}
+      \field{volume}{11}
+      \field{year}{2005}
+      \field{pages}{1157\bibrangedash 1166}
       \range{pages}{10}
     \endentry
     \entry{Van_Dolleweerd2018-sg}{article}{}
@@ -5603,6 +5588,50 @@
       \field{pages}{729\bibrangedash 740}
       \range{pages}{12}
     \endentry
+    \entry{kanaya1999studies}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5aaed6682854cb1fb4e4f2c225c93720}{%
+           family={Kanaya},
+           familyi={K\bibinitperiod},
+           given={Shigehiko},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ef85201524948b80a2f362cb7a7c3269}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={Yuko},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=38e39c650da873cc68854ed57a412c74}{%
+           family={Kudo},
+           familyi={K\bibinitperiod},
+           given={Yoshihiro},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4f9247f71c09b05855d7842c9806a245}{%
+           family={Ikemura},
+           familyi={I\bibinitperiod},
+           given={Toshimichi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{39e24c2b276a245458d30e480b2f0247}
+      \strng{fullhash}{39e24c2b276a245458d30e480b2f0247}
+      \strng{bibnamehash}{39e24c2b276a245458d30e480b2f0247}
+      \strng{authorbibnamehash}{39e24c2b276a245458d30e480b2f0247}
+      \strng{authornamehash}{39e24c2b276a245458d30e480b2f0247}
+      \strng{authorfullhash}{39e24c2b276a245458d30e480b2f0247}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gene}
+      \field{number}{1}
+      \field{title}{Studies of codon usage and tRNA genes of 18 unicellular organisms and quantification of Bacillus subtilis {tRNAs}: gene expression level and species-specific diversity of codon usage based on multivariate analysis}
+      \field{volume}{238}
+      \field{year}{1999}
+      \field{pages}{143\bibrangedash 155}
+      \range{pages}{13}
+    \endentry
     \entry{Karplus1985-ea}{article}{}
       \name{author}{2}{}{%
         {{hash=5d81d012260d178aaa664650abcbdffc}{%
@@ -6633,6 +6662,49 @@
       \range{pages}{1}
       \keyw{Constraints; Dynamic programming; RNA folding}
     \endentry
+    \entry{lorenz2016predicting}{article}{}
+      \name{author}{4}{}{%
+        {{hash=cdf91c87fcae9ff79f9732f66b2fb969}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Ronny},
+           giveni={R\bibinitperiod}}}%
+        {{hash=870adeba47741a183e9cd2d9c249bc63}{%
+           family={Wolfinger},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima T},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d2b74f4308a8b903e408fed1534565ab}{%
+           family={Tanzer},
+           familyi={T\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9754e76f02df9abc7a97f57ad1724b12}{%
+           family={Hofacker},
+           familyi={H\bibinitperiod},
+           given={Ivo\bibnamedelima L},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f8ba7446964cec693410037606cb16e5}
+      \strng{fullhash}{f8ba7446964cec693410037606cb16e5}
+      \strng{bibnamehash}{f8ba7446964cec693410037606cb16e5}
+      \strng{authorbibnamehash}{f8ba7446964cec693410037606cb16e5}
+      \strng{authornamehash}{f8ba7446964cec693410037606cb16e5}
+      \strng{authorfullhash}{f8ba7446964cec693410037606cb16e5}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods}
+      \field{title}{Predicting {RNA} secondary structures from sequence and probing data}
+      \field{volume}{103}
+      \field{year}{2016}
+      \field{pages}{86\bibrangedash 98}
+      \range{pages}{13}
+    \endentry
     \entry{Lorenz1996-kh}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -6675,7 +6747,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Biolumin. Chemilumin.}
       \field{number}{1}
-      \field{title}{{Expression of the Renilla reniformis luciferase gene in mammalian cells}}
+      \field{title}{{Expression of the\textit{ Renilla reniformis} luciferase gene in mammalian cells}}
       \field{volume}{11}
       \field{year}{1996}
       \field{pages}{31\bibrangedash 37}
@@ -8134,6 +8206,52 @@
       \field{pages}{748}
       \range{pages}{1}
       \keyw{FACS-seq; Kozak motif; proteome modeling; start codon; translation initiation}
+    \endentry
+    \entry{novoa2012role}{article}{}
+      \name{author}{4}{}{%
+        {{hash=787dd4c9cca9a9b53903b69e24ae385e}{%
+           family={Novoa},
+           familyi={N\bibinitperiod},
+           given={Eva\bibnamedelima Maria},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=601908524e6bb2e7128c583dd7063f31}{%
+           family={Pavon-Eternod},
+           familyi={P\bibinithyphendelim E\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod}}}%
+        {{hash=af6e3e5bed38c9ce5a0946719815ceff}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8fdf37b5c36e140ce8413ad8c0f62fdc}{%
+           family={Pouplana},
+           familyi={P\bibinitperiod},
+           given={Llu{ı́}s\bibnamedelima Ribas},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7ef29908e69e131bf5f7c15ae55870df}
+      \strng{fullhash}{7ef29908e69e131bf5f7c15ae55870df}
+      \strng{bibnamehash}{7ef29908e69e131bf5f7c15ae55870df}
+      \strng{authorbibnamehash}{7ef29908e69e131bf5f7c15ae55870df}
+      \strng{authornamehash}{7ef29908e69e131bf5f7c15ae55870df}
+      \strng{authorfullhash}{7ef29908e69e131bf5f7c15ae55870df}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{number}{1}
+      \field{title}{A role for tRNA modifications in genome structure and codon usage}
+      \field{volume}{149}
+      \field{year}{2012}
+      \field{pages}{202\bibrangedash 213}
+      \range{pages}{12}
     \endentry
     \entry{Oliphant2007-za}{article}{}
       \name{author}{1}{}{%
