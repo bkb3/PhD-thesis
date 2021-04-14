@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  13 APR 2021 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.16)  14 APR 2021 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2592,15 +2592,14 @@ File: chapters/Discussion/Figures/control_system.png Graphic file (type png)
 Package pdftex.def Info: chapters/Discussion/Figures/control_system.png  used o
 n input line 40.
 (pdftex.def)             Requested size: 429.3521pt x 164.22673pt.
- [97 <./chapters/Discussion/Figures/control_system.png>]
-<chapters/Discussion/Figures/cambray_fitting.pdf, id=2866, 339.73488pt x 328.21
+<chapters/Discussion/Figures/cambray_fitting.pdf, id=2859, 339.73488pt x 328.21
 057pt>
 File: chapters/Discussion/Figures/cambray_fitting.pdf Graphic file (type pdf)
 <use chapters/Discussion/Figures/cambray_fitting.pdf>
 Package pdftex.def Info: chapters/Discussion/Figures/cambray_fitting.pdf  used 
 on input line 61.
 (pdftex.def)             Requested size: 214.67604pt x 207.39975pt.
-
+ [97 <./chapters/Discussion/Figures/control_system.png>]
 Underfull \hbox (badness 1881) in paragraph at lines 67--68
 \T1/lmr/m/n/12 cause the max-i-mum out-put can be
  []
@@ -3055,14 +3054,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 61D81ED240A3443710C642D3FF399F4D;8585.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3071,7 +3062,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
 Here is how much of TeX's memory you used:
  41164 strings out of 494923
  818809 string characters out of 6180742
- 1472106 words of memory out of 5000000
+ 1472310 words of memory out of 5000000
  43021 multiletter control sequences out of 15000+600000
  620855 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -3093,10 +3084,10 @@ nts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on main.pdf (190 pages, 36243867 bytes).
+Output written on main.pdf (190 pages, 36243788 bytes).
 PDF statistics:
- 4273 PDF objects out of 4296 (max. 8388607)
- 3486 compressed objects within 35 object streams
+ 4275 PDF objects out of 4296 (max. 8388607)
+ 3488 compressed objects within 35 object streams
  700 named destinations out of 1000 (max. 500000)
  1207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
