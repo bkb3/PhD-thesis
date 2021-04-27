@@ -1,0 +1,153 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {UKenglish}{}
+\babel@toc {UKenglish}{}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The success rate of recombinant protein production is around a quarter.}}{2}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Protein expression depends on the rates of RNA and protein synthesis and their degradation.}}{3}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Prokaryotic translation.}}{5}{figure.caption.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Secondary structure at the translation initiation site inhibits translation.}}{8}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Decomposition of partition function to calculate unpairing probability of the region $(i,j)$ in a nucleotide sequence.}}{13}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.6}{\ignorespaces RNA:RNA interaction and notations used for partition function.}}{14}{figure.caption.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Profiles of KPC1\_DROME (UniProtKB P05130).}}{16}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Attenuation of the incident waves due to increasing B-factor.}}{18}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Tripartite structure of a signal peptide.}}{20}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Signal peptides are highly hydrophobic at the N-terminal.}}{20}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Two dimensional Rastrigin function.}}{23}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Simulated annealing on a two dimensional Rastrigin function.}}{24}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Two dimensional Rosenbrock function.}}{25}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Although the Nelder-Mead method tends to get stuck on local minima, a good initial point can result in a global optimum.}}{26}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Comparison between some of the commonly used classifiers on synthetic datasets..}}{28}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Correlations between the opening energies of translation initiation sites and protein abundance are stronger than that of minimum free energy.}}{33}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Opening energies of regions surrounding the Shine-Dalgarno and start codons are predictive of protein expression in \textit {E. coli}.}}{36}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Accessibility of translation initiation sites is the strongest predictor of heterologous protein expression in \textit {E. coli}.}}{38}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The yields of heterologous protein productions are tunable by synonymous codon changes in the first nine codons.}}{42}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Global structural flexibility outperforms other standard protein sequence properties in protein solubility prediction.}}{56}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Derivation of the Solubility-Weighted Index (SWI).}}{59}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SWI strongly correlates with protein solubility.}}{60}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces SWI outperforms existing protein solubility prediction tools.}}{65}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The Signal Peptides (SPs) from toxins are enriched with isoleucine residues in contrast to other eukaryotic SPs.}}{73}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Razor outperforms other tools in predicting toxin SPs. }}{74}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Razor identifies SPs from toxins along with several classes of defensive proteins.}}{76}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Flow chart of toxin SP classification using Razor.}}{80}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Flow chart for optimising recombinant protein production using the TISIGNER web application.}}{85}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The results of TIsigner shows a protein expression optimised nucleotide sequence.}}{87}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Exploring and optimising protein solubility using SoDoPE interactive graphics.}}{90}{figure.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Detection of signal peptides using Razor.}}{91}{figure.caption.39}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces TIsigner suggests to do a full length substitution if any transcription terminators are found in the sequence.}}{95}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces TISIGNER.com web service is getting popular among researchers worldwide.}}{97}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Different possible step responses of a stable control system when input is switched from low to high.}}{98}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Best fit shows an overdamped ($\zeta > 1$) trend in GFP data from Cambray \textit {et al.}}}{99}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces An underdamped model fits better to the TIsigner experimental data (GFP) than a logistic (critically damped) model.}}{100}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Strategy for producing a double stranded DNA corresponding to the first ten codons of each of the TIsigner variants of GFP.}}{105}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Structure of GFPN variants cloned into the pML1 vector.}}{105}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Structure of the GFPC fragment cloned into the pML1 vector.}}{106}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Structure of GFP expression plasmids.}}{107}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Structure of luciferase expression plasmids.}}{108}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Heatmaps of correlations between opening energy and protein abundance for each of the sub-sequence regions (related to Fig 1).}}{109}{figure.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Expression outcomes of the PSI:Biology targets in E. coli (related to Fig 2C and 3). }}{110}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Ribosome footprints in 25-nt fragments show a strong triplet periodicity, indicating translation (related to Fig \ref {fig:tisigner_fig3})}}{111}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Analysis of the local G+C contents in the PSI:Biology target genes (related to Fig \ref {fig:tisigner_fig3}).}}{112}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Accessibility of translation initiation sites can be increased by synonymous codon substitution within the first nine codons using simulated annealing.}}{113}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Sequence length does not affect software performance because only a fixed region is taken into account during optimisation ($\mathcal {O}(1)$ time). }}{114}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Opening energy of 10 or below at the region -24:24 is about two times more likely to come from the target genes that are successfully expressed than those that failed (related to Fig \ref {fig:tisigner_fig3}). }}{114}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Luciferase reporter assay.}}{115}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.14}{\ignorespaces The yields of an antibody fragment and an archaebacterial dioxygenase can be improved by synonymous codon changes within the first six codons.}}{116}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Solubility of the PSI:Biology targets grouped by source. }}{132}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Prediction accuracy of 9,920 miscellaneous protein sequence properties.}}{133}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.3}{\ignorespaces ROC analysis of sequence composition scores for solubility using previously published sets of normalised B-factors. }}{134}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Relationship between protein solubility and sequence similarity.}}{134}{figure.caption.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.5}{\ignorespaces AUC scores and weights of amino acid residues obtained from individual bootstrap samples}}{135}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Relationship between protein solubility and surface amino acid residues. }}{135}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Properties of soluble and insoluble proteins.}}{136}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Solubility analysis of three commercial monoclonal antibodies.}}{136}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Solubility analysis of the SARS-CoV and SARS-CoV-2 proteomes. }}{137}{figure.caption.69}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Signal peptides (SPs) show a strong hydrophobic property (1,964 experimentally validated SPs, 13,237 non-SPs).}}{141}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Leucine (L) composition within the N-terminal region 4:20 shows the highest AUC score in classifying the presence or absence of eukaryotic signal peptides (1,964 and 13,237, respectively).}}{142}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Isoleucine (I) composition within the N-terminal region 2:28 shows the highest AUC score in classifying toxin and non-toxin SPs (261 and 1,738, respectively).}}{143}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Performance of Razor and state-of-the-art in predicting eukaryotic SPs using an independent test set (SPs=241, non-SPs=52,055).}}{144}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Gene ontology (GO) annotations (biological process) for the predicted toxin SPs.}}{145}{figure.caption.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.6}{\ignorespaces GO annotations (molecular function) for the predicted toxin SPs.}}{146}{figure.caption.83}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
