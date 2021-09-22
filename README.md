@@ -3,7 +3,7 @@ LaTeX files for my PhD Thesis. Currently a WIP.
 
 
 ### Compilation
-I used TeXstudio on Ubuntu 18.04.5 to compile this.
+I used TeXstudio on Ubuntu 18.04.5 to compile this. TeXstudio and LaTeX distribution can be installed using `sudo apt install texlive-full texstudio`.
 These are the configurations that work.
  - Configure > Build > Build & View
      `txs:///pdflatex | txs:///biber | txs:///pdflatex | txs:///pdflatex`
