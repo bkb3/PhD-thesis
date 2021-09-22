@@ -1,5 +1,5 @@
 # PhD-thesis
-LaTeX files for my PhD Thesis. Currently a WIP.
+LaTeX files for my PhD Thesis. Currently a WIP. The compiled PDF can be viewed [here](https://github.com/bkb3/PhD-thesis/raw/main/main.pdf).
 
 
 ### Compilation
