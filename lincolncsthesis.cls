@@ -150,18 +150,23 @@
 \newcommand{\thesisSubmissionDate}[1]{\xdef\@date{#1}}
 \lxdef \@degree         {Doctor of Philosophy}
 \newcommand{\thesisDegree}[1]{\xdef\@degree{#1}}
-\lxdef \@programme      {Computer Science}
+\lxdef \@programme      {Biochemistry}
 \newcommand{\thesisProgramme}[1]{\xdef\@programme{#1}}
-\lxdef \@schoolname     {School of Computer Science}
+\lxdef \@schoolname     {Department of Biochemistry}
 \newcommand{\thesisSchool}[1]{\xdef\@schoolname{#1}}
-\lxdef \@collegename    {College of Science}
+\lxdef \@collegename    {School of Biomedical Sciences}
 \newcommand{\thesisCollege}[1]{\xdef\@collegename{#1}}
-\lxdef \@universityname {University of Lincoln}
+\lxdef \@universityname {University of Otago}
 \newcommand{\thesisUniversity}[1]{\xdef\@universityname{#1}}
 % -----
 \newcommand{\thesisSupervisor}[1]{\xdef\@supervisor{#1}}
 \newcommand{\thesisSecondSupervisor}[1]{\xdef\@secondsupervisor{#1}}
 \newcommand{\thesisThirdSupervisor}[1]{\xdef\@thirdsupervisor{#1}}
+% % -----
+% \newcommand{\thesisStudentNumber}[1]{\xdef\@studentnumber{#1}}
+% \newcommand{\thesisModuleCode}[1]{\xdef\@modulecode{#1}}
+% \newcommand{\thesisAssessment}[1]{\xdef\@modulename{#1}}
+% \newcommand{\thesisSubmissionText}[1]{\newcommand{\@submissiontext}{#1}}
 
 
 % START OF THESIS
@@ -337,7 +342,7 @@
 % Print out submission text
 \newcommand{\submissionStatement}{
     \setstretch{1.25}
-    \@ifundefined{@submissiontext}{Submitted in partial satisfaction of the requirements for the \\Degree of \@degree \\ in \@programme}{\@submissiontext}
+\@ifundefined{@submissiontext}{A thesis submitted for the degree of \\ \textbf{Doctor of Philosophy} \\ at the University of Otago, Dunedin,\\New Zealand}
 }
 
 % Command to override thesis submission text
@@ -376,7 +381,7 @@
     % name
     \vspace{1.5cm}
     {\large \@author \@ifundefined{@studentnumber}{}{\\ \@studentnumber} \par}\vspace{0.45cm}
-    {\footnotesize \@schoolname \\ \vspace{0.25cm} \@collegename \\  \vspace{0.25cm}  \@universityname \par}
+    % {\footnotesize \@schoolname \\ \vspace{0.25cm} \@collegename \\  \vspace{0.25cm}  \@universityname \par}
     
     % Some space and the submission statement
     \vspace{3cm}
