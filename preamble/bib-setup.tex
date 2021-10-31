@@ -1,4 +1,4 @@
-% Add in the .bib files you wish to add 
+% Add in the .bib files you wish to add
 % into your document here. If you want to
 % include others, just copy this line and
 % change the path!
@@ -13,3 +13,8 @@
 % See the bib file below for an example.
 
 % \addbibresource{bib/ludography.bib}
+
+%%% Remove no. vol. and pp.
+\AtEveryBibitem{\clearfield{pages}}
+\AtEveryBibitem{\clearfield{volume}}
+\AtEveryBibitem{\clearfield{number}}
