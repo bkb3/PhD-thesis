@@ -1,5 +1,5 @@
 # PhD-thesis
-LaTeX files for my PhD Thesis. Currently a WIP. The compiled PDF can be viewed [here](https://github.com/bkb3/PhD-thesis/raw/main/main.pdf).
+This is the older version before the oral examination. The final version after the oral examination is at [https://github.com/Gardner-BinfLab/thesis-bikash](https://github.com/Gardner-BinfLab/thesis-bikash).
 
 
 ### Compilation
